@@ -1,0 +1,4731 @@
+{
+  "synthetic": true,
+  "notice": "All data is SYNTHETIC. Seeded defects are deliberate; ground truth lives in ping_labels.csv.",
+  "seed": 20261116,
+  "n_pings_per_driver_before_seeding": 260,
+  "report_cutoffs": {
+    "UTC": "2026-03-15T00:00:00Z",
+    "UTC+9": "2026-03-14T15:00:00Z"
+  },
+  "total_rows": 2894,
+  "tag_counts": {
+    "CLEAN": 2464,
+    "DUP_DROPPED": 72,
+    "DUP_KEPT": 72,
+    "EDGE_100M_KEEP": 12,
+    "EDGE_100_5M_REJECT": 12,
+    "EDGE_150KMH_KEEP": 12,
+    "EDGE_150_5KMH_REJECT": 12,
+    "GAP_300S_END": 6,
+    "GAP_90S_END": 12,
+    "GAP_EDGE_30S_END": 12,
+    "INVALID_COORDINATES": 3,
+    "INVALID_TIMESTAMP": 2,
+    "LATE": 96,
+    "LATE_ACROSS_CUTOFF": 8,
+    "MISSING_FIELD": 3,
+    "NOISE_OFFROAD": 60,
+    "SPEED_JUMP": 36
+  },
+  "out_of_order_rows_in_file_order": 105,
+  "late_arriving_rows": 104,
+  "duplicate_rows_to_collapse": 72,
+  "noise_gt_100m_rows": 72,
+  "impossible_speed_rows": 48,
+  "invalid_rows": 8,
+  "edge_case_rows_kept": 24,
+  "missing_intervals": [
+    {
+      "driver_id": "D001",
+      "tag": "GAP_EDGE_30S_END",
+      "missing_pings": 2,
+      "dt_seconds": 30,
+      "from_ts": "2026-03-15T00:20:03Z",
+      "to_ts": "2026-03-15T00:20:33Z"
+    },
+    {
+      "driver_id": "D001",
+      "tag": "GAP_90S_END",
+      "missing_pings": 9,
+      "dt_seconds": 100,
+      "from_ts": "2026-03-15T00:38:43Z",
+      "to_ts": "2026-03-15T00:40:23Z"
+    },
+    {
+      "driver_id": "D002",
+      "tag": "GAP_EDGE_30S_END",
+      "missing_pings": 2,
+      "dt_seconds": 30,
+      "from_ts": "2026-03-15T00:21:47Z",
+      "to_ts": "2026-03-15T00:22:17Z"
+    },
+    {
+      "driver_id": "D002",
+      "tag": "GAP_90S_END",
+      "missing_pings": 9,
+      "dt_seconds": 100,
+      "from_ts": "2026-03-15T00:34:27Z",
+      "to_ts": "2026-03-15T00:36:07Z"
+    },
+    {
+      "driver_id": "D002",
+      "tag": "GAP_300S_END",
+      "missing_pings": 29,
+      "dt_seconds": 300,
+      "from_ts": "2026-03-15T00:14:37Z",
+      "to_ts": "2026-03-15T00:19:37Z"
+    },
+    {
+      "driver_id": "D003",
+      "tag": "GAP_EDGE_30S_END",
+      "missing_pings": 2,
+      "dt_seconds": 30,
+      "from_ts": "2026-03-15T00:19:24Z",
+      "to_ts": "2026-03-15T00:19:54Z"
+    },
+    {
+      "driver_id": "D003",
+      "tag": "GAP_90S_END",
+      "missing_pings": 9,
+      "dt_seconds": 100,
+      "from_ts": "2026-03-15T00:22:54Z",
+      "to_ts": "2026-03-15T00:24:34Z"
+    },
+    {
+      "driver_id": "D004",
+      "tag": "GAP_EDGE_30S_END",
+      "missing_pings": 2,
+      "dt_seconds": 30,
+      "from_ts": "2026-03-15T00:26:44Z",
+      "to_ts": "2026-03-15T00:27:14Z"
+    },
+    {
+      "driver_id": "D004",
+      "tag": "GAP_90S_END",
+      "missing_pings": 9,
+      "dt_seconds": 100,
+      "from_ts": "2026-03-15T00:31:54Z",
+      "to_ts": "2026-03-15T00:33:34Z"
+    },
+    {
+      "driver_id": "D004",
+      "tag": "GAP_300S_END",
+      "missing_pings": 29,
+      "dt_seconds": 300,
+      "from_ts": "2026-03-15T00:13:54Z",
+      "to_ts": "2026-03-15T00:18:54Z"
+    },
+    {
+      "driver_id": "D005",
+      "tag": "GAP_EDGE_30S_END",
+      "missing_pings": 2,
+      "dt_seconds": 30,
+      "from_ts": "2026-03-14T14:53:24Z",
+      "to_ts": "2026-03-14T14:53:54Z"
+    },
+    {
+      "driver_id": "D005",
+      "tag": "GAP_90S_END",
+      "missing_pings": 9,
+      "dt_seconds": 100,
+      "from_ts": "2026-03-14T15:10:44Z",
+      "to_ts": "2026-03-14T15:12:24Z"
+    },
+    {
+      "driver_id": "D006",
+      "tag": "GAP_EDGE_30S_END",
+      "missing_pings": 2,
+      "dt_seconds": 30,
+      "from_ts": "2026-03-14T15:16:14Z",
+      "to_ts": "2026-03-14T15:16:44Z"
+    },
+    {
+      "driver_id": "D006",
+      "tag": "GAP_90S_END",
+      "missing_pings": 9,
+      "dt_seconds": 100,
+      "from_ts": "2026-03-14T15:26:34Z",
+      "to_ts": "2026-03-14T15:28:14Z"
+    },
+    {
+      "driver_id": "D006",
+      "tag": "GAP_300S_END",
+      "missing_pings": 29,
+      "dt_seconds": 300,
+      "from_ts": "2026-03-14T15:18:44Z",
+      "to_ts": "2026-03-14T15:23:44Z"
+    },
+    {
+      "driver_id": "D007",
+      "tag": "GAP_EDGE_30S_END",
+      "missing_pings": 2,
+      "dt_seconds": 30,
+      "from_ts": "2026-03-14T15:03:24Z",
+      "to_ts": "2026-03-14T15:03:54Z"
+    },
+    {
+      "driver_id": "D007",
+      "tag": "GAP_90S_END",
+      "missing_pings": 9,
+      "dt_seconds": 100,
+      "from_ts": "2026-03-14T15:13:14Z",
+      "to_ts": "2026-03-14T15:14:54Z"
+    },
+    {
+      "driver_id": "D008",
+      "tag": "GAP_EDGE_30S_END",
+      "missing_pings": 2,
+      "dt_seconds": 30,
+      "from_ts": "2026-03-14T15:27:17Z",
+      "to_ts": "2026-03-14T15:27:47Z"
+    },
+    {
+      "driver_id": "D008",
+      "tag": "GAP_90S_END",
+      "missing_pings": 9,
+      "dt_seconds": 100,
+      "from_ts": "2026-03-14T15:32:37Z",
+      "to_ts": "2026-03-14T15:34:17Z"
+    },
+    {
+      "driver_id": "D008",
+      "tag": "GAP_300S_END",
+      "missing_pings": 29,
+      "dt_seconds": 300,
+      "from_ts": "2026-03-14T15:08:57Z",
+      "to_ts": "2026-03-14T15:13:57Z"
+    },
+    {
+      "driver_id": "D009",
+      "tag": "GAP_EDGE_30S_END",
+      "missing_pings": 2,
+      "dt_seconds": 30,
+      "from_ts": "2026-03-14T09:31:07Z",
+      "to_ts": "2026-03-14T09:31:37Z"
+    },
+    {
+      "driver_id": "D009",
+      "tag": "GAP_90S_END",
+      "missing_pings": 9,
+      "dt_seconds": 100,
+      "from_ts": "2026-03-14T09:20:37Z",
+      "to_ts": "2026-03-14T09:22:17Z"
+    },
+    {
+      "driver_id": "D010",
+      "tag": "GAP_EDGE_30S_END",
+      "missing_pings": 2,
+      "dt_seconds": 30,
+      "from_ts": "2026-03-14T10:56:47Z",
+      "to_ts": "2026-03-14T10:57:17Z"
+    },
+    {
+      "driver_id": "D010",
+      "tag": "GAP_90S_END",
+      "missing_pings": 9,
+      "dt_seconds": 100,
+      "from_ts": "2026-03-14T11:02:27Z",
+      "to_ts": "2026-03-14T11:04:07Z"
+    },
+    {
+      "driver_id": "D010",
+      "tag": "GAP_300S_END",
+      "missing_pings": 29,
+      "dt_seconds": 300,
+      "from_ts": "2026-03-14T11:09:17Z",
+      "to_ts": "2026-03-14T11:14:17Z"
+    },
+    {
+      "driver_id": "D011",
+      "tag": "GAP_EDGE_30S_END",
+      "missing_pings": 2,
+      "dt_seconds": 30,
+      "from_ts": "2026-03-14T07:44:25Z",
+      "to_ts": "2026-03-14T07:44:55Z"
+    },
+    {
+      "driver_id": "D011",
+      "tag": "GAP_90S_END",
+      "missing_pings": 9,
+      "dt_seconds": 100,
+      "from_ts": "2026-03-14T07:13:25Z",
+      "to_ts": "2026-03-14T07:15:05Z"
+    },
+    {
+      "driver_id": "D012",
+      "tag": "GAP_EDGE_30S_END",
+      "missing_pings": 2,
+      "dt_seconds": 30,
+      "from_ts": "2026-03-14T07:42:00Z",
+      "to_ts": "2026-03-14T07:42:30Z"
+    },
+    {
+      "driver_id": "D012",
+      "tag": "GAP_90S_END",
+      "missing_pings": 9,
+      "dt_seconds": 100,
+      "from_ts": "2026-03-14T07:18:20Z",
+      "to_ts": "2026-03-14T07:20:00Z"
+    },
+    {
+      "driver_id": "D012",
+      "tag": "GAP_300S_END",
+      "missing_pings": 29,
+      "dt_seconds": 300,
+      "from_ts": "2026-03-14T07:23:00Z",
+      "to_ts": "2026-03-14T07:28:00Z"
+    }
+  ],
+  "drivers": {
+    "D001": {
+      "mid": 4,
+      "t0": "2026-03-14T23:59:13Z",
+      "group": "UTC_MIDNIGHT",
+      "road": "ROAD_A"
+    },
+    "D002": {
+      "mid": 4,
+      "t0": "2026-03-14T23:59:17Z",
+      "group": "UTC_MIDNIGHT",
+      "road": "ROAD_B"
+    },
+    "D003": {
+      "mid": 26,
+      "t0": "2026-03-14T23:55:34Z",
+      "group": "UTC_MIDNIGHT",
+      "road": "ROAD_C"
+    },
+    "D004": {
+      "mid": 24,
+      "t0": "2026-03-14T23:55:54Z",
+      "group": "UTC_MIDNIGHT",
+      "road": "ROAD_A"
+    },
+    "D005": {
+      "mid": 60,
+      "t0": "2026-03-14T14:49:54Z",
+      "group": "JST_MIDNIGHT",
+      "road": "ROAD_B"
+    },
+    "D006": {
+      "mid": 39,
+      "t0": "2026-03-14T14:53:24Z",
+      "group": "JST_MIDNIGHT",
+      "road": "ROAD_C"
+    },
+    "D007": {
+      "mid": 65,
+      "t0": "2026-03-14T14:49:04Z",
+      "group": "JST_MIDNIGHT",
+      "road": "ROAD_A"
+    },
+    "D008": {
+      "mid": 4,
+      "t0": "2026-03-14T14:59:17Z",
+      "group": "JST_MIDNIGHT",
+      "road": "ROAD_B"
+    },
+    "D009": {
+      "mid": 4,
+      "t0": "2026-03-14T08:57:47Z",
+      "group": "MIDDAY",
+      "road": "ROAD_C"
+    },
+    "D010": {
+      "mid": 29,
+      "t0": "2026-03-14T10:54:37Z",
+      "group": "MIDDAY",
+      "road": "ROAD_A"
+    },
+    "D011": {
+      "mid": 22,
+      "t0": "2026-03-14T07:04:05Z",
+      "group": "MIDDAY",
+      "road": "ROAD_B"
+    },
+    "D012": {
+      "mid": 23,
+      "t0": "2026-03-14T07:02:10Z",
+      "group": "MIDDAY",
+      "road": "ROAD_C"
+    }
+  },
+  "seeded_defects": [
+    {
+      "ping_id": "P000004",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:02:40Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P000005"
+      }
+    },
+    {
+      "ping_id": "P000005",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:02:40Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "orig_first",
+        "dup_partner": "P000004"
+      }
+    },
+    {
+      "ping_id": "P000008",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:03:10Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 426.57
+      }
+    },
+    {
+      "ping_id": "P000019",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:04:30Z",
+      "tag": "EDGE_150_5KMH_REJECT",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "EDGE_150_5KMH_REJECT",
+        "implied_speed_kmh": 150.5017
+      }
+    },
+    {
+      "ping_id": "P000020",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:04:35Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P000021"
+      }
+    },
+    {
+      "ping_id": "P000021",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:04:35Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": true,
+        "mode": "orig_first",
+        "dup_partner": "P000020"
+      }
+    },
+    {
+      "ping_id": "P000041",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:06:15Z",
+      "tag": "EDGE_150KMH_KEEP",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "EDGE_150KMH_KEEP",
+        "implied_speed_kmh": 149.9999
+      }
+    },
+    {
+      "ping_id": "P000054",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:07:20Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 343.23
+      }
+    },
+    {
+      "ping_id": "P000075",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:09:05Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P000076"
+      }
+    },
+    {
+      "ping_id": "P000076",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:09:05Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "orig_first",
+        "dup_partner": "P000075"
+      }
+    },
+    {
+      "ping_id": "P000096",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:10:50Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 552.84
+      }
+    },
+    {
+      "ping_id": "P000106",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:11:40Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 395.82
+      }
+    },
+    {
+      "ping_id": "P000113",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:12:20Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 347.2
+      }
+    },
+    {
+      "ping_id": "P000121",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:13:00Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P000122"
+      }
+    },
+    {
+      "ping_id": "P000122",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:13:00Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": true,
+        "mode": "tie",
+        "dup_partner": "P000121"
+      }
+    },
+    {
+      "ping_id": "P000132",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:14:10Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 530.26
+      }
+    },
+    {
+      "ping_id": "P000133",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:10:10Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 242.0
+      }
+    },
+    {
+      "ping_id": "P000140",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:15:10Z",
+      "tag": "EDGE_100_5M_REJECT",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "EDGE_100_5M_REJECT",
+        "offroad_m": 100.5001
+      }
+    },
+    {
+      "ping_id": "P000148",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:12:15Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 213.0
+      }
+    },
+    {
+      "ping_id": "P000152",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:16:05Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 156.41
+      }
+    },
+    {
+      "ping_id": "P000170",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:17:45Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 450.6
+      }
+    },
+    {
+      "ping_id": "P000176",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:18:15Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 228.25
+      }
+    },
+    {
+      "ping_id": "P000183",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:19:25Z",
+      "tag": "EDGE_100M_KEEP",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "EDGE_100M_KEEP",
+        "offroad_m": 100.0052
+      }
+    },
+    {
+      "ping_id": "P000196",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:20:45Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 637.04
+      }
+    },
+    {
+      "ping_id": "P000197",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:20:50Z",
+      "tag": "EDGE_150KMH_KEEP",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "EDGE_150KMH_KEEP",
+        "implied_speed_kmh": 149.999
+      }
+    },
+    {
+      "ping_id": "P000214",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:22:25Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P000215"
+      }
+    },
+    {
+      "ping_id": "P000215",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:22:25Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "orig_first",
+        "dup_partner": "P000214"
+      }
+    },
+    {
+      "ping_id": "P000249",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:17:40Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 578.0
+      }
+    },
+    {
+      "ping_id": "P000262",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:28:40Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 537.56
+      }
+    },
+    {
+      "ping_id": "P000286",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:22:10Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 504.0
+      }
+    },
+    {
+      "ping_id": "P000294",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:18:45Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 752.0
+      }
+    },
+    {
+      "ping_id": "P000296",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:21:55Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 561.0
+      }
+    },
+    {
+      "ping_id": "P000297",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:17:10Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 852.0
+      }
+    },
+    {
+      "ping_id": "P000303",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:31:45Z",
+      "tag": "EDGE_150_5KMH_REJECT",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "EDGE_150_5KMH_REJECT",
+        "implied_speed_kmh": 150.4979
+      }
+    },
+    {
+      "ping_id": "P000312",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:32:30Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P000313"
+      }
+    },
+    {
+      "ping_id": "P000313",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:32:30Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "orig_first",
+        "dup_partner": "P000312"
+      }
+    },
+    {
+      "ping_id": "P000326",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:33:40Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P000327"
+      }
+    },
+    {
+      "ping_id": "P000327",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:33:40Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "orig_first",
+        "dup_partner": "P000326"
+      }
+    },
+    {
+      "ping_id": "P000343",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:35:10Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "exact_copy": false,
+        "mode": "dup_first",
+        "dup_partner": "P000344"
+      }
+    },
+    {
+      "ping_id": "P000344",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:35:10Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "dup_partner": "P000343"
+      }
+    },
+    {
+      "ping_id": "P000345",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:35:15Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P000346"
+      }
+    },
+    {
+      "ping_id": "P000346",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:35:15Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": true,
+        "mode": "tie",
+        "dup_partner": "P000345"
+      }
+    },
+    {
+      "ping_id": "P000352",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:35:45Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P000353"
+      }
+    },
+    {
+      "ping_id": "P000353",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:35:45Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "orig_first",
+        "dup_partner": "P000352"
+      }
+    },
+    {
+      "ping_id": "P000362",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:36:40Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 177.76
+      }
+    },
+    {
+      "ping_id": "P000373",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:37:35Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 388.26
+      }
+    },
+    {
+      "ping_id": "P000382",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:38:25Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "exact_copy": true,
+        "mode": "dup_first",
+        "dup_partner": "P000383"
+      }
+    },
+    {
+      "ping_id": "P000383",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:38:25Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "dup_partner": "P000382"
+      }
+    },
+    {
+      "ping_id": "P000396",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:39:30Z",
+      "tag": "EDGE_100M_KEEP",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "EDGE_100M_KEEP",
+        "offroad_m": 99.9959
+      }
+    },
+    {
+      "ping_id": "P000397",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:36:35Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 175.0
+      }
+    },
+    {
+      "ping_id": "P000405",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:40:15Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 238.74
+      }
+    },
+    {
+      "ping_id": "P000414",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:36:15Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 284.0
+      }
+    },
+    {
+      "ping_id": "P000422",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:41:35Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 640.08
+      }
+    },
+    {
+      "ping_id": "P000430",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:34:45Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 454.0
+      }
+    },
+    {
+      "ping_id": "P000436",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:33:45Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 544.0
+      }
+    },
+    {
+      "ping_id": "P000438",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:42:55Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 285.08
+      }
+    },
+    {
+      "ping_id": "P000441",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:38:10Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 297.0
+      }
+    },
+    {
+      "ping_id": "P000450",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:43:50Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P000451"
+      }
+    },
+    {
+      "ping_id": "P000451",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:43:50Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": true,
+        "mode": "orig_first",
+        "dup_partner": "P000450"
+      }
+    },
+    {
+      "ping_id": "P000469",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:45:45Z",
+      "tag": "EDGE_100_5M_REJECT",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "EDGE_100_5M_REJECT",
+        "offroad_m": 100.5027
+      }
+    },
+    {
+      "ping_id": "P000478",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:33:20Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 840.0
+      }
+    },
+    {
+      "ping_id": "P000479",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:44:40Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 307.0
+      }
+    },
+    {
+      "ping_id": "P000480",
+      "driver_id": "D012",
+      "ts_utc": "2026-03-14T07:40:00Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 878.0
+      }
+    },
+    {
+      "ping_id": "P000481",
+      "driver_id": "D011",
+      "ts_utc": "2026-03-14T07:46:25Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 800.0
+      }
+    },
+    {
+      "ping_id": "P000497",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:00:17Z",
+      "tag": "EDGE_150_5KMH_REJECT",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "EDGE_150_5KMH_REJECT",
+        "implied_speed_kmh": 150.5018
+      }
+    },
+    {
+      "ping_id": "P000507",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:01:57Z",
+      "tag": "EDGE_150KMH_KEEP",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "EDGE_150KMH_KEEP",
+        "implied_speed_kmh": 150.0
+      }
+    },
+    {
+      "ping_id": "P000514",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:03:07Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 546.54
+      }
+    },
+    {
+      "ping_id": "P000517",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:03:37Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P000518"
+      }
+    },
+    {
+      "ping_id": "P000518",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:03:37Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "tie",
+        "dup_partner": "P000517"
+      }
+    },
+    {
+      "ping_id": "P000524",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:04:37Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 328.31
+      }
+    },
+    {
+      "ping_id": "P000541",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:07:27Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P000542"
+      }
+    },
+    {
+      "ping_id": "P000542",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:07:27Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": true,
+        "mode": "orig_first",
+        "dup_partner": "P000541"
+      }
+    },
+    {
+      "ping_id": "P000549",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:08:47Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 556.79
+      }
+    },
+    {
+      "ping_id": "P000558",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:10:27Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "exact_copy": false,
+        "mode": "dup_first",
+        "dup_partner": "P000559"
+      }
+    },
+    {
+      "ping_id": "P000559",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:10:27Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "dup_partner": "P000558"
+      }
+    },
+    {
+      "ping_id": "P000563",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:11:07Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P000564"
+      }
+    },
+    {
+      "ping_id": "P000564",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:11:07Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "orig_first",
+        "dup_partner": "P000563"
+      }
+    },
+    {
+      "ping_id": "P000608",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:19:17Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 209.12
+      }
+    },
+    {
+      "ping_id": "P000617",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:17:57Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 231.0
+      }
+    },
+    {
+      "ping_id": "P000618",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:18:47Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 184.0
+      }
+    },
+    {
+      "ping_id": "P000619",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:08:17Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 824.0
+      }
+    },
+    {
+      "ping_id": "P000633",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:09:57Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 867.0
+      }
+    },
+    {
+      "ping_id": "P000635",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:24:37Z",
+      "tag": "EDGE_100_5M_REJECT",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "EDGE_100_5M_REJECT",
+        "offroad_m": 100.5051
+      }
+    },
+    {
+      "ping_id": "P000644",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:18:17Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 472.0
+      }
+    },
+    {
+      "ping_id": "P000646",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:26:17Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 133.68
+      }
+    },
+    {
+      "ping_id": "P000649",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:26:47Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P000650"
+      }
+    },
+    {
+      "ping_id": "P000650",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:26:47Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": true,
+        "mode": "orig_first",
+        "dup_partner": "P000649"
+      }
+    },
+    {
+      "ping_id": "P000660",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:28:27Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 357.41
+      }
+    },
+    {
+      "ping_id": "P000666",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:16:07Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 802.0
+      }
+    },
+    {
+      "ping_id": "P000674",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:17:17Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 797.0
+      }
+    },
+    {
+      "ping_id": "P000690",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:33:27Z",
+      "tag": "EDGE_100M_KEEP",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "EDGE_100M_KEEP",
+        "offroad_m": 99.9988
+      }
+    },
+    {
+      "ping_id": "P000694",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:34:07Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 588.3
+      }
+    },
+    {
+      "ping_id": "P000708",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:36:27Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 223.82
+      }
+    },
+    {
+      "ping_id": "P000720",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:38:37Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P000721"
+      }
+    },
+    {
+      "ping_id": "P000721",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:38:37Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": true,
+        "mode": "orig_first",
+        "dup_partner": "P000720"
+      }
+    },
+    {
+      "ping_id": "P000736",
+      "driver_id": "D009",
+      "ts_utc": "2026-03-14T09:37:57Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 893.0
+      }
+    },
+    {
+      "ping_id": "P000745",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T10:56:07Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P000746"
+      }
+    },
+    {
+      "ping_id": "P000746",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T10:56:07Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "orig_first",
+        "dup_partner": "P000745"
+      }
+    },
+    {
+      "ping_id": "P000776",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:01:27Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 439.97
+      }
+    },
+    {
+      "ping_id": "P000791",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:05:27Z",
+      "tag": "EDGE_100M_KEEP",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "EDGE_100M_KEEP",
+        "offroad_m": 100.0023
+      }
+    },
+    {
+      "ping_id": "P000801",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:07:17Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 574.89
+      }
+    },
+    {
+      "ping_id": "P000809",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T10:55:07Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 808.0
+      }
+    },
+    {
+      "ping_id": "P000810",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:08:37Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 571.7
+      }
+    },
+    {
+      "ping_id": "P000815",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:06:27Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 446.0
+      }
+    },
+    {
+      "ping_id": "P000822",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:15:17Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 186.02
+      }
+    },
+    {
+      "ping_id": "P000841",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:18:37Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 501.98
+      }
+    },
+    {
+      "ping_id": "P000850",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:20:07Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 303.94
+      }
+    },
+    {
+      "ping_id": "P000853",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:20:32Z",
+      "tag": "INVALID_COORDINATES",
+      "expected": "REJECT:INVALID_COORDINATES",
+      "detail": {}
+    },
+    {
+      "ping_id": "P000854",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:20:37Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "exact_copy": false,
+        "mode": "dup_first",
+        "dup_partner": "P000855"
+      }
+    },
+    {
+      "ping_id": "P000855",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:20:37Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "dup_partner": "P000854"
+      }
+    },
+    {
+      "ping_id": "P000856",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:20:32Z",
+      "tag": "MISSING_FIELD",
+      "expected": "REJECT:MISSING_FIELD",
+      "detail": {}
+    },
+    {
+      "ping_id": "P000861",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:21:27Z",
+      "tag": "EDGE_150_5KMH_REJECT",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "EDGE_150_5KMH_REJECT",
+        "implied_speed_kmh": 150.5032
+      }
+    },
+    {
+      "ping_id": "P000873",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:23:37Z",
+      "tag": "EDGE_150KMH_KEEP",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "EDGE_150KMH_KEEP",
+        "implied_speed_kmh": 150.0019
+      }
+    },
+    {
+      "ping_id": "P000877",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:24:17Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P000878"
+      }
+    },
+    {
+      "ping_id": "P000878",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:24:17Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": true,
+        "mode": "orig_first",
+        "dup_partner": "P000877"
+      }
+    },
+    {
+      "ping_id": "P000881",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:16:37Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 490.0
+      }
+    },
+    {
+      "ping_id": "P000887",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:25:47Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P000888"
+      }
+    },
+    {
+      "ping_id": "P000888",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:25:47Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "orig_first",
+        "dup_partner": "P000887"
+      }
+    },
+    {
+      "ping_id": "P000903",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:25:17Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 183.0
+      }
+    },
+    {
+      "ping_id": "P000906",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:28:47Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P000907"
+      }
+    },
+    {
+      "ping_id": "P000907",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:28:47Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": true,
+        "mode": "orig_first",
+        "dup_partner": "P000906"
+      }
+    },
+    {
+      "ping_id": "P000911",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:22:07Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 439.0
+      }
+    },
+    {
+      "ping_id": "P000921",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:31:07Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P000922"
+      }
+    },
+    {
+      "ping_id": "P000922",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:31:07Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "tie",
+        "dup_partner": "P000921"
+      }
+    },
+    {
+      "ping_id": "P000935",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:33:17Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 595.16
+      }
+    },
+    {
+      "ping_id": "P000948",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:35:37Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 568.01
+      }
+    },
+    {
+      "ping_id": "P000954",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:36:37Z",
+      "tag": "EDGE_100_5M_REJECT",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "EDGE_100_5M_REJECT",
+        "offroad_m": 100.4993
+      }
+    },
+    {
+      "ping_id": "P000959",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:26:17Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 662.0
+      }
+    },
+    {
+      "ping_id": "P000963",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:29:47Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 721.0
+      }
+    },
+    {
+      "ping_id": "P000964",
+      "driver_id": "D010",
+      "ts_utc": "2026-03-14T11:34:37Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 860.0
+      }
+    },
+    {
+      "ping_id": "P000968",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T14:49:34Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 566.69
+      }
+    },
+    {
+      "ping_id": "P000988",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T14:51:24Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 515.39
+      }
+    },
+    {
+      "ping_id": "P000995",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T14:52:04Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P000997"
+      }
+    },
+    {
+      "ping_id": "P000997",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T14:52:04Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "orig_first",
+        "dup_partner": "P000995"
+      }
+    },
+    {
+      "ping_id": "P001000",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T14:52:19Z",
+      "tag": "INVALID_COORDINATES",
+      "expected": "REJECT:INVALID_COORDINATES",
+      "detail": {}
+    },
+    {
+      "ping_id": "P001042",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T14:55:04Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 571.56
+      }
+    },
+    {
+      "ping_id": "P001057",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T14:56:04Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 286.6
+      }
+    },
+    {
+      "ping_id": "P001062",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T14:56:14Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P001063"
+      }
+    },
+    {
+      "ping_id": "P001063",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T14:56:14Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "orig_first",
+        "dup_partner": "P001062"
+      }
+    },
+    {
+      "ping_id": "P001076",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T14:57:04Z",
+      "tag": "EDGE_100_5M_REJECT",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "EDGE_100_5M_REJECT",
+        "offroad_m": 100.5018
+      }
+    },
+    {
+      "ping_id": "P001086",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T14:57:34Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 641.72
+      }
+    },
+    {
+      "ping_id": "P001090",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T14:57:54Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P001092"
+      }
+    },
+    {
+      "ping_id": "P001092",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T14:57:54Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "orig_first",
+        "dup_partner": "P001090"
+      }
+    },
+    {
+      "ping_id": "P001111",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T14:55:14Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 225.0
+      }
+    },
+    {
+      "ping_id": "P001127",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T14:56:24Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 195.0
+      }
+    },
+    {
+      "ping_id": "P001167",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:01:27Z",
+      "tag": "EDGE_100_5M_REJECT",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "EDGE_100_5M_REJECT",
+        "offroad_m": 100.4989
+      }
+    },
+    {
+      "ping_id": "P001175",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T15:01:54Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "exact_copy": false,
+        "mode": "dup_first",
+        "dup_partner": "P001178"
+      }
+    },
+    {
+      "ping_id": "P001178",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T15:01:54Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "dup_partner": "P001175"
+      }
+    },
+    {
+      "ping_id": "P001180",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T14:57:54Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 244.0
+      }
+    },
+    {
+      "ping_id": "P001181",
+      "driver_id": "D005",
+      "ts_utc": "not-a-time",
+      "tag": "INVALID_TIMESTAMP",
+      "expected": "REJECT:INVALID_TIMESTAMP",
+      "detail": {}
+    },
+    {
+      "ping_id": "P001186",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T15:02:14Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 146.98
+      }
+    },
+    {
+      "ping_id": "P001190",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T14:50:04Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 739.0
+      }
+    },
+    {
+      "ping_id": "P001191",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T15:02:24Z",
+      "tag": "EDGE_150KMH_KEEP",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "EDGE_150KMH_KEEP",
+        "implied_speed_kmh": 150.0009
+      }
+    },
+    {
+      "ping_id": "P001205",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T14:52:24Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 637.0
+      }
+    },
+    {
+      "ping_id": "P001206",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T15:03:04Z",
+      "tag": "EDGE_100M_KEEP",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "EDGE_100M_KEEP",
+        "offroad_m": 100.0025
+      }
+    },
+    {
+      "ping_id": "P001216",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:03:27Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "exact_copy": true,
+        "mode": "dup_first",
+        "dup_partner": "P001218"
+      }
+    },
+    {
+      "ping_id": "P001218",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:03:27Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "dup_partner": "P001216"
+      }
+    },
+    {
+      "ping_id": "P001228",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:03:57Z",
+      "tag": "EDGE_150_5KMH_REJECT",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "EDGE_150_5KMH_REJECT",
+        "implied_speed_kmh": 150.5002
+      }
+    },
+    {
+      "ping_id": "P001233",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T15:04:14Z",
+      "tag": "EDGE_150_5KMH_REJECT",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "EDGE_150_5KMH_REJECT",
+        "implied_speed_kmh": 150.4982
+      }
+    },
+    {
+      "ping_id": "P001237",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T15:04:24Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 420.51
+      }
+    },
+    {
+      "ping_id": "P001247",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T15:04:54Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 509.42
+      }
+    },
+    {
+      "ping_id": "P001266",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T15:05:44Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 139.95
+      }
+    },
+    {
+      "ping_id": "P001270",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T15:05:54Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 240.48
+      }
+    },
+    {
+      "ping_id": "P001274",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:02:47Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 192.0
+      }
+    },
+    {
+      "ping_id": "P001284",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T15:06:24Z",
+      "tag": "EDGE_150_5KMH_REJECT",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "EDGE_150_5KMH_REJECT",
+        "implied_speed_kmh": 150.4985
+      }
+    },
+    {
+      "ping_id": "P001286",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:06:27Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P001287"
+      }
+    },
+    {
+      "ping_id": "P001287",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:06:27Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": true,
+        "mode": "orig_first",
+        "dup_partner": "P001286"
+      }
+    },
+    {
+      "ping_id": "P001299",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:04:47Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 133.0
+      }
+    },
+    {
+      "ping_id": "P001300",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:06:57Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 596.44
+      }
+    },
+    {
+      "ping_id": "P001312",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T15:02:54Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 277.0
+      }
+    },
+    {
+      "ping_id": "P001319",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T15:07:44Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 657.8
+      }
+    },
+    {
+      "ping_id": "P001348",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T15:09:04Z",
+      "tag": "EDGE_100M_KEEP",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "EDGE_100M_KEEP",
+        "offroad_m": 100.0043
+      }
+    },
+    {
+      "ping_id": "P001350",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T15:01:34Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 457.0
+      }
+    },
+    {
+      "ping_id": "P001365",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T15:10:04Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 528.82
+      }
+    },
+    {
+      "ping_id": "P001366",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T15:00:04Z",
+      "tag": "LATE_ACROSS_CUTOFF",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE_ACROSS_CUTOFF",
+        "ingest_delay_extra_s": 600.0
+      }
+    },
+    {
+      "ping_id": "P001368",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T15:00:04Z",
+      "tag": "LATE_ACROSS_CUTOFF",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE_ACROSS_CUTOFF",
+        "ingest_delay_extra_s": 600.0
+      }
+    },
+    {
+      "ping_id": "P001370",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T15:00:04Z",
+      "tag": "LATE_ACROSS_CUTOFF",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE_ACROSS_CUTOFF",
+        "ingest_delay_extra_s": 600.0
+      }
+    },
+    {
+      "ping_id": "P001371",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:00:07Z",
+      "tag": "LATE_ACROSS_CUTOFF",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE_ACROSS_CUTOFF",
+        "ingest_delay_extra_s": 600.0
+      }
+    },
+    {
+      "ping_id": "P001379",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T15:10:34Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P001381"
+      }
+    },
+    {
+      "ping_id": "P001381",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T15:10:34Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": true,
+        "mode": "orig_first",
+        "dup_partner": "P001379"
+      }
+    },
+    {
+      "ping_id": "P001386",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:04:27Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 386.0
+      }
+    },
+    {
+      "ping_id": "P001399",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T15:08:34Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 205.0
+      }
+    },
+    {
+      "ping_id": "P001413",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:05:07Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 464.0
+      }
+    },
+    {
+      "ping_id": "P001418",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T15:13:04Z",
+      "tag": "EDGE_150KMH_KEEP",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "EDGE_150KMH_KEEP",
+        "implied_speed_kmh": 150.003
+      }
+    },
+    {
+      "ping_id": "P001431",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T15:14:04Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "exact_copy": true,
+        "mode": "dup_first",
+        "dup_partner": "P001432"
+      }
+    },
+    {
+      "ping_id": "P001432",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T15:14:04Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "dup_partner": "P001431"
+      }
+    },
+    {
+      "ping_id": "P001453",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:15:07Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 509.15
+      }
+    },
+    {
+      "ping_id": "P001470",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T15:09:04Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 412.0
+      }
+    },
+    {
+      "ping_id": "P001479",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T15:16:14Z",
+      "tag": "EDGE_150_5KMH_REJECT",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "EDGE_150_5KMH_REJECT",
+        "implied_speed_kmh": 150.5021
+      }
+    },
+    {
+      "ping_id": "P001499",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T15:17:14Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 561.65
+      }
+    },
+    {
+      "ping_id": "P001510",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T15:07:24Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 613.0
+      }
+    },
+    {
+      "ping_id": "P001512",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T15:17:44Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P001513"
+      }
+    },
+    {
+      "ping_id": "P001513",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T15:17:44Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": true,
+        "mode": "orig_first",
+        "dup_partner": "P001512"
+      }
+    },
+    {
+      "ping_id": "P001517",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T15:17:54Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 589.41
+      }
+    },
+    {
+      "ping_id": "P001523",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:18:07Z",
+      "tag": "EDGE_100M_KEEP",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "EDGE_100M_KEEP",
+        "offroad_m": 100.0006
+      }
+    },
+    {
+      "ping_id": "P001524",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T15:18:14Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "exact_copy": true,
+        "mode": "dup_first",
+        "dup_partner": "P001525"
+      }
+    },
+    {
+      "ping_id": "P001525",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T15:18:14Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "dup_partner": "P001524"
+      }
+    },
+    {
+      "ping_id": "P001529",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T15:18:24Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 558.43
+      }
+    },
+    {
+      "ping_id": "P001533",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T15:09:34Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 539.0
+      }
+    },
+    {
+      "ping_id": "P001549",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T15:19:14Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P001551"
+      }
+    },
+    {
+      "ping_id": "P001550",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:19:17Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 527.28
+      }
+    },
+    {
+      "ping_id": "P001551",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T15:19:14Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "orig_first",
+        "dup_partner": "P001549"
+      }
+    },
+    {
+      "ping_id": "P001558",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T15:19:44Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 226.54
+      }
+    },
+    {
+      "ping_id": "P001570",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T15:20:24Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 313.61
+      }
+    },
+    {
+      "ping_id": "P001572",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:20:27Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P001573"
+      }
+    },
+    {
+      "ping_id": "P001573",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:20:27Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": true,
+        "mode": "orig_first",
+        "dup_partner": "P001572"
+      }
+    },
+    {
+      "ping_id": "P001579",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T15:16:24Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 261.0
+      }
+    },
+    {
+      "ping_id": "P001582",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T15:20:54Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 389.32
+      }
+    },
+    {
+      "ping_id": "P001585",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T15:21:04Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 423.24
+      }
+    },
+    {
+      "ping_id": "P001595",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:21:37Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P001596"
+      }
+    },
+    {
+      "ping_id": "P001596",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:21:37Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": true,
+        "mode": "orig_first",
+        "dup_partner": "P001595"
+      }
+    },
+    {
+      "ping_id": "P001598",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T15:21:44Z",
+      "tag": "EDGE_100_5M_REJECT",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "EDGE_100_5M_REJECT",
+        "offroad_m": 100.5041
+      }
+    },
+    {
+      "ping_id": "P001609",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T15:22:24Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P001610"
+      }
+    },
+    {
+      "ping_id": "P001610",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T15:22:24Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": true,
+        "mode": "orig_first",
+        "dup_partner": "P001609"
+      }
+    },
+    {
+      "ping_id": "P001616",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T15:13:34Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 545.0
+      }
+    },
+    {
+      "ping_id": "P001617",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T15:22:44Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P001619"
+      }
+    },
+    {
+      "ping_id": "P001619",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T15:22:44Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "orig_first",
+        "dup_partner": "P001617"
+      }
+    },
+    {
+      "ping_id": "P001633",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T15:23:34Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P001634"
+      }
+    },
+    {
+      "ping_id": "P001634",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T15:23:34Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "tie",
+        "dup_partner": "P001633"
+      }
+    },
+    {
+      "ping_id": "P001636",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:23:37Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 433.15
+      }
+    },
+    {
+      "ping_id": "P001651",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T15:24:14Z",
+      "tag": "EDGE_100M_KEEP",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "EDGE_100M_KEEP",
+        "offroad_m": 99.9967
+      }
+    },
+    {
+      "ping_id": "P001656",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T15:10:54Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 814.0
+      }
+    },
+    {
+      "ping_id": "P001665",
+      "driver_id": "D006",
+      "ts_utc": "2026-13-45T25:61:00Z",
+      "tag": "INVALID_TIMESTAMP",
+      "expected": "REJECT:INVALID_TIMESTAMP",
+      "detail": {}
+    },
+    {
+      "ping_id": "P001669",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T15:14:44Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 613.0
+      }
+    },
+    {
+      "ping_id": "P001671",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T15:25:04Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 433.82
+      }
+    },
+    {
+      "ping_id": "P001672",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T15:17:44Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 439.0
+      }
+    },
+    {
+      "ping_id": "P001678",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T15:25:14Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 390.4
+      }
+    },
+    {
+      "ping_id": "P001679",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:25:17Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 197.63
+      }
+    },
+    {
+      "ping_id": "P001699",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T15:26:14Z",
+      "tag": "EDGE_100_5M_REJECT",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "EDGE_100_5M_REJECT",
+        "offroad_m": 100.4993
+      }
+    },
+    {
+      "ping_id": "P001706",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:26:27Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 541.59
+      }
+    },
+    {
+      "ping_id": "P001707",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T15:15:24Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 664.0
+      }
+    },
+    {
+      "ping_id": "P001727",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T15:27:44Z",
+      "tag": "EDGE_150KMH_KEEP",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "EDGE_150KMH_KEEP",
+        "implied_speed_kmh": 150.0002
+      }
+    },
+    {
+      "ping_id": "P001748",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T15:28:44Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P001749"
+      }
+    },
+    {
+      "ping_id": "P001749",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T15:28:44Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "orig_first",
+        "dup_partner": "P001748"
+      }
+    },
+    {
+      "ping_id": "P001761",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T15:29:14Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P001762"
+      }
+    },
+    {
+      "ping_id": "P001762",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T15:29:14Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "tie",
+        "dup_partner": "P001761"
+      }
+    },
+    {
+      "ping_id": "P001765",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T15:29:24Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 225.74
+      }
+    },
+    {
+      "ping_id": "P001791",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T15:30:34Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 187.11
+      }
+    },
+    {
+      "ping_id": "P001804",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T15:31:04Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P001805"
+      }
+    },
+    {
+      "ping_id": "P001805",
+      "driver_id": "D007",
+      "ts_utc": "2026-03-14T15:31:04Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "orig_first",
+        "dup_partner": "P001804"
+      }
+    },
+    {
+      "ping_id": "P001811",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T15:31:24Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P001814"
+      }
+    },
+    {
+      "ping_id": "P001814",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T15:31:24Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "orig_first",
+        "dup_partner": "P001811"
+      }
+    },
+    {
+      "ping_id": "P001843",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T15:32:54Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P001844"
+      }
+    },
+    {
+      "ping_id": "P001844",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T15:32:54Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": true,
+        "mode": "orig_first",
+        "dup_partner": "P001843"
+      }
+    },
+    {
+      "ping_id": "P001851",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T15:33:54Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P001852"
+      }
+    },
+    {
+      "ping_id": "P001852",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T15:33:54Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": true,
+        "mode": "tie",
+        "dup_partner": "P001851"
+      }
+    },
+    {
+      "ping_id": "P001858",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T15:34:34Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 457.07
+      }
+    },
+    {
+      "ping_id": "P001883",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T15:32:04Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 275.0
+      }
+    },
+    {
+      "ping_id": "P001890",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T15:30:04Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 464.0
+      }
+    },
+    {
+      "ping_id": "P001893",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:38:17Z",
+      "tag": "EDGE_150KMH_KEEP",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "EDGE_150KMH_KEEP",
+        "implied_speed_kmh": 150.0004
+      }
+    },
+    {
+      "ping_id": "P001895",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:24:17Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 854.0
+      }
+    },
+    {
+      "ping_id": "P001899",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:39:07Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 326.83
+      }
+    },
+    {
+      "ping_id": "P001905",
+      "driver_id": "D006",
+      "ts_utc": "2026-03-14T15:29:54Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 613.0
+      }
+    },
+    {
+      "ping_id": "P001908",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:25:47Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 876.0
+      }
+    },
+    {
+      "ping_id": "P001909",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:40:27Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 447.4
+      }
+    },
+    {
+      "ping_id": "P001912",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T15:31:54Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 537.0
+      }
+    },
+    {
+      "ping_id": "P001914",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T15:28:14Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 768.0
+      }
+    },
+    {
+      "ping_id": "P001915",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T15:27:14Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 832.0
+      }
+    },
+    {
+      "ping_id": "P001916",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:41:07Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P001917"
+      }
+    },
+    {
+      "ping_id": "P001917",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:41:07Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "tie",
+        "dup_partner": "P001916"
+      }
+    },
+    {
+      "ping_id": "P001922",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:41:57Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P001923"
+      }
+    },
+    {
+      "ping_id": "P001923",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:41:57Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "orig_first",
+        "dup_partner": "P001922"
+      }
+    },
+    {
+      "ping_id": "P001927",
+      "driver_id": "D005",
+      "ts_utc": "2026-03-14T15:31:14Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 827.0
+      }
+    },
+    {
+      "ping_id": "P001928",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:36:47Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 542.0
+      }
+    },
+    {
+      "ping_id": "P001929",
+      "driver_id": "D008",
+      "ts_utc": "2026-03-14T15:36:17Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 879.0
+      }
+    },
+    {
+      "ping_id": "P001945",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-14T23:56:54Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P001946"
+      }
+    },
+    {
+      "ping_id": "P001946",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-14T23:56:54Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": true,
+        "mode": "orig_first",
+        "dup_partner": "P001945"
+      }
+    },
+    {
+      "ping_id": "P001967",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-14T23:58:44Z",
+      "tag": "EDGE_150KMH_KEEP",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "EDGE_150KMH_KEEP",
+        "implied_speed_kmh": 150.0013
+      }
+    },
+    {
+      "ping_id": "P001968",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-14T23:58:44Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P001969"
+      }
+    },
+    {
+      "ping_id": "P001969",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-14T23:58:44Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": true,
+        "mode": "orig_first",
+        "dup_partner": "P001968"
+      }
+    },
+    {
+      "ping_id": "P001980",
+      "driver_id": "D001",
+      "ts_utc": "",
+      "tag": "MISSING_FIELD",
+      "expected": "REJECT:MISSING_FIELD",
+      "detail": {}
+    },
+    {
+      "ping_id": "P002029",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-15T00:01:34Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P002030"
+      }
+    },
+    {
+      "ping_id": "P002030",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-15T00:01:34Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": true,
+        "mode": "tie",
+        "dup_partner": "P002029"
+      }
+    },
+    {
+      "ping_id": "P002047",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-15T00:02:24Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 569.68
+      }
+    },
+    {
+      "ping_id": "P002066",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-15T00:03:14Z",
+      "tag": "EDGE_100_5M_REJECT",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "EDGE_100_5M_REJECT",
+        "offroad_m": 100.5005
+      }
+    },
+    {
+      "ping_id": "P002072",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:03:33Z",
+      "tag": "EDGE_150KMH_KEEP",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "EDGE_150KMH_KEEP",
+        "implied_speed_kmh": 150.0031
+      }
+    },
+    {
+      "ping_id": "P002073",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:03:37Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 578.28
+      }
+    },
+    {
+      "ping_id": "P002081",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:03:54Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 509.01
+      }
+    },
+    {
+      "ping_id": "P002082",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-15T00:03:54Z",
+      "tag": "EDGE_100M_KEEP",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "EDGE_100M_KEEP",
+        "offroad_m": 100.0019
+      }
+    },
+    {
+      "ping_id": "P002094",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-15T00:04:24Z",
+      "tag": "EDGE_150KMH_KEEP",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "EDGE_150KMH_KEEP",
+        "implied_speed_kmh": 150.0013
+      }
+    },
+    {
+      "ping_id": "P002099",
+      "driver_id": "",
+      "ts_utc": "2026-03-15T00:04:32Z",
+      "tag": "MISSING_FIELD",
+      "expected": "REJECT:MISSING_FIELD",
+      "detail": {}
+    },
+    {
+      "ping_id": "P002100",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:04:37Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 121.34
+      }
+    },
+    {
+      "ping_id": "P002111",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:05:07Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "exact_copy": true,
+        "mode": "dup_first",
+        "dup_partner": "P002113"
+      }
+    },
+    {
+      "ping_id": "P002113",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:05:07Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "dup_partner": "P002111"
+      }
+    },
+    {
+      "ping_id": "P002119",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:05:24Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 224.66
+      }
+    },
+    {
+      "ping_id": "P002130",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:05:53Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 153.8
+      }
+    },
+    {
+      "ping_id": "P002131",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:05:54Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 589.76
+      }
+    },
+    {
+      "ping_id": "P002138",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:01:37Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 275.0
+      }
+    },
+    {
+      "ping_id": "P002143",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:06:23Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 572.01
+      }
+    },
+    {
+      "ping_id": "P002153",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:06:47Z",
+      "tag": "EDGE_150_5KMH_REJECT",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "EDGE_150_5KMH_REJECT",
+        "implied_speed_kmh": 150.4991
+      }
+    },
+    {
+      "ping_id": "P002177",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:07:53Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P002178"
+      }
+    },
+    {
+      "ping_id": "P002178",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:07:53Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": true,
+        "mode": "orig_first",
+        "dup_partner": "P002177"
+      }
+    },
+    {
+      "ping_id": "P002181",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:07:57Z",
+      "tag": "EDGE_100_5M_REJECT",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "EDGE_100_5M_REJECT",
+        "offroad_m": 100.4964
+      }
+    },
+    {
+      "ping_id": "P002182",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:08:04Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P002183"
+      }
+    },
+    {
+      "ping_id": "P002183",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:08:04Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "tie",
+        "dup_partner": "P002182"
+      }
+    },
+    {
+      "ping_id": "P002189",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-15T00:08:14Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 338.76
+      }
+    },
+    {
+      "ping_id": "P002202",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:08:54Z",
+      "tag": "EDGE_150_5KMH_REJECT",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "EDGE_150_5KMH_REJECT",
+        "implied_speed_kmh": 150.4994
+      }
+    },
+    {
+      "ping_id": "P002213",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:09:17Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 658.66
+      }
+    },
+    {
+      "ping_id": "P002225",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:09:53Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P002226"
+      }
+    },
+    {
+      "ping_id": "P002226",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:09:53Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": true,
+        "mode": "orig_first",
+        "dup_partner": "P002225"
+      }
+    },
+    {
+      "ping_id": "P002231",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:00:04Z",
+      "tag": "LATE_ACROSS_CUTOFF",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE_ACROSS_CUTOFF",
+        "ingest_delay_extra_s": 600.0
+      }
+    },
+    {
+      "ping_id": "P002232",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:00:03Z",
+      "tag": "LATE_ACROSS_CUTOFF",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE_ACROSS_CUTOFF",
+        "ingest_delay_extra_s": 600.0
+      }
+    },
+    {
+      "ping_id": "P002233",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-15T00:00:04Z",
+      "tag": "LATE_ACROSS_CUTOFF",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE_ACROSS_CUTOFF",
+        "ingest_delay_extra_s": 600.0
+      }
+    },
+    {
+      "ping_id": "P002236",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:00:07Z",
+      "tag": "LATE_ACROSS_CUTOFF",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE_ACROSS_CUTOFF",
+        "ingest_delay_extra_s": 600.0
+      }
+    },
+    {
+      "ping_id": "P002239",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:10:14Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 417.6
+      }
+    },
+    {
+      "ping_id": "P002253",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:01:43Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 545.0
+      }
+    },
+    {
+      "ping_id": "P002260",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:11:07Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 401.25
+      }
+    },
+    {
+      "ping_id": "P002271",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:11:34Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P002273"
+      }
+    },
+    {
+      "ping_id": "P002273",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:11:34Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": true,
+        "mode": "orig_first",
+        "dup_partner": "P002271"
+      }
+    },
+    {
+      "ping_id": "P002277",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:11:47Z",
+      "tag": "EDGE_150KMH_KEEP",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "EDGE_150KMH_KEEP",
+        "implied_speed_kmh": 150.0008
+      }
+    },
+    {
+      "ping_id": "P002290",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:02:53Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 567.0
+      }
+    },
+    {
+      "ping_id": "P002298",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-15T00:12:34Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 446.68
+      }
+    },
+    {
+      "ping_id": "P002312",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-15T00:08:44Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 277.0
+      }
+    },
+    {
+      "ping_id": "P002326",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:13:52Z",
+      "tag": "INVALID_COORDINATES",
+      "expected": "REJECT:INVALID_COORDINATES",
+      "detail": {}
+    },
+    {
+      "ping_id": "P002334",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:14:14Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P002335"
+      }
+    },
+    {
+      "ping_id": "P002335",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:14:14Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "orig_first",
+        "dup_partner": "P002334"
+      }
+    },
+    {
+      "ping_id": "P002339",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:14:33Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "exact_copy": true,
+        "mode": "dup_first",
+        "dup_partner": "P002340"
+      }
+    },
+    {
+      "ping_id": "P002340",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:14:33Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "dup_partner": "P002339"
+      }
+    },
+    {
+      "ping_id": "P002354",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:01:44Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 836.0
+      }
+    },
+    {
+      "ping_id": "P002361",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-15T00:13:14Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 174.0
+      }
+    },
+    {
+      "ping_id": "P002362",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:16:13Z",
+      "tag": "EDGE_100_5M_REJECT",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "EDGE_100_5M_REJECT",
+        "offroad_m": 100.5052
+      }
+    },
+    {
+      "ping_id": "P002364",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:05:57Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 618.0
+      }
+    },
+    {
+      "ping_id": "P002366",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:16:24Z",
+      "tag": "EDGE_100M_KEEP",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "EDGE_100M_KEEP",
+        "offroad_m": 100.0043
+      }
+    },
+    {
+      "ping_id": "P002376",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:12:57Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 263.0
+      }
+    },
+    {
+      "ping_id": "P002388",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:18:23Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 547.4
+      }
+    },
+    {
+      "ping_id": "P002390",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:10:07Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 504.0
+      }
+    },
+    {
+      "ping_id": "P002395",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:18:53Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 560.76
+      }
+    },
+    {
+      "ping_id": "P002404",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-15T00:10:54Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 508.0
+      }
+    },
+    {
+      "ping_id": "P002411",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:17:13Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 145.0
+      }
+    },
+    {
+      "ping_id": "P002413",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-15T00:19:44Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P002414"
+      }
+    },
+    {
+      "ping_id": "P002414",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-15T00:19:44Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "orig_first",
+        "dup_partner": "P002413"
+      }
+    },
+    {
+      "ping_id": "P002429",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:07:23Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 782.0
+      }
+    },
+    {
+      "ping_id": "P002433",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:20:37Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 719.76
+      }
+    },
+    {
+      "ping_id": "P002435",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-15T00:09:24Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 675.0
+      }
+    },
+    {
+      "ping_id": "P002445",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:21:07Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P002446"
+      }
+    },
+    {
+      "ping_id": "P002446",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:21:07Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "orig_first",
+        "dup_partner": "P002445"
+      }
+    },
+    {
+      "ping_id": "P002450",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:21:24Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P002453"
+      }
+    },
+    {
+      "ping_id": "P002453",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:21:24Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "orig_first",
+        "dup_partner": "P002450"
+      }
+    },
+    {
+      "ping_id": "P002467",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:22:04Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P002469"
+      }
+    },
+    {
+      "ping_id": "P002469",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:22:04Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "orig_first",
+        "dup_partner": "P002467"
+      }
+    },
+    {
+      "ping_id": "P002471",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:22:13Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 218.94
+      }
+    },
+    {
+      "ping_id": "P002482",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:12:44Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 594.0
+      }
+    },
+    {
+      "ping_id": "P002483",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:22:43Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P002484"
+      }
+    },
+    {
+      "ping_id": "P002484",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:22:43Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": true,
+        "mode": "orig_first",
+        "dup_partner": "P002483"
+      }
+    },
+    {
+      "ping_id": "P002503",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:23:37Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P002504"
+      }
+    },
+    {
+      "ping_id": "P002504",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:23:37Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": true,
+        "mode": "orig_first",
+        "dup_partner": "P002503"
+      }
+    },
+    {
+      "ping_id": "P002525",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-15T00:24:44Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 146.86
+      }
+    },
+    {
+      "ping_id": "P002530",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-15T00:20:54Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 243.0
+      }
+    },
+    {
+      "ping_id": "P002535",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:25:13Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P002536"
+      }
+    },
+    {
+      "ping_id": "P002536",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:25:13Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": true,
+        "mode": "tie",
+        "dup_partner": "P002535"
+      }
+    },
+    {
+      "ping_id": "P002543",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:25:27Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P002544"
+      }
+    },
+    {
+      "ping_id": "P002544",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:25:27Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": true,
+        "mode": "orig_first",
+        "dup_partner": "P002543"
+      }
+    },
+    {
+      "ping_id": "P002550",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-15T00:25:44Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P002551"
+      }
+    },
+    {
+      "ping_id": "P002551",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-15T00:25:44Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "orig_first",
+        "dup_partner": "P002550"
+      }
+    },
+    {
+      "ping_id": "P002552",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:25:44Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 361.7
+      }
+    },
+    {
+      "ping_id": "P002565",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-15T00:21:14Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 300.0
+      }
+    },
+    {
+      "ping_id": "P002566",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:26:17Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 296.96
+      }
+    },
+    {
+      "ping_id": "P002567",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:14:54Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 689.0
+      }
+    },
+    {
+      "ping_id": "P002568",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:26:23Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 576.07
+      }
+    },
+    {
+      "ping_id": "P002597",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:13:54Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 824.0
+      }
+    },
+    {
+      "ping_id": "P002612",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-15T00:28:24Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "exact_copy": true,
+        "mode": "dup_first",
+        "dup_partner": "P002614"
+      }
+    },
+    {
+      "ping_id": "P002614",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-15T00:28:24Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "dup_partner": "P002612"
+      }
+    },
+    {
+      "ping_id": "P002636",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:29:14Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 432.08
+      }
+    },
+    {
+      "ping_id": "P002648",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-15T00:29:44Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 327.67
+      }
+    },
+    {
+      "ping_id": "P002667",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-15T00:30:34Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 199.17
+      }
+    },
+    {
+      "ping_id": "P002677",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:31:03Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P002678"
+      }
+    },
+    {
+      "ping_id": "P002678",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:31:03Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "orig_first",
+        "dup_partner": "P002677"
+      }
+    },
+    {
+      "ping_id": "P002681",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:31:04Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 199.54
+      }
+    },
+    {
+      "ping_id": "P002691",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:31:34Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "exact_copy": false,
+        "mode": "dup_first",
+        "dup_partner": "P002693"
+      }
+    },
+    {
+      "ping_id": "P002693",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:31:34Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "dup_partner": "P002691"
+      }
+    },
+    {
+      "ping_id": "P002694",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:31:37Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 238.44
+      }
+    },
+    {
+      "ping_id": "P002696",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:18:14Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 806.0
+      }
+    },
+    {
+      "ping_id": "P002721",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:32:57Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 389.7
+      }
+    },
+    {
+      "ping_id": "P002728",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:20:54Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 748.0
+      }
+    },
+    {
+      "ping_id": "P002732",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:33:34Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 487.26
+      }
+    },
+    {
+      "ping_id": "P002761",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:34:53Z",
+      "tag": "EDGE_100M_KEEP",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "EDGE_100M_KEEP",
+        "offroad_m": 99.9996
+      }
+    },
+    {
+      "ping_id": "P002769",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-15T00:35:14Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 300.15
+      }
+    },
+    {
+      "ping_id": "P002774",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:35:34Z",
+      "tag": "EDGE_100_5M_REJECT",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "EDGE_100_5M_REJECT",
+        "offroad_m": 100.5024
+      }
+    },
+    {
+      "ping_id": "P002778",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-15T00:35:44Z",
+      "tag": "SPEED_JUMP",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "SPEED_JUMP",
+        "implied_speed_kmh": 639.59
+      }
+    },
+    {
+      "ping_id": "P002800",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:28:13Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 518.0
+      }
+    },
+    {
+      "ping_id": "P002803",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:36:57Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P002804"
+      }
+    },
+    {
+      "ping_id": "P002804",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:36:57Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "tie",
+        "dup_partner": "P002803"
+      }
+    },
+    {
+      "ping_id": "P002808",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-15T00:23:54Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 791.0
+      }
+    },
+    {
+      "ping_id": "P002810",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:37:13Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 306.14
+      }
+    },
+    {
+      "ping_id": "P002822",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:34:23Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 197.0
+      }
+    },
+    {
+      "ping_id": "P002823",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:37:43Z",
+      "tag": "NOISE_OFFROAD",
+      "expected": "REJECT:OFF_ROAD_GT_100M",
+      "detail": {
+        "tag": "NOISE_OFFROAD",
+        "offroad_m": 148.34
+      }
+    },
+    {
+      "ping_id": "P002834",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:24:47Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 803.0
+      }
+    },
+    {
+      "ping_id": "P002843",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:38:27Z",
+      "tag": "DUP_KEPT",
+      "expected": "ACCEPT",
+      "detail": {
+        "dup_partner": "P002844"
+      }
+    },
+    {
+      "ping_id": "P002844",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:38:27Z",
+      "tag": "DUP_DROPPED",
+      "expected": "REJECT:DUPLICATE",
+      "detail": {
+        "exact_copy": false,
+        "mode": "orig_first",
+        "dup_partner": "P002843"
+      }
+    },
+    {
+      "ping_id": "P002845",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-15T00:38:34Z",
+      "tag": "EDGE_150_5KMH_REJECT",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "EDGE_150_5KMH_REJECT",
+        "implied_speed_kmh": 150.4986
+      }
+    },
+    {
+      "ping_id": "P002862",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:27:44Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 759.0
+      }
+    },
+    {
+      "ping_id": "P002868",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:36:43Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 246.0
+      }
+    },
+    {
+      "ping_id": "P002870",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:26:53Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 843.0
+      }
+    },
+    {
+      "ping_id": "P002872",
+      "driver_id": "D001",
+      "ts_utc": "2026-03-15T00:41:03Z",
+      "tag": "EDGE_150_5KMH_REJECT",
+      "expected": "REJECT:IMPOSSIBLE_SPEED_GT_150KMH",
+      "detail": {
+        "tag": "EDGE_150_5KMH_REJECT",
+        "implied_speed_kmh": 150.5011
+      }
+    },
+    {
+      "ping_id": "P002879",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:41:37Z",
+      "tag": "EDGE_100M_KEEP",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "EDGE_100M_KEEP",
+        "offroad_m": 100.0008
+      }
+    },
+    {
+      "ping_id": "P002890",
+      "driver_id": "D003",
+      "ts_utc": "2026-03-15T00:36:14Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 382.0
+      }
+    },
+    {
+      "ping_id": "P002891",
+      "driver_id": "D004",
+      "ts_utc": "2026-03-15T00:36:54Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 599.0
+      }
+    },
+    {
+      "ping_id": "P002892",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:40:47Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 421.0
+      }
+    },
+    {
+      "ping_id": "P002893",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:39:17Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 567.0
+      }
+    },
+    {
+      "ping_id": "P002894",
+      "driver_id": "D002",
+      "ts_utc": "2026-03-15T00:38:57Z",
+      "tag": "LATE",
+      "expected": "ACCEPT",
+      "detail": {
+        "tag": "LATE",
+        "ingest_delay_extra_s": 600.0
+      }
+    }
+  ]
+}

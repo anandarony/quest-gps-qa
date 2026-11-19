@@ -1,0 +1,2895 @@
+ping_id,seed_tag,truth_accept,truth_reason,detail
+P000001,CLEAN,True,,{}
+P000002,CLEAN,True,,{}
+P000003,CLEAN,True,,{}
+P000004,DUP_KEPT,True,,"{""dup_partner"": ""P000005""}"
+P000005,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P000004"", ""exact_copy"": false, ""mode"": ""orig_first""}"
+P000006,CLEAN,True,,{}
+P000007,CLEAN,True,,{}
+P000008,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 426.57, ""tag"": ""NOISE_OFFROAD""}"
+P000009,CLEAN,True,,{}
+P000010,CLEAN,True,,{}
+P000011,CLEAN,True,,{}
+P000012,CLEAN,True,,{}
+P000013,CLEAN,True,,{}
+P000014,CLEAN,True,,{}
+P000015,CLEAN,True,,{}
+P000016,CLEAN,True,,{}
+P000017,CLEAN,True,,{}
+P000018,CLEAN,True,,{}
+P000019,EDGE_150_5KMH_REJECT,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 150.5017, ""tag"": ""EDGE_150_5KMH_REJECT""}"
+P000020,DUP_KEPT,True,,"{""dup_partner"": ""P000021""}"
+P000021,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P000020"", ""exact_copy"": true, ""mode"": ""orig_first""}"
+P000022,CLEAN,True,,{}
+P000023,CLEAN,True,,{}
+P000024,CLEAN,True,,{}
+P000025,CLEAN,True,,{}
+P000026,CLEAN,True,,{}
+P000027,CLEAN,True,,{}
+P000028,CLEAN,True,,{}
+P000029,CLEAN,True,,{}
+P000030,CLEAN,True,,{}
+P000031,CLEAN,True,,{}
+P000032,CLEAN,True,,{}
+P000033,CLEAN,True,,{}
+P000034,CLEAN,True,,{}
+P000035,CLEAN,True,,{}
+P000036,CLEAN,True,,{}
+P000037,CLEAN,True,,{}
+P000038,CLEAN,True,,{}
+P000039,CLEAN,True,,{}
+P000040,CLEAN,True,,{}
+P000041,EDGE_150KMH_KEEP,True,,"{""implied_speed_kmh"": 149.9999, ""tag"": ""EDGE_150KMH_KEEP""}"
+P000042,CLEAN,True,,{}
+P000043,CLEAN,True,,{}
+P000044,CLEAN,True,,{}
+P000045,CLEAN,True,,{}
+P000046,CLEAN,True,,{}
+P000047,CLEAN,True,,{}
+P000048,CLEAN,True,,{}
+P000049,CLEAN,True,,{}
+P000050,CLEAN,True,,{}
+P000051,CLEAN,True,,{}
+P000052,CLEAN,True,,{}
+P000053,CLEAN,True,,{}
+P000054,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 343.23, ""tag"": ""SPEED_JUMP""}"
+P000055,CLEAN,True,,{}
+P000056,CLEAN,True,,{}
+P000057,CLEAN,True,,{}
+P000058,CLEAN,True,,{}
+P000059,CLEAN,True,,{}
+P000060,CLEAN,True,,{}
+P000061,CLEAN,True,,{}
+P000062,CLEAN,True,,{}
+P000063,CLEAN,True,,{}
+P000064,CLEAN,True,,{}
+P000065,CLEAN,True,,{}
+P000066,CLEAN,True,,{}
+P000067,CLEAN,True,,{}
+P000068,CLEAN,True,,{}
+P000069,CLEAN,True,,{}
+P000070,CLEAN,True,,{}
+P000071,CLEAN,True,,{}
+P000072,CLEAN,True,,{}
+P000073,CLEAN,True,,{}
+P000074,CLEAN,True,,{}
+P000075,DUP_KEPT,True,,"{""dup_partner"": ""P000076""}"
+P000076,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P000075"", ""exact_copy"": false, ""mode"": ""orig_first""}"
+P000077,CLEAN,True,,{}
+P000078,CLEAN,True,,{}
+P000079,CLEAN,True,,{}
+P000080,CLEAN,True,,{}
+P000081,CLEAN,True,,{}
+P000082,CLEAN,True,,{}
+P000083,CLEAN,True,,{}
+P000084,CLEAN,True,,{}
+P000085,CLEAN,True,,{}
+P000086,CLEAN,True,,{}
+P000087,CLEAN,True,,{}
+P000088,CLEAN,True,,{}
+P000089,CLEAN,True,,{}
+P000090,CLEAN,True,,{}
+P000091,CLEAN,True,,{}
+P000092,CLEAN,True,,{}
+P000093,CLEAN,True,,{}
+P000094,CLEAN,True,,{}
+P000095,CLEAN,True,,{}
+P000096,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 552.84, ""tag"": ""NOISE_OFFROAD""}"
+P000097,CLEAN,True,,{}
+P000098,CLEAN,True,,{}
+P000099,CLEAN,True,,{}
+P000100,CLEAN,True,,{}
+P000101,CLEAN,True,,{}
+P000102,CLEAN,True,,{}
+P000103,CLEAN,True,,{}
+P000104,CLEAN,True,,{}
+P000105,CLEAN,True,,{}
+P000106,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 395.82, ""tag"": ""NOISE_OFFROAD""}"
+P000107,CLEAN,True,,{}
+P000108,CLEAN,True,,{}
+P000109,CLEAN,True,,{}
+P000110,CLEAN,True,,{}
+P000111,CLEAN,True,,{}
+P000112,CLEAN,True,,{}
+P000113,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 347.2, ""tag"": ""SPEED_JUMP""}"
+P000114,CLEAN,True,,{}
+P000115,CLEAN,True,,{}
+P000116,CLEAN,True,,{}
+P000117,CLEAN,True,,{}
+P000118,CLEAN,True,,{}
+P000119,CLEAN,True,,{}
+P000120,CLEAN,True,,{}
+P000121,DUP_KEPT,True,,"{""dup_partner"": ""P000122""}"
+P000122,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P000121"", ""exact_copy"": true, ""mode"": ""tie""}"
+P000123,CLEAN,True,,{}
+P000124,CLEAN,True,,{}
+P000125,CLEAN,True,,{}
+P000126,CLEAN,True,,{}
+P000127,CLEAN,True,,{}
+P000128,CLEAN,True,,{}
+P000129,CLEAN,True,,{}
+P000130,CLEAN,True,,{}
+P000131,CLEAN,True,,{}
+P000132,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 530.26, ""tag"": ""SPEED_JUMP""}"
+P000133,LATE,True,,"{""ingest_delay_extra_s"": 242.0, ""tag"": ""LATE""}"
+P000134,CLEAN,True,,{}
+P000135,CLEAN,True,,{}
+P000136,CLEAN,True,,{}
+P000137,CLEAN,True,,{}
+P000138,CLEAN,True,,{}
+P000139,GAP_90S_END,True,,{}
+P000140,EDGE_100_5M_REJECT,False,OFF_ROAD_GT_100M,"{""offroad_m"": 100.5001, ""tag"": ""EDGE_100_5M_REJECT""}"
+P000141,CLEAN,True,,{}
+P000142,CLEAN,True,,{}
+P000143,CLEAN,True,,{}
+P000144,CLEAN,True,,{}
+P000145,CLEAN,True,,{}
+P000146,CLEAN,True,,{}
+P000147,CLEAN,True,,{}
+P000148,LATE,True,,"{""ingest_delay_extra_s"": 213.0, ""tag"": ""LATE""}"
+P000149,CLEAN,True,,{}
+P000150,CLEAN,True,,{}
+P000151,CLEAN,True,,{}
+P000152,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 156.41, ""tag"": ""NOISE_OFFROAD""}"
+P000153,CLEAN,True,,{}
+P000154,CLEAN,True,,{}
+P000155,CLEAN,True,,{}
+P000156,CLEAN,True,,{}
+P000157,CLEAN,True,,{}
+P000158,CLEAN,True,,{}
+P000159,CLEAN,True,,{}
+P000160,CLEAN,True,,{}
+P000161,CLEAN,True,,{}
+P000162,CLEAN,True,,{}
+P000163,CLEAN,True,,{}
+P000164,CLEAN,True,,{}
+P000165,CLEAN,True,,{}
+P000166,CLEAN,True,,{}
+P000167,CLEAN,True,,{}
+P000168,CLEAN,True,,{}
+P000169,CLEAN,True,,{}
+P000170,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 450.6, ""tag"": ""NOISE_OFFROAD""}"
+P000171,CLEAN,True,,{}
+P000172,CLEAN,True,,{}
+P000173,CLEAN,True,,{}
+P000174,CLEAN,True,,{}
+P000175,CLEAN,True,,{}
+P000176,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 228.25, ""tag"": ""NOISE_OFFROAD""}"
+P000177,CLEAN,True,,{}
+P000178,CLEAN,True,,{}
+P000179,CLEAN,True,,{}
+P000180,CLEAN,True,,{}
+P000181,CLEAN,True,,{}
+P000182,CLEAN,True,,{}
+P000183,EDGE_100M_KEEP,True,,"{""offroad_m"": 100.0052, ""tag"": ""EDGE_100M_KEEP""}"
+P000184,CLEAN,True,,{}
+P000185,CLEAN,True,,{}
+P000186,CLEAN,True,,{}
+P000187,GAP_90S_END,True,,{}
+P000188,CLEAN,True,,{}
+P000189,CLEAN,True,,{}
+P000190,CLEAN,True,,{}
+P000191,CLEAN,True,,{}
+P000192,CLEAN,True,,{}
+P000193,CLEAN,True,,{}
+P000194,CLEAN,True,,{}
+P000195,CLEAN,True,,{}
+P000196,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 637.04, ""tag"": ""SPEED_JUMP""}"
+P000197,EDGE_150KMH_KEEP,True,,"{""implied_speed_kmh"": 149.999, ""tag"": ""EDGE_150KMH_KEEP""}"
+P000198,CLEAN,True,,{}
+P000199,CLEAN,True,,{}
+P000200,CLEAN,True,,{}
+P000201,CLEAN,True,,{}
+P000202,CLEAN,True,,{}
+P000203,CLEAN,True,,{}
+P000204,CLEAN,True,,{}
+P000205,CLEAN,True,,{}
+P000206,CLEAN,True,,{}
+P000207,CLEAN,True,,{}
+P000208,CLEAN,True,,{}
+P000209,CLEAN,True,,{}
+P000210,CLEAN,True,,{}
+P000211,CLEAN,True,,{}
+P000212,CLEAN,True,,{}
+P000213,CLEAN,True,,{}
+P000214,DUP_KEPT,True,,"{""dup_partner"": ""P000215""}"
+P000215,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P000214"", ""exact_copy"": false, ""mode"": ""orig_first""}"
+P000216,CLEAN,True,,{}
+P000217,CLEAN,True,,{}
+P000218,CLEAN,True,,{}
+P000219,CLEAN,True,,{}
+P000220,CLEAN,True,,{}
+P000221,CLEAN,True,,{}
+P000222,CLEAN,True,,{}
+P000223,CLEAN,True,,{}
+P000224,CLEAN,True,,{}
+P000225,CLEAN,True,,{}
+P000226,CLEAN,True,,{}
+P000227,CLEAN,True,,{}
+P000228,CLEAN,True,,{}
+P000229,CLEAN,True,,{}
+P000230,CLEAN,True,,{}
+P000231,CLEAN,True,,{}
+P000232,CLEAN,True,,{}
+P000233,CLEAN,True,,{}
+P000234,CLEAN,True,,{}
+P000235,CLEAN,True,,{}
+P000236,CLEAN,True,,{}
+P000237,CLEAN,True,,{}
+P000238,CLEAN,True,,{}
+P000239,CLEAN,True,,{}
+P000240,CLEAN,True,,{}
+P000241,CLEAN,True,,{}
+P000242,CLEAN,True,,{}
+P000243,CLEAN,True,,{}
+P000244,CLEAN,True,,{}
+P000245,CLEAN,True,,{}
+P000246,CLEAN,True,,{}
+P000247,CLEAN,True,,{}
+P000248,CLEAN,True,,{}
+P000249,LATE,True,,"{""ingest_delay_extra_s"": 578.0, ""tag"": ""LATE""}"
+P000250,CLEAN,True,,{}
+P000251,CLEAN,True,,{}
+P000252,CLEAN,True,,{}
+P000253,CLEAN,True,,{}
+P000254,GAP_300S_END,True,,{}
+P000255,CLEAN,True,,{}
+P000256,CLEAN,True,,{}
+P000257,CLEAN,True,,{}
+P000258,CLEAN,True,,{}
+P000259,CLEAN,True,,{}
+P000260,CLEAN,True,,{}
+P000261,CLEAN,True,,{}
+P000262,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 537.56, ""tag"": ""NOISE_OFFROAD""}"
+P000263,CLEAN,True,,{}
+P000264,CLEAN,True,,{}
+P000265,CLEAN,True,,{}
+P000266,CLEAN,True,,{}
+P000267,CLEAN,True,,{}
+P000268,CLEAN,True,,{}
+P000269,CLEAN,True,,{}
+P000270,CLEAN,True,,{}
+P000271,CLEAN,True,,{}
+P000272,CLEAN,True,,{}
+P000273,CLEAN,True,,{}
+P000274,CLEAN,True,,{}
+P000275,CLEAN,True,,{}
+P000276,CLEAN,True,,{}
+P000277,CLEAN,True,,{}
+P000278,CLEAN,True,,{}
+P000279,CLEAN,True,,{}
+P000280,CLEAN,True,,{}
+P000281,CLEAN,True,,{}
+P000282,CLEAN,True,,{}
+P000283,CLEAN,True,,{}
+P000284,CLEAN,True,,{}
+P000285,CLEAN,True,,{}
+P000286,LATE,True,,"{""ingest_delay_extra_s"": 504.0, ""tag"": ""LATE""}"
+P000287,CLEAN,True,,{}
+P000288,CLEAN,True,,{}
+P000289,CLEAN,True,,{}
+P000290,CLEAN,True,,{}
+P000291,CLEAN,True,,{}
+P000292,CLEAN,True,,{}
+P000293,CLEAN,True,,{}
+P000294,LATE,True,,"{""ingest_delay_extra_s"": 752.0, ""tag"": ""LATE""}"
+P000295,CLEAN,True,,{}
+P000296,LATE,True,,"{""ingest_delay_extra_s"": 561.0, ""tag"": ""LATE""}"
+P000297,LATE,True,,"{""ingest_delay_extra_s"": 852.0, ""tag"": ""LATE""}"
+P000298,CLEAN,True,,{}
+P000299,CLEAN,True,,{}
+P000300,CLEAN,True,,{}
+P000301,CLEAN,True,,{}
+P000302,CLEAN,True,,{}
+P000303,EDGE_150_5KMH_REJECT,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 150.4979, ""tag"": ""EDGE_150_5KMH_REJECT""}"
+P000304,CLEAN,True,,{}
+P000305,CLEAN,True,,{}
+P000306,CLEAN,True,,{}
+P000307,CLEAN,True,,{}
+P000308,CLEAN,True,,{}
+P000309,CLEAN,True,,{}
+P000310,CLEAN,True,,{}
+P000311,CLEAN,True,,{}
+P000312,DUP_KEPT,True,,"{""dup_partner"": ""P000313""}"
+P000313,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P000312"", ""exact_copy"": false, ""mode"": ""orig_first""}"
+P000314,CLEAN,True,,{}
+P000315,CLEAN,True,,{}
+P000316,CLEAN,True,,{}
+P000317,CLEAN,True,,{}
+P000318,CLEAN,True,,{}
+P000319,CLEAN,True,,{}
+P000320,CLEAN,True,,{}
+P000321,CLEAN,True,,{}
+P000322,CLEAN,True,,{}
+P000323,CLEAN,True,,{}
+P000324,CLEAN,True,,{}
+P000325,CLEAN,True,,{}
+P000326,DUP_KEPT,True,,"{""dup_partner"": ""P000327""}"
+P000327,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P000326"", ""exact_copy"": false, ""mode"": ""orig_first""}"
+P000328,CLEAN,True,,{}
+P000329,CLEAN,True,,{}
+P000330,CLEAN,True,,{}
+P000331,CLEAN,True,,{}
+P000332,CLEAN,True,,{}
+P000333,CLEAN,True,,{}
+P000334,CLEAN,True,,{}
+P000335,CLEAN,True,,{}
+P000336,CLEAN,True,,{}
+P000337,CLEAN,True,,{}
+P000338,CLEAN,True,,{}
+P000339,CLEAN,True,,{}
+P000340,CLEAN,True,,{}
+P000341,CLEAN,True,,{}
+P000342,CLEAN,True,,{}
+P000343,DUP_KEPT,True,,"{""dup_partner"": ""P000344"", ""exact_copy"": false, ""mode"": ""dup_first""}"
+P000344,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P000343""}"
+P000345,DUP_KEPT,True,,"{""dup_partner"": ""P000346""}"
+P000346,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P000345"", ""exact_copy"": true, ""mode"": ""tie""}"
+P000347,CLEAN,True,,{}
+P000348,CLEAN,True,,{}
+P000349,CLEAN,True,,{}
+P000350,CLEAN,True,,{}
+P000351,CLEAN,True,,{}
+P000352,DUP_KEPT,True,,"{""dup_partner"": ""P000353""}"
+P000353,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P000352"", ""exact_copy"": false, ""mode"": ""orig_first""}"
+P000354,CLEAN,True,,{}
+P000355,CLEAN,True,,{}
+P000356,CLEAN,True,,{}
+P000357,CLEAN,True,,{}
+P000358,CLEAN,True,,{}
+P000359,CLEAN,True,,{}
+P000360,CLEAN,True,,{}
+P000361,CLEAN,True,,{}
+P000362,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 177.76, ""tag"": ""NOISE_OFFROAD""}"
+P000363,CLEAN,True,,{}
+P000364,CLEAN,True,,{}
+P000365,CLEAN,True,,{}
+P000366,CLEAN,True,,{}
+P000367,CLEAN,True,,{}
+P000368,CLEAN,True,,{}
+P000369,CLEAN,True,,{}
+P000370,CLEAN,True,,{}
+P000371,CLEAN,True,,{}
+P000372,CLEAN,True,,{}
+P000373,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 388.26, ""tag"": ""NOISE_OFFROAD""}"
+P000374,CLEAN,True,,{}
+P000375,CLEAN,True,,{}
+P000376,CLEAN,True,,{}
+P000377,CLEAN,True,,{}
+P000378,CLEAN,True,,{}
+P000379,CLEAN,True,,{}
+P000380,CLEAN,True,,{}
+P000381,CLEAN,True,,{}
+P000382,DUP_KEPT,True,,"{""dup_partner"": ""P000383"", ""exact_copy"": true, ""mode"": ""dup_first""}"
+P000383,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P000382""}"
+P000384,CLEAN,True,,{}
+P000385,CLEAN,True,,{}
+P000386,CLEAN,True,,{}
+P000387,CLEAN,True,,{}
+P000388,CLEAN,True,,{}
+P000389,CLEAN,True,,{}
+P000390,CLEAN,True,,{}
+P000391,CLEAN,True,,{}
+P000392,CLEAN,True,,{}
+P000393,CLEAN,True,,{}
+P000394,CLEAN,True,,{}
+P000395,CLEAN,True,,{}
+P000396,EDGE_100M_KEEP,True,,"{""offroad_m"": 99.9959, ""tag"": ""EDGE_100M_KEEP""}"
+P000397,LATE,True,,"{""ingest_delay_extra_s"": 175.0, ""tag"": ""LATE""}"
+P000398,CLEAN,True,,{}
+P000399,CLEAN,True,,{}
+P000400,CLEAN,True,,{}
+P000401,CLEAN,True,,{}
+P000402,CLEAN,True,,{}
+P000403,CLEAN,True,,{}
+P000404,CLEAN,True,,{}
+P000405,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 238.74, ""tag"": ""SPEED_JUMP""}"
+P000406,CLEAN,True,,{}
+P000407,CLEAN,True,,{}
+P000408,CLEAN,True,,{}
+P000409,CLEAN,True,,{}
+P000410,CLEAN,True,,{}
+P000411,CLEAN,True,,{}
+P000412,CLEAN,True,,{}
+P000413,CLEAN,True,,{}
+P000414,LATE,True,,"{""ingest_delay_extra_s"": 284.0, ""tag"": ""LATE""}"
+P000415,CLEAN,True,,{}
+P000416,CLEAN,True,,{}
+P000417,CLEAN,True,,{}
+P000418,CLEAN,True,,{}
+P000419,CLEAN,True,,{}
+P000420,CLEAN,True,,{}
+P000421,CLEAN,True,,{}
+P000422,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 640.08, ""tag"": ""SPEED_JUMP""}"
+P000423,CLEAN,True,,{}
+P000424,CLEAN,True,,{}
+P000425,CLEAN,True,,{}
+P000426,CLEAN,True,,{}
+P000427,CLEAN,True,,{}
+P000428,CLEAN,True,,{}
+P000429,CLEAN,True,,{}
+P000430,LATE,True,,"{""ingest_delay_extra_s"": 454.0, ""tag"": ""LATE""}"
+P000431,CLEAN,True,,{}
+P000432,GAP_EDGE_30S_END,True,,{}
+P000433,CLEAN,True,,{}
+P000434,CLEAN,True,,{}
+P000435,CLEAN,True,,{}
+P000436,LATE,True,,"{""ingest_delay_extra_s"": 544.0, ""tag"": ""LATE""}"
+P000437,CLEAN,True,,{}
+P000438,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 285.08, ""tag"": ""NOISE_OFFROAD""}"
+P000439,CLEAN,True,,{}
+P000440,CLEAN,True,,{}
+P000441,LATE,True,,"{""ingest_delay_extra_s"": 297.0, ""tag"": ""LATE""}"
+P000442,CLEAN,True,,{}
+P000443,CLEAN,True,,{}
+P000444,CLEAN,True,,{}
+P000445,CLEAN,True,,{}
+P000446,CLEAN,True,,{}
+P000447,CLEAN,True,,{}
+P000448,CLEAN,True,,{}
+P000449,CLEAN,True,,{}
+P000450,DUP_KEPT,True,,"{""dup_partner"": ""P000451""}"
+P000451,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P000450"", ""exact_copy"": true, ""mode"": ""orig_first""}"
+P000452,CLEAN,True,,{}
+P000453,CLEAN,True,,{}
+P000454,CLEAN,True,,{}
+P000455,CLEAN,True,,{}
+P000456,CLEAN,True,,{}
+P000457,CLEAN,True,,{}
+P000458,CLEAN,True,,{}
+P000459,CLEAN,True,,{}
+P000460,CLEAN,True,,{}
+P000461,GAP_EDGE_30S_END,True,,{}
+P000462,CLEAN,True,,{}
+P000463,CLEAN,True,,{}
+P000464,CLEAN,True,,{}
+P000465,CLEAN,True,,{}
+P000466,CLEAN,True,,{}
+P000467,CLEAN,True,,{}
+P000468,CLEAN,True,,{}
+P000469,EDGE_100_5M_REJECT,False,OFF_ROAD_GT_100M,"{""offroad_m"": 100.5027, ""tag"": ""EDGE_100_5M_REJECT""}"
+P000470,CLEAN,True,,{}
+P000471,CLEAN,True,,{}
+P000472,CLEAN,True,,{}
+P000473,CLEAN,True,,{}
+P000474,CLEAN,True,,{}
+P000475,CLEAN,True,,{}
+P000476,CLEAN,True,,{}
+P000477,CLEAN,True,,{}
+P000478,LATE,True,,"{""ingest_delay_extra_s"": 840.0, ""tag"": ""LATE""}"
+P000479,LATE,True,,"{""ingest_delay_extra_s"": 307.0, ""tag"": ""LATE""}"
+P000480,LATE,True,,"{""ingest_delay_extra_s"": 878.0, ""tag"": ""LATE""}"
+P000481,LATE,True,,"{""ingest_delay_extra_s"": 800.0, ""tag"": ""LATE""}"
+P000482,CLEAN,True,,{}
+P000483,CLEAN,True,,{}
+P000484,CLEAN,True,,{}
+P000485,CLEAN,True,,{}
+P000486,CLEAN,True,,{}
+P000487,CLEAN,True,,{}
+P000488,CLEAN,True,,{}
+P000489,CLEAN,True,,{}
+P000490,CLEAN,True,,{}
+P000491,CLEAN,True,,{}
+P000492,CLEAN,True,,{}
+P000493,CLEAN,True,,{}
+P000494,CLEAN,True,,{}
+P000495,CLEAN,True,,{}
+P000496,CLEAN,True,,{}
+P000497,EDGE_150_5KMH_REJECT,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 150.5018, ""tag"": ""EDGE_150_5KMH_REJECT""}"
+P000498,CLEAN,True,,{}
+P000499,CLEAN,True,,{}
+P000500,CLEAN,True,,{}
+P000501,CLEAN,True,,{}
+P000502,CLEAN,True,,{}
+P000503,CLEAN,True,,{}
+P000504,CLEAN,True,,{}
+P000505,CLEAN,True,,{}
+P000506,CLEAN,True,,{}
+P000507,EDGE_150KMH_KEEP,True,,"{""implied_speed_kmh"": 150.0, ""tag"": ""EDGE_150KMH_KEEP""}"
+P000508,CLEAN,True,,{}
+P000509,CLEAN,True,,{}
+P000510,CLEAN,True,,{}
+P000511,CLEAN,True,,{}
+P000512,CLEAN,True,,{}
+P000513,CLEAN,True,,{}
+P000514,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 546.54, ""tag"": ""SPEED_JUMP""}"
+P000515,CLEAN,True,,{}
+P000516,CLEAN,True,,{}
+P000517,DUP_KEPT,True,,"{""dup_partner"": ""P000518""}"
+P000518,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P000517"", ""exact_copy"": false, ""mode"": ""tie""}"
+P000519,CLEAN,True,,{}
+P000520,CLEAN,True,,{}
+P000521,CLEAN,True,,{}
+P000522,CLEAN,True,,{}
+P000523,CLEAN,True,,{}
+P000524,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 328.31, ""tag"": ""SPEED_JUMP""}"
+P000525,CLEAN,True,,{}
+P000526,CLEAN,True,,{}
+P000527,CLEAN,True,,{}
+P000528,CLEAN,True,,{}
+P000529,CLEAN,True,,{}
+P000530,CLEAN,True,,{}
+P000531,CLEAN,True,,{}
+P000532,CLEAN,True,,{}
+P000533,CLEAN,True,,{}
+P000534,CLEAN,True,,{}
+P000535,CLEAN,True,,{}
+P000536,CLEAN,True,,{}
+P000537,CLEAN,True,,{}
+P000538,CLEAN,True,,{}
+P000539,CLEAN,True,,{}
+P000540,CLEAN,True,,{}
+P000541,DUP_KEPT,True,,"{""dup_partner"": ""P000542""}"
+P000542,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P000541"", ""exact_copy"": true, ""mode"": ""orig_first""}"
+P000543,CLEAN,True,,{}
+P000544,CLEAN,True,,{}
+P000545,CLEAN,True,,{}
+P000546,CLEAN,True,,{}
+P000547,CLEAN,True,,{}
+P000548,CLEAN,True,,{}
+P000549,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 556.79, ""tag"": ""NOISE_OFFROAD""}"
+P000550,CLEAN,True,,{}
+P000551,CLEAN,True,,{}
+P000552,CLEAN,True,,{}
+P000553,CLEAN,True,,{}
+P000554,CLEAN,True,,{}
+P000555,CLEAN,True,,{}
+P000556,CLEAN,True,,{}
+P000557,CLEAN,True,,{}
+P000558,DUP_KEPT,True,,"{""dup_partner"": ""P000559"", ""exact_copy"": false, ""mode"": ""dup_first""}"
+P000559,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P000558""}"
+P000560,CLEAN,True,,{}
+P000561,CLEAN,True,,{}
+P000562,CLEAN,True,,{}
+P000563,DUP_KEPT,True,,"{""dup_partner"": ""P000564""}"
+P000564,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P000563"", ""exact_copy"": false, ""mode"": ""orig_first""}"
+P000565,CLEAN,True,,{}
+P000566,CLEAN,True,,{}
+P000567,CLEAN,True,,{}
+P000568,CLEAN,True,,{}
+P000569,CLEAN,True,,{}
+P000570,CLEAN,True,,{}
+P000571,CLEAN,True,,{}
+P000572,CLEAN,True,,{}
+P000573,CLEAN,True,,{}
+P000574,CLEAN,True,,{}
+P000575,CLEAN,True,,{}
+P000576,CLEAN,True,,{}
+P000577,CLEAN,True,,{}
+P000578,CLEAN,True,,{}
+P000579,CLEAN,True,,{}
+P000580,CLEAN,True,,{}
+P000581,CLEAN,True,,{}
+P000582,CLEAN,True,,{}
+P000583,CLEAN,True,,{}
+P000584,CLEAN,True,,{}
+P000585,CLEAN,True,,{}
+P000586,CLEAN,True,,{}
+P000587,CLEAN,True,,{}
+P000588,CLEAN,True,,{}
+P000589,CLEAN,True,,{}
+P000590,CLEAN,True,,{}
+P000591,CLEAN,True,,{}
+P000592,CLEAN,True,,{}
+P000593,CLEAN,True,,{}
+P000594,CLEAN,True,,{}
+P000595,CLEAN,True,,{}
+P000596,CLEAN,True,,{}
+P000597,CLEAN,True,,{}
+P000598,CLEAN,True,,{}
+P000599,CLEAN,True,,{}
+P000600,CLEAN,True,,{}
+P000601,CLEAN,True,,{}
+P000602,CLEAN,True,,{}
+P000603,CLEAN,True,,{}
+P000604,CLEAN,True,,{}
+P000605,CLEAN,True,,{}
+P000606,CLEAN,True,,{}
+P000607,CLEAN,True,,{}
+P000608,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 209.12, ""tag"": ""NOISE_OFFROAD""}"
+P000609,CLEAN,True,,{}
+P000610,CLEAN,True,,{}
+P000611,CLEAN,True,,{}
+P000612,CLEAN,True,,{}
+P000613,CLEAN,True,,{}
+P000614,CLEAN,True,,{}
+P000615,CLEAN,True,,{}
+P000616,CLEAN,True,,{}
+P000617,LATE,True,,"{""ingest_delay_extra_s"": 231.0, ""tag"": ""LATE""}"
+P000618,LATE,True,,"{""ingest_delay_extra_s"": 184.0, ""tag"": ""LATE""}"
+P000619,LATE,True,,"{""ingest_delay_extra_s"": 824.0, ""tag"": ""LATE""}"
+P000620,GAP_90S_END,True,,{}
+P000621,CLEAN,True,,{}
+P000622,CLEAN,True,,{}
+P000623,CLEAN,True,,{}
+P000624,CLEAN,True,,{}
+P000625,CLEAN,True,,{}
+P000626,CLEAN,True,,{}
+P000627,CLEAN,True,,{}
+P000628,CLEAN,True,,{}
+P000629,CLEAN,True,,{}
+P000630,CLEAN,True,,{}
+P000631,CLEAN,True,,{}
+P000632,CLEAN,True,,{}
+P000633,LATE,True,,"{""ingest_delay_extra_s"": 867.0, ""tag"": ""LATE""}"
+P000634,CLEAN,True,,{}
+P000635,EDGE_100_5M_REJECT,False,OFF_ROAD_GT_100M,"{""offroad_m"": 100.5051, ""tag"": ""EDGE_100_5M_REJECT""}"
+P000636,CLEAN,True,,{}
+P000637,CLEAN,True,,{}
+P000638,CLEAN,True,,{}
+P000639,CLEAN,True,,{}
+P000640,CLEAN,True,,{}
+P000641,CLEAN,True,,{}
+P000642,CLEAN,True,,{}
+P000643,CLEAN,True,,{}
+P000644,LATE,True,,"{""ingest_delay_extra_s"": 472.0, ""tag"": ""LATE""}"
+P000645,CLEAN,True,,{}
+P000646,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 133.68, ""tag"": ""NOISE_OFFROAD""}"
+P000647,CLEAN,True,,{}
+P000648,CLEAN,True,,{}
+P000649,DUP_KEPT,True,,"{""dup_partner"": ""P000650""}"
+P000650,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P000649"", ""exact_copy"": true, ""mode"": ""orig_first""}"
+P000651,CLEAN,True,,{}
+P000652,CLEAN,True,,{}
+P000653,CLEAN,True,,{}
+P000654,CLEAN,True,,{}
+P000655,CLEAN,True,,{}
+P000656,CLEAN,True,,{}
+P000657,CLEAN,True,,{}
+P000658,CLEAN,True,,{}
+P000659,CLEAN,True,,{}
+P000660,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 357.41, ""tag"": ""SPEED_JUMP""}"
+P000661,CLEAN,True,,{}
+P000662,CLEAN,True,,{}
+P000663,CLEAN,True,,{}
+P000664,CLEAN,True,,{}
+P000665,CLEAN,True,,{}
+P000666,LATE,True,,"{""ingest_delay_extra_s"": 802.0, ""tag"": ""LATE""}"
+P000667,CLEAN,True,,{}
+P000668,CLEAN,True,,{}
+P000669,CLEAN,True,,{}
+P000670,CLEAN,True,,{}
+P000671,CLEAN,True,,{}
+P000672,CLEAN,True,,{}
+P000673,CLEAN,True,,{}
+P000674,LATE,True,,"{""ingest_delay_extra_s"": 797.0, ""tag"": ""LATE""}"
+P000675,CLEAN,True,,{}
+P000676,CLEAN,True,,{}
+P000677,CLEAN,True,,{}
+P000678,CLEAN,True,,{}
+P000679,GAP_EDGE_30S_END,True,,{}
+P000680,CLEAN,True,,{}
+P000681,CLEAN,True,,{}
+P000682,CLEAN,True,,{}
+P000683,CLEAN,True,,{}
+P000684,CLEAN,True,,{}
+P000685,CLEAN,True,,{}
+P000686,CLEAN,True,,{}
+P000687,CLEAN,True,,{}
+P000688,CLEAN,True,,{}
+P000689,CLEAN,True,,{}
+P000690,EDGE_100M_KEEP,True,,"{""offroad_m"": 99.9988, ""tag"": ""EDGE_100M_KEEP""}"
+P000691,CLEAN,True,,{}
+P000692,CLEAN,True,,{}
+P000693,CLEAN,True,,{}
+P000694,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 588.3, ""tag"": ""NOISE_OFFROAD""}"
+P000695,CLEAN,True,,{}
+P000696,CLEAN,True,,{}
+P000697,CLEAN,True,,{}
+P000698,CLEAN,True,,{}
+P000699,CLEAN,True,,{}
+P000700,CLEAN,True,,{}
+P000701,CLEAN,True,,{}
+P000702,CLEAN,True,,{}
+P000703,CLEAN,True,,{}
+P000704,CLEAN,True,,{}
+P000705,CLEAN,True,,{}
+P000706,CLEAN,True,,{}
+P000707,CLEAN,True,,{}
+P000708,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 223.82, ""tag"": ""NOISE_OFFROAD""}"
+P000709,CLEAN,True,,{}
+P000710,CLEAN,True,,{}
+P000711,CLEAN,True,,{}
+P000712,CLEAN,True,,{}
+P000713,CLEAN,True,,{}
+P000714,CLEAN,True,,{}
+P000715,CLEAN,True,,{}
+P000716,CLEAN,True,,{}
+P000717,CLEAN,True,,{}
+P000718,CLEAN,True,,{}
+P000719,CLEAN,True,,{}
+P000720,DUP_KEPT,True,,"{""dup_partner"": ""P000721""}"
+P000721,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P000720"", ""exact_copy"": true, ""mode"": ""orig_first""}"
+P000722,CLEAN,True,,{}
+P000723,CLEAN,True,,{}
+P000724,CLEAN,True,,{}
+P000725,CLEAN,True,,{}
+P000726,CLEAN,True,,{}
+P000727,CLEAN,True,,{}
+P000728,CLEAN,True,,{}
+P000729,CLEAN,True,,{}
+P000730,CLEAN,True,,{}
+P000731,CLEAN,True,,{}
+P000732,CLEAN,True,,{}
+P000733,CLEAN,True,,{}
+P000734,CLEAN,True,,{}
+P000735,CLEAN,True,,{}
+P000736,LATE,True,,"{""ingest_delay_extra_s"": 893.0, ""tag"": ""LATE""}"
+P000737,CLEAN,True,,{}
+P000738,CLEAN,True,,{}
+P000739,CLEAN,True,,{}
+P000740,CLEAN,True,,{}
+P000741,CLEAN,True,,{}
+P000742,CLEAN,True,,{}
+P000743,CLEAN,True,,{}
+P000744,CLEAN,True,,{}
+P000745,DUP_KEPT,True,,"{""dup_partner"": ""P000746""}"
+P000746,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P000745"", ""exact_copy"": false, ""mode"": ""orig_first""}"
+P000747,CLEAN,True,,{}
+P000748,CLEAN,True,,{}
+P000749,CLEAN,True,,{}
+P000750,CLEAN,True,,{}
+P000751,GAP_EDGE_30S_END,True,,{}
+P000752,CLEAN,True,,{}
+P000753,CLEAN,True,,{}
+P000754,CLEAN,True,,{}
+P000755,CLEAN,True,,{}
+P000756,CLEAN,True,,{}
+P000757,CLEAN,True,,{}
+P000758,CLEAN,True,,{}
+P000759,CLEAN,True,,{}
+P000760,CLEAN,True,,{}
+P000761,CLEAN,True,,{}
+P000762,CLEAN,True,,{}
+P000763,CLEAN,True,,{}
+P000764,CLEAN,True,,{}
+P000765,CLEAN,True,,{}
+P000766,CLEAN,True,,{}
+P000767,CLEAN,True,,{}
+P000768,CLEAN,True,,{}
+P000769,CLEAN,True,,{}
+P000770,CLEAN,True,,{}
+P000771,CLEAN,True,,{}
+P000772,CLEAN,True,,{}
+P000773,CLEAN,True,,{}
+P000774,CLEAN,True,,{}
+P000775,CLEAN,True,,{}
+P000776,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 439.97, ""tag"": ""SPEED_JUMP""}"
+P000777,CLEAN,True,,{}
+P000778,CLEAN,True,,{}
+P000779,CLEAN,True,,{}
+P000780,CLEAN,True,,{}
+P000781,CLEAN,True,,{}
+P000782,CLEAN,True,,{}
+P000783,GAP_90S_END,True,,{}
+P000784,CLEAN,True,,{}
+P000785,CLEAN,True,,{}
+P000786,CLEAN,True,,{}
+P000787,CLEAN,True,,{}
+P000788,CLEAN,True,,{}
+P000789,CLEAN,True,,{}
+P000790,CLEAN,True,,{}
+P000791,EDGE_100M_KEEP,True,,"{""offroad_m"": 100.0023, ""tag"": ""EDGE_100M_KEEP""}"
+P000792,CLEAN,True,,{}
+P000793,CLEAN,True,,{}
+P000794,CLEAN,True,,{}
+P000795,CLEAN,True,,{}
+P000796,CLEAN,True,,{}
+P000797,CLEAN,True,,{}
+P000798,CLEAN,True,,{}
+P000799,CLEAN,True,,{}
+P000800,CLEAN,True,,{}
+P000801,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 574.89, ""tag"": ""SPEED_JUMP""}"
+P000802,CLEAN,True,,{}
+P000803,CLEAN,True,,{}
+P000804,CLEAN,True,,{}
+P000805,CLEAN,True,,{}
+P000806,CLEAN,True,,{}
+P000807,CLEAN,True,,{}
+P000808,CLEAN,True,,{}
+P000809,LATE,True,,"{""ingest_delay_extra_s"": 808.0, ""tag"": ""LATE""}"
+P000810,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 571.7, ""tag"": ""NOISE_OFFROAD""}"
+P000811,CLEAN,True,,{}
+P000812,CLEAN,True,,{}
+P000813,CLEAN,True,,{}
+P000814,CLEAN,True,,{}
+P000815,LATE,True,,"{""ingest_delay_extra_s"": 446.0, ""tag"": ""LATE""}"
+P000816,GAP_300S_END,True,,{}
+P000817,CLEAN,True,,{}
+P000818,CLEAN,True,,{}
+P000819,CLEAN,True,,{}
+P000820,CLEAN,True,,{}
+P000821,CLEAN,True,,{}
+P000822,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 186.02, ""tag"": ""NOISE_OFFROAD""}"
+P000823,CLEAN,True,,{}
+P000824,CLEAN,True,,{}
+P000825,CLEAN,True,,{}
+P000826,CLEAN,True,,{}
+P000827,CLEAN,True,,{}
+P000828,CLEAN,True,,{}
+P000829,CLEAN,True,,{}
+P000830,CLEAN,True,,{}
+P000831,CLEAN,True,,{}
+P000832,CLEAN,True,,{}
+P000833,CLEAN,True,,{}
+P000834,CLEAN,True,,{}
+P000835,CLEAN,True,,{}
+P000836,CLEAN,True,,{}
+P000837,CLEAN,True,,{}
+P000838,CLEAN,True,,{}
+P000839,CLEAN,True,,{}
+P000840,CLEAN,True,,{}
+P000841,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 501.98, ""tag"": ""SPEED_JUMP""}"
+P000842,CLEAN,True,,{}
+P000843,CLEAN,True,,{}
+P000844,CLEAN,True,,{}
+P000845,CLEAN,True,,{}
+P000846,CLEAN,True,,{}
+P000847,CLEAN,True,,{}
+P000848,CLEAN,True,,{}
+P000849,CLEAN,True,,{}
+P000850,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 303.94, ""tag"": ""NOISE_OFFROAD""}"
+P000851,CLEAN,True,,{}
+P000852,CLEAN,True,,{}
+P000853,INVALID_COORDINATES,False,INVALID_COORDINATES,{}
+P000854,DUP_KEPT,True,,"{""dup_partner"": ""P000855"", ""exact_copy"": false, ""mode"": ""dup_first""}"
+P000855,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P000854""}"
+P000856,MISSING_FIELD,False,MISSING_FIELD,{}
+P000857,CLEAN,True,,{}
+P000858,CLEAN,True,,{}
+P000859,CLEAN,True,,{}
+P000860,CLEAN,True,,{}
+P000861,EDGE_150_5KMH_REJECT,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 150.5032, ""tag"": ""EDGE_150_5KMH_REJECT""}"
+P000862,CLEAN,True,,{}
+P000863,CLEAN,True,,{}
+P000864,CLEAN,True,,{}
+P000865,CLEAN,True,,{}
+P000866,CLEAN,True,,{}
+P000867,CLEAN,True,,{}
+P000868,CLEAN,True,,{}
+P000869,CLEAN,True,,{}
+P000870,CLEAN,True,,{}
+P000871,CLEAN,True,,{}
+P000872,CLEAN,True,,{}
+P000873,EDGE_150KMH_KEEP,True,,"{""implied_speed_kmh"": 150.0019, ""tag"": ""EDGE_150KMH_KEEP""}"
+P000874,CLEAN,True,,{}
+P000875,CLEAN,True,,{}
+P000876,CLEAN,True,,{}
+P000877,DUP_KEPT,True,,"{""dup_partner"": ""P000878""}"
+P000878,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P000877"", ""exact_copy"": true, ""mode"": ""orig_first""}"
+P000879,CLEAN,True,,{}
+P000880,CLEAN,True,,{}
+P000881,LATE,True,,"{""ingest_delay_extra_s"": 490.0, ""tag"": ""LATE""}"
+P000882,CLEAN,True,,{}
+P000883,CLEAN,True,,{}
+P000884,CLEAN,True,,{}
+P000885,CLEAN,True,,{}
+P000886,CLEAN,True,,{}
+P000887,DUP_KEPT,True,,"{""dup_partner"": ""P000888""}"
+P000888,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P000887"", ""exact_copy"": false, ""mode"": ""orig_first""}"
+P000889,CLEAN,True,,{}
+P000890,CLEAN,True,,{}
+P000891,CLEAN,True,,{}
+P000892,CLEAN,True,,{}
+P000893,CLEAN,True,,{}
+P000894,CLEAN,True,,{}
+P000895,CLEAN,True,,{}
+P000896,CLEAN,True,,{}
+P000897,CLEAN,True,,{}
+P000898,CLEAN,True,,{}
+P000899,CLEAN,True,,{}
+P000900,CLEAN,True,,{}
+P000901,CLEAN,True,,{}
+P000902,CLEAN,True,,{}
+P000903,LATE,True,,"{""ingest_delay_extra_s"": 183.0, ""tag"": ""LATE""}"
+P000904,CLEAN,True,,{}
+P000905,CLEAN,True,,{}
+P000906,DUP_KEPT,True,,"{""dup_partner"": ""P000907""}"
+P000907,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P000906"", ""exact_copy"": true, ""mode"": ""orig_first""}"
+P000908,CLEAN,True,,{}
+P000909,CLEAN,True,,{}
+P000910,CLEAN,True,,{}
+P000911,LATE,True,,"{""ingest_delay_extra_s"": 439.0, ""tag"": ""LATE""}"
+P000912,CLEAN,True,,{}
+P000913,CLEAN,True,,{}
+P000914,CLEAN,True,,{}
+P000915,CLEAN,True,,{}
+P000916,CLEAN,True,,{}
+P000917,CLEAN,True,,{}
+P000918,CLEAN,True,,{}
+P000919,CLEAN,True,,{}
+P000920,CLEAN,True,,{}
+P000921,DUP_KEPT,True,,"{""dup_partner"": ""P000922""}"
+P000922,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P000921"", ""exact_copy"": false, ""mode"": ""tie""}"
+P000923,CLEAN,True,,{}
+P000924,CLEAN,True,,{}
+P000925,CLEAN,True,,{}
+P000926,CLEAN,True,,{}
+P000927,CLEAN,True,,{}
+P000928,CLEAN,True,,{}
+P000929,CLEAN,True,,{}
+P000930,CLEAN,True,,{}
+P000931,CLEAN,True,,{}
+P000932,CLEAN,True,,{}
+P000933,CLEAN,True,,{}
+P000934,CLEAN,True,,{}
+P000935,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 595.16, ""tag"": ""NOISE_OFFROAD""}"
+P000936,CLEAN,True,,{}
+P000937,CLEAN,True,,{}
+P000938,CLEAN,True,,{}
+P000939,CLEAN,True,,{}
+P000940,CLEAN,True,,{}
+P000941,CLEAN,True,,{}
+P000942,CLEAN,True,,{}
+P000943,CLEAN,True,,{}
+P000944,CLEAN,True,,{}
+P000945,CLEAN,True,,{}
+P000946,CLEAN,True,,{}
+P000947,CLEAN,True,,{}
+P000948,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 568.01, ""tag"": ""NOISE_OFFROAD""}"
+P000949,CLEAN,True,,{}
+P000950,CLEAN,True,,{}
+P000951,CLEAN,True,,{}
+P000952,CLEAN,True,,{}
+P000953,CLEAN,True,,{}
+P000954,EDGE_100_5M_REJECT,False,OFF_ROAD_GT_100M,"{""offroad_m"": 100.4993, ""tag"": ""EDGE_100_5M_REJECT""}"
+P000955,CLEAN,True,,{}
+P000956,CLEAN,True,,{}
+P000957,CLEAN,True,,{}
+P000958,CLEAN,True,,{}
+P000959,LATE,True,,"{""ingest_delay_extra_s"": 662.0, ""tag"": ""LATE""}"
+P000960,CLEAN,True,,{}
+P000961,CLEAN,True,,{}
+P000962,CLEAN,True,,{}
+P000963,LATE,True,,"{""ingest_delay_extra_s"": 721.0, ""tag"": ""LATE""}"
+P000964,LATE,True,,"{""ingest_delay_extra_s"": 860.0, ""tag"": ""LATE""}"
+P000965,CLEAN,True,,{}
+P000966,CLEAN,True,,{}
+P000967,CLEAN,True,,{}
+P000968,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 566.69, ""tag"": ""NOISE_OFFROAD""}"
+P000969,CLEAN,True,,{}
+P000970,CLEAN,True,,{}
+P000971,CLEAN,True,,{}
+P000972,CLEAN,True,,{}
+P000973,CLEAN,True,,{}
+P000974,CLEAN,True,,{}
+P000975,CLEAN,True,,{}
+P000976,CLEAN,True,,{}
+P000977,CLEAN,True,,{}
+P000978,CLEAN,True,,{}
+P000979,CLEAN,True,,{}
+P000980,CLEAN,True,,{}
+P000981,CLEAN,True,,{}
+P000982,CLEAN,True,,{}
+P000983,CLEAN,True,,{}
+P000984,CLEAN,True,,{}
+P000985,CLEAN,True,,{}
+P000986,CLEAN,True,,{}
+P000987,CLEAN,True,,{}
+P000988,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 515.39, ""tag"": ""SPEED_JUMP""}"
+P000989,CLEAN,True,,{}
+P000990,CLEAN,True,,{}
+P000991,CLEAN,True,,{}
+P000992,CLEAN,True,,{}
+P000993,CLEAN,True,,{}
+P000994,CLEAN,True,,{}
+P000995,DUP_KEPT,True,,"{""dup_partner"": ""P000997""}"
+P000996,CLEAN,True,,{}
+P000997,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P000995"", ""exact_copy"": false, ""mode"": ""orig_first""}"
+P000998,CLEAN,True,,{}
+P000999,CLEAN,True,,{}
+P001000,INVALID_COORDINATES,False,INVALID_COORDINATES,{}
+P001001,CLEAN,True,,{}
+P001002,CLEAN,True,,{}
+P001003,CLEAN,True,,{}
+P001004,CLEAN,True,,{}
+P001005,CLEAN,True,,{}
+P001006,CLEAN,True,,{}
+P001007,CLEAN,True,,{}
+P001008,CLEAN,True,,{}
+P001009,CLEAN,True,,{}
+P001010,CLEAN,True,,{}
+P001011,CLEAN,True,,{}
+P001012,CLEAN,True,,{}
+P001013,CLEAN,True,,{}
+P001014,CLEAN,True,,{}
+P001015,CLEAN,True,,{}
+P001016,CLEAN,True,,{}
+P001017,CLEAN,True,,{}
+P001018,CLEAN,True,,{}
+P001019,CLEAN,True,,{}
+P001020,CLEAN,True,,{}
+P001021,GAP_EDGE_30S_END,True,,{}
+P001022,CLEAN,True,,{}
+P001023,CLEAN,True,,{}
+P001024,CLEAN,True,,{}
+P001025,CLEAN,True,,{}
+P001026,CLEAN,True,,{}
+P001027,CLEAN,True,,{}
+P001028,CLEAN,True,,{}
+P001029,CLEAN,True,,{}
+P001030,CLEAN,True,,{}
+P001031,CLEAN,True,,{}
+P001032,CLEAN,True,,{}
+P001033,CLEAN,True,,{}
+P001034,CLEAN,True,,{}
+P001035,CLEAN,True,,{}
+P001036,CLEAN,True,,{}
+P001037,CLEAN,True,,{}
+P001038,CLEAN,True,,{}
+P001039,CLEAN,True,,{}
+P001040,CLEAN,True,,{}
+P001041,CLEAN,True,,{}
+P001042,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 571.56, ""tag"": ""SPEED_JUMP""}"
+P001043,CLEAN,True,,{}
+P001044,CLEAN,True,,{}
+P001045,CLEAN,True,,{}
+P001046,CLEAN,True,,{}
+P001047,CLEAN,True,,{}
+P001048,CLEAN,True,,{}
+P001049,CLEAN,True,,{}
+P001050,CLEAN,True,,{}
+P001051,CLEAN,True,,{}
+P001052,CLEAN,True,,{}
+P001053,CLEAN,True,,{}
+P001054,CLEAN,True,,{}
+P001055,CLEAN,True,,{}
+P001056,CLEAN,True,,{}
+P001057,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 286.6, ""tag"": ""NOISE_OFFROAD""}"
+P001058,CLEAN,True,,{}
+P001059,CLEAN,True,,{}
+P001060,CLEAN,True,,{}
+P001061,CLEAN,True,,{}
+P001062,DUP_KEPT,True,,"{""dup_partner"": ""P001063""}"
+P001063,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P001062"", ""exact_copy"": false, ""mode"": ""orig_first""}"
+P001064,CLEAN,True,,{}
+P001065,CLEAN,True,,{}
+P001066,CLEAN,True,,{}
+P001067,CLEAN,True,,{}
+P001068,CLEAN,True,,{}
+P001069,CLEAN,True,,{}
+P001070,CLEAN,True,,{}
+P001071,CLEAN,True,,{}
+P001072,CLEAN,True,,{}
+P001073,CLEAN,True,,{}
+P001074,CLEAN,True,,{}
+P001075,CLEAN,True,,{}
+P001076,EDGE_100_5M_REJECT,False,OFF_ROAD_GT_100M,"{""offroad_m"": 100.5018, ""tag"": ""EDGE_100_5M_REJECT""}"
+P001077,CLEAN,True,,{}
+P001078,CLEAN,True,,{}
+P001079,CLEAN,True,,{}
+P001080,CLEAN,True,,{}
+P001081,CLEAN,True,,{}
+P001082,CLEAN,True,,{}
+P001083,CLEAN,True,,{}
+P001084,CLEAN,True,,{}
+P001085,CLEAN,True,,{}
+P001086,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 641.72, ""tag"": ""SPEED_JUMP""}"
+P001087,CLEAN,True,,{}
+P001088,CLEAN,True,,{}
+P001089,CLEAN,True,,{}
+P001090,DUP_KEPT,True,,"{""dup_partner"": ""P001092""}"
+P001091,CLEAN,True,,{}
+P001092,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P001090"", ""exact_copy"": false, ""mode"": ""orig_first""}"
+P001093,CLEAN,True,,{}
+P001094,CLEAN,True,,{}
+P001095,CLEAN,True,,{}
+P001096,CLEAN,True,,{}
+P001097,CLEAN,True,,{}
+P001098,CLEAN,True,,{}
+P001099,CLEAN,True,,{}
+P001100,CLEAN,True,,{}
+P001101,CLEAN,True,,{}
+P001102,CLEAN,True,,{}
+P001103,CLEAN,True,,{}
+P001104,CLEAN,True,,{}
+P001105,CLEAN,True,,{}
+P001106,CLEAN,True,,{}
+P001107,CLEAN,True,,{}
+P001108,CLEAN,True,,{}
+P001109,CLEAN,True,,{}
+P001110,CLEAN,True,,{}
+P001111,LATE,True,,"{""ingest_delay_extra_s"": 225.0, ""tag"": ""LATE""}"
+P001112,CLEAN,True,,{}
+P001113,CLEAN,True,,{}
+P001114,CLEAN,True,,{}
+P001115,CLEAN,True,,{}
+P001116,CLEAN,True,,{}
+P001117,CLEAN,True,,{}
+P001118,CLEAN,True,,{}
+P001119,CLEAN,True,,{}
+P001120,CLEAN,True,,{}
+P001121,CLEAN,True,,{}
+P001122,CLEAN,True,,{}
+P001123,CLEAN,True,,{}
+P001124,CLEAN,True,,{}
+P001125,CLEAN,True,,{}
+P001126,CLEAN,True,,{}
+P001127,LATE,True,,"{""ingest_delay_extra_s"": 195.0, ""tag"": ""LATE""}"
+P001128,CLEAN,True,,{}
+P001129,CLEAN,True,,{}
+P001130,CLEAN,True,,{}
+P001131,CLEAN,True,,{}
+P001132,CLEAN,True,,{}
+P001133,CLEAN,True,,{}
+P001134,CLEAN,True,,{}
+P001135,CLEAN,True,,{}
+P001136,CLEAN,True,,{}
+P001137,CLEAN,True,,{}
+P001138,CLEAN,True,,{}
+P001139,CLEAN,True,,{}
+P001140,CLEAN,True,,{}
+P001141,CLEAN,True,,{}
+P001142,CLEAN,True,,{}
+P001143,CLEAN,True,,{}
+P001144,CLEAN,True,,{}
+P001145,CLEAN,True,,{}
+P001146,CLEAN,True,,{}
+P001147,CLEAN,True,,{}
+P001148,CLEAN,True,,{}
+P001149,CLEAN,True,,{}
+P001150,CLEAN,True,,{}
+P001151,CLEAN,True,,{}
+P001152,CLEAN,True,,{}
+P001153,CLEAN,True,,{}
+P001154,CLEAN,True,,{}
+P001155,CLEAN,True,,{}
+P001156,CLEAN,True,,{}
+P001157,CLEAN,True,,{}
+P001158,CLEAN,True,,{}
+P001159,CLEAN,True,,{}
+P001160,CLEAN,True,,{}
+P001161,CLEAN,True,,{}
+P001162,CLEAN,True,,{}
+P001163,CLEAN,True,,{}
+P001164,CLEAN,True,,{}
+P001165,CLEAN,True,,{}
+P001166,CLEAN,True,,{}
+P001167,EDGE_100_5M_REJECT,False,OFF_ROAD_GT_100M,"{""offroad_m"": 100.4989, ""tag"": ""EDGE_100_5M_REJECT""}"
+P001168,CLEAN,True,,{}
+P001169,CLEAN,True,,{}
+P001170,CLEAN,True,,{}
+P001171,CLEAN,True,,{}
+P001172,CLEAN,True,,{}
+P001173,CLEAN,True,,{}
+P001174,CLEAN,True,,{}
+P001175,DUP_KEPT,True,,"{""dup_partner"": ""P001178"", ""exact_copy"": false, ""mode"": ""dup_first""}"
+P001176,CLEAN,True,,{}
+P001177,CLEAN,True,,{}
+P001178,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P001175""}"
+P001179,CLEAN,True,,{}
+P001180,LATE,True,,"{""ingest_delay_extra_s"": 244.0, ""tag"": ""LATE""}"
+P001181,INVALID_TIMESTAMP,False,INVALID_TIMESTAMP,{}
+P001182,CLEAN,True,,{}
+P001183,CLEAN,True,,{}
+P001184,CLEAN,True,,{}
+P001185,CLEAN,True,,{}
+P001186,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 146.98, ""tag"": ""NOISE_OFFROAD""}"
+P001187,CLEAN,True,,{}
+P001188,CLEAN,True,,{}
+P001189,CLEAN,True,,{}
+P001190,LATE,True,,"{""ingest_delay_extra_s"": 739.0, ""tag"": ""LATE""}"
+P001191,EDGE_150KMH_KEEP,True,,"{""implied_speed_kmh"": 150.0009, ""tag"": ""EDGE_150KMH_KEEP""}"
+P001192,CLEAN,True,,{}
+P001193,CLEAN,True,,{}
+P001194,CLEAN,True,,{}
+P001195,CLEAN,True,,{}
+P001196,CLEAN,True,,{}
+P001197,CLEAN,True,,{}
+P001198,CLEAN,True,,{}
+P001199,CLEAN,True,,{}
+P001200,CLEAN,True,,{}
+P001201,CLEAN,True,,{}
+P001202,CLEAN,True,,{}
+P001203,CLEAN,True,,{}
+P001204,CLEAN,True,,{}
+P001205,LATE,True,,"{""ingest_delay_extra_s"": 637.0, ""tag"": ""LATE""}"
+P001206,EDGE_100M_KEEP,True,,"{""offroad_m"": 100.0025, ""tag"": ""EDGE_100M_KEEP""}"
+P001207,CLEAN,True,,{}
+P001208,CLEAN,True,,{}
+P001209,CLEAN,True,,{}
+P001210,CLEAN,True,,{}
+P001211,CLEAN,True,,{}
+P001212,CLEAN,True,,{}
+P001213,CLEAN,True,,{}
+P001214,CLEAN,True,,{}
+P001215,CLEAN,True,,{}
+P001216,DUP_KEPT,True,,"{""dup_partner"": ""P001218"", ""exact_copy"": true, ""mode"": ""dup_first""}"
+P001217,CLEAN,True,,{}
+P001218,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P001216""}"
+P001219,CLEAN,True,,{}
+P001220,CLEAN,True,,{}
+P001221,CLEAN,True,,{}
+P001222,CLEAN,True,,{}
+P001223,CLEAN,True,,{}
+P001224,CLEAN,True,,{}
+P001225,GAP_EDGE_30S_END,True,,{}
+P001226,CLEAN,True,,{}
+P001227,CLEAN,True,,{}
+P001228,EDGE_150_5KMH_REJECT,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 150.5002, ""tag"": ""EDGE_150_5KMH_REJECT""}"
+P001229,CLEAN,True,,{}
+P001230,CLEAN,True,,{}
+P001231,CLEAN,True,,{}
+P001232,CLEAN,True,,{}
+P001233,EDGE_150_5KMH_REJECT,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 150.4982, ""tag"": ""EDGE_150_5KMH_REJECT""}"
+P001234,CLEAN,True,,{}
+P001235,CLEAN,True,,{}
+P001236,CLEAN,True,,{}
+P001237,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 420.51, ""tag"": ""NOISE_OFFROAD""}"
+P001238,CLEAN,True,,{}
+P001239,CLEAN,True,,{}
+P001240,CLEAN,True,,{}
+P001241,CLEAN,True,,{}
+P001242,CLEAN,True,,{}
+P001243,CLEAN,True,,{}
+P001244,CLEAN,True,,{}
+P001245,CLEAN,True,,{}
+P001246,CLEAN,True,,{}
+P001247,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 509.42, ""tag"": ""SPEED_JUMP""}"
+P001248,CLEAN,True,,{}
+P001249,CLEAN,True,,{}
+P001250,CLEAN,True,,{}
+P001251,CLEAN,True,,{}
+P001252,CLEAN,True,,{}
+P001253,CLEAN,True,,{}
+P001254,CLEAN,True,,{}
+P001255,CLEAN,True,,{}
+P001256,CLEAN,True,,{}
+P001257,CLEAN,True,,{}
+P001258,CLEAN,True,,{}
+P001259,CLEAN,True,,{}
+P001260,CLEAN,True,,{}
+P001261,CLEAN,True,,{}
+P001262,CLEAN,True,,{}
+P001263,CLEAN,True,,{}
+P001264,CLEAN,True,,{}
+P001265,CLEAN,True,,{}
+P001266,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 139.95, ""tag"": ""NOISE_OFFROAD""}"
+P001267,CLEAN,True,,{}
+P001268,CLEAN,True,,{}
+P001269,CLEAN,True,,{}
+P001270,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 240.48, ""tag"": ""NOISE_OFFROAD""}"
+P001271,CLEAN,True,,{}
+P001272,CLEAN,True,,{}
+P001273,CLEAN,True,,{}
+P001274,LATE,True,,"{""ingest_delay_extra_s"": 192.0, ""tag"": ""LATE""}"
+P001275,CLEAN,True,,{}
+P001276,CLEAN,True,,{}
+P001277,CLEAN,True,,{}
+P001278,CLEAN,True,,{}
+P001279,CLEAN,True,,{}
+P001280,CLEAN,True,,{}
+P001281,CLEAN,True,,{}
+P001282,CLEAN,True,,{}
+P001283,CLEAN,True,,{}
+P001284,EDGE_150_5KMH_REJECT,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 150.4985, ""tag"": ""EDGE_150_5KMH_REJECT""}"
+P001285,CLEAN,True,,{}
+P001286,DUP_KEPT,True,,"{""dup_partner"": ""P001287""}"
+P001287,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P001286"", ""exact_copy"": true, ""mode"": ""orig_first""}"
+P001288,CLEAN,True,,{}
+P001289,CLEAN,True,,{}
+P001290,CLEAN,True,,{}
+P001291,CLEAN,True,,{}
+P001292,CLEAN,True,,{}
+P001293,CLEAN,True,,{}
+P001294,CLEAN,True,,{}
+P001295,CLEAN,True,,{}
+P001296,CLEAN,True,,{}
+P001297,CLEAN,True,,{}
+P001298,CLEAN,True,,{}
+P001299,LATE,True,,"{""ingest_delay_extra_s"": 133.0, ""tag"": ""LATE""}"
+P001300,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 596.44, ""tag"": ""NOISE_OFFROAD""}"
+P001301,CLEAN,True,,{}
+P001302,CLEAN,True,,{}
+P001303,CLEAN,True,,{}
+P001304,CLEAN,True,,{}
+P001305,CLEAN,True,,{}
+P001306,CLEAN,True,,{}
+P001307,CLEAN,True,,{}
+P001308,CLEAN,True,,{}
+P001309,CLEAN,True,,{}
+P001310,CLEAN,True,,{}
+P001311,CLEAN,True,,{}
+P001312,LATE,True,,"{""ingest_delay_extra_s"": 277.0, ""tag"": ""LATE""}"
+P001313,CLEAN,True,,{}
+P001314,CLEAN,True,,{}
+P001315,CLEAN,True,,{}
+P001316,CLEAN,True,,{}
+P001317,CLEAN,True,,{}
+P001318,CLEAN,True,,{}
+P001319,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 657.8, ""tag"": ""SPEED_JUMP""}"
+P001320,CLEAN,True,,{}
+P001321,CLEAN,True,,{}
+P001322,CLEAN,True,,{}
+P001323,CLEAN,True,,{}
+P001324,CLEAN,True,,{}
+P001325,CLEAN,True,,{}
+P001326,CLEAN,True,,{}
+P001327,CLEAN,True,,{}
+P001328,CLEAN,True,,{}
+P001329,CLEAN,True,,{}
+P001330,CLEAN,True,,{}
+P001331,CLEAN,True,,{}
+P001332,CLEAN,True,,{}
+P001333,CLEAN,True,,{}
+P001334,CLEAN,True,,{}
+P001335,CLEAN,True,,{}
+P001336,CLEAN,True,,{}
+P001337,CLEAN,True,,{}
+P001338,CLEAN,True,,{}
+P001339,CLEAN,True,,{}
+P001340,CLEAN,True,,{}
+P001341,CLEAN,True,,{}
+P001342,CLEAN,True,,{}
+P001343,CLEAN,True,,{}
+P001344,CLEAN,True,,{}
+P001345,CLEAN,True,,{}
+P001346,CLEAN,True,,{}
+P001347,CLEAN,True,,{}
+P001348,EDGE_100M_KEEP,True,,"{""offroad_m"": 100.0043, ""tag"": ""EDGE_100M_KEEP""}"
+P001349,CLEAN,True,,{}
+P001350,LATE,True,,"{""ingest_delay_extra_s"": 457.0, ""tag"": ""LATE""}"
+P001351,CLEAN,True,,{}
+P001352,CLEAN,True,,{}
+P001353,CLEAN,True,,{}
+P001354,CLEAN,True,,{}
+P001355,CLEAN,True,,{}
+P001356,CLEAN,True,,{}
+P001357,CLEAN,True,,{}
+P001358,CLEAN,True,,{}
+P001359,CLEAN,True,,{}
+P001360,CLEAN,True,,{}
+P001361,CLEAN,True,,{}
+P001362,CLEAN,True,,{}
+P001363,CLEAN,True,,{}
+P001364,CLEAN,True,,{}
+P001365,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 528.82, ""tag"": ""NOISE_OFFROAD""}"
+P001366,LATE_ACROSS_CUTOFF,True,,"{""ingest_delay_extra_s"": 600.0, ""tag"": ""LATE_ACROSS_CUTOFF""}"
+P001367,CLEAN,True,,{}
+P001368,LATE_ACROSS_CUTOFF,True,,"{""ingest_delay_extra_s"": 600.0, ""tag"": ""LATE_ACROSS_CUTOFF""}"
+P001369,CLEAN,True,,{}
+P001370,LATE_ACROSS_CUTOFF,True,,"{""ingest_delay_extra_s"": 600.0, ""tag"": ""LATE_ACROSS_CUTOFF""}"
+P001371,LATE_ACROSS_CUTOFF,True,,"{""ingest_delay_extra_s"": 600.0, ""tag"": ""LATE_ACROSS_CUTOFF""}"
+P001372,CLEAN,True,,{}
+P001373,CLEAN,True,,{}
+P001374,CLEAN,True,,{}
+P001375,CLEAN,True,,{}
+P001376,CLEAN,True,,{}
+P001377,CLEAN,True,,{}
+P001378,CLEAN,True,,{}
+P001379,DUP_KEPT,True,,"{""dup_partner"": ""P001381""}"
+P001380,CLEAN,True,,{}
+P001381,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P001379"", ""exact_copy"": true, ""mode"": ""orig_first""}"
+P001382,CLEAN,True,,{}
+P001383,CLEAN,True,,{}
+P001384,CLEAN,True,,{}
+P001385,CLEAN,True,,{}
+P001386,LATE,True,,"{""ingest_delay_extra_s"": 386.0, ""tag"": ""LATE""}"
+P001387,CLEAN,True,,{}
+P001388,CLEAN,True,,{}
+P001389,CLEAN,True,,{}
+P001390,CLEAN,True,,{}
+P001391,CLEAN,True,,{}
+P001392,CLEAN,True,,{}
+P001393,CLEAN,True,,{}
+P001394,CLEAN,True,,{}
+P001395,CLEAN,True,,{}
+P001396,CLEAN,True,,{}
+P001397,CLEAN,True,,{}
+P001398,CLEAN,True,,{}
+P001399,LATE,True,,"{""ingest_delay_extra_s"": 205.0, ""tag"": ""LATE""}"
+P001400,CLEAN,True,,{}
+P001401,CLEAN,True,,{}
+P001402,CLEAN,True,,{}
+P001403,CLEAN,True,,{}
+P001404,GAP_90S_END,True,,{}
+P001405,CLEAN,True,,{}
+P001406,CLEAN,True,,{}
+P001407,CLEAN,True,,{}
+P001408,CLEAN,True,,{}
+P001409,CLEAN,True,,{}
+P001410,CLEAN,True,,{}
+P001411,CLEAN,True,,{}
+P001412,CLEAN,True,,{}
+P001413,LATE,True,,"{""ingest_delay_extra_s"": 464.0, ""tag"": ""LATE""}"
+P001414,CLEAN,True,,{}
+P001415,CLEAN,True,,{}
+P001416,CLEAN,True,,{}
+P001417,CLEAN,True,,{}
+P001418,EDGE_150KMH_KEEP,True,,"{""implied_speed_kmh"": 150.003, ""tag"": ""EDGE_150KMH_KEEP""}"
+P001419,CLEAN,True,,{}
+P001420,CLEAN,True,,{}
+P001421,CLEAN,True,,{}
+P001422,CLEAN,True,,{}
+P001423,CLEAN,True,,{}
+P001424,CLEAN,True,,{}
+P001425,CLEAN,True,,{}
+P001426,CLEAN,True,,{}
+P001427,CLEAN,True,,{}
+P001428,CLEAN,True,,{}
+P001429,CLEAN,True,,{}
+P001430,GAP_300S_END,True,,{}
+P001431,DUP_KEPT,True,,"{""dup_partner"": ""P001432"", ""exact_copy"": true, ""mode"": ""dup_first""}"
+P001432,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P001431""}"
+P001433,CLEAN,True,,{}
+P001434,CLEAN,True,,{}
+P001435,CLEAN,True,,{}
+P001436,CLEAN,True,,{}
+P001437,CLEAN,True,,{}
+P001438,CLEAN,True,,{}
+P001439,CLEAN,True,,{}
+P001440,CLEAN,True,,{}
+P001441,CLEAN,True,,{}
+P001442,CLEAN,True,,{}
+P001443,CLEAN,True,,{}
+P001444,CLEAN,True,,{}
+P001445,CLEAN,True,,{}
+P001446,GAP_90S_END,True,,{}
+P001447,CLEAN,True,,{}
+P001448,CLEAN,True,,{}
+P001449,CLEAN,True,,{}
+P001450,CLEAN,True,,{}
+P001451,CLEAN,True,,{}
+P001452,CLEAN,True,,{}
+P001453,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 509.15, ""tag"": ""SPEED_JUMP""}"
+P001454,CLEAN,True,,{}
+P001455,CLEAN,True,,{}
+P001456,CLEAN,True,,{}
+P001457,CLEAN,True,,{}
+P001458,CLEAN,True,,{}
+P001459,CLEAN,True,,{}
+P001460,CLEAN,True,,{}
+P001461,CLEAN,True,,{}
+P001462,CLEAN,True,,{}
+P001463,CLEAN,True,,{}
+P001464,CLEAN,True,,{}
+P001465,CLEAN,True,,{}
+P001466,CLEAN,True,,{}
+P001467,CLEAN,True,,{}
+P001468,CLEAN,True,,{}
+P001469,CLEAN,True,,{}
+P001470,LATE,True,,"{""ingest_delay_extra_s"": 412.0, ""tag"": ""LATE""}"
+P001471,CLEAN,True,,{}
+P001472,CLEAN,True,,{}
+P001473,CLEAN,True,,{}
+P001474,CLEAN,True,,{}
+P001475,CLEAN,True,,{}
+P001476,CLEAN,True,,{}
+P001477,CLEAN,True,,{}
+P001478,CLEAN,True,,{}
+P001479,EDGE_150_5KMH_REJECT,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 150.5021, ""tag"": ""EDGE_150_5KMH_REJECT""}"
+P001480,CLEAN,True,,{}
+P001481,CLEAN,True,,{}
+P001482,CLEAN,True,,{}
+P001483,CLEAN,True,,{}
+P001484,CLEAN,True,,{}
+P001485,CLEAN,True,,{}
+P001486,CLEAN,True,,{}
+P001487,CLEAN,True,,{}
+P001488,CLEAN,True,,{}
+P001489,GAP_EDGE_30S_END,True,,{}
+P001490,CLEAN,True,,{}
+P001491,CLEAN,True,,{}
+P001492,CLEAN,True,,{}
+P001493,CLEAN,True,,{}
+P001494,CLEAN,True,,{}
+P001495,CLEAN,True,,{}
+P001496,CLEAN,True,,{}
+P001497,CLEAN,True,,{}
+P001498,CLEAN,True,,{}
+P001499,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 561.65, ""tag"": ""NOISE_OFFROAD""}"
+P001500,CLEAN,True,,{}
+P001501,CLEAN,True,,{}
+P001502,CLEAN,True,,{}
+P001503,CLEAN,True,,{}
+P001504,CLEAN,True,,{}
+P001505,CLEAN,True,,{}
+P001506,CLEAN,True,,{}
+P001507,CLEAN,True,,{}
+P001508,CLEAN,True,,{}
+P001509,CLEAN,True,,{}
+P001510,LATE,True,,"{""ingest_delay_extra_s"": 613.0, ""tag"": ""LATE""}"
+P001511,CLEAN,True,,{}
+P001512,DUP_KEPT,True,,"{""dup_partner"": ""P001513""}"
+P001513,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P001512"", ""exact_copy"": true, ""mode"": ""orig_first""}"
+P001514,CLEAN,True,,{}
+P001515,CLEAN,True,,{}
+P001516,CLEAN,True,,{}
+P001517,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 589.41, ""tag"": ""SPEED_JUMP""}"
+P001518,CLEAN,True,,{}
+P001519,CLEAN,True,,{}
+P001520,CLEAN,True,,{}
+P001521,CLEAN,True,,{}
+P001522,CLEAN,True,,{}
+P001523,EDGE_100M_KEEP,True,,"{""offroad_m"": 100.0006, ""tag"": ""EDGE_100M_KEEP""}"
+P001524,DUP_KEPT,True,,"{""dup_partner"": ""P001525"", ""exact_copy"": true, ""mode"": ""dup_first""}"
+P001525,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P001524""}"
+P001526,CLEAN,True,,{}
+P001527,CLEAN,True,,{}
+P001528,CLEAN,True,,{}
+P001529,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 558.43, ""tag"": ""NOISE_OFFROAD""}"
+P001530,CLEAN,True,,{}
+P001531,CLEAN,True,,{}
+P001532,CLEAN,True,,{}
+P001533,LATE,True,,"{""ingest_delay_extra_s"": 539.0, ""tag"": ""LATE""}"
+P001534,CLEAN,True,,{}
+P001535,CLEAN,True,,{}
+P001536,CLEAN,True,,{}
+P001537,CLEAN,True,,{}
+P001538,CLEAN,True,,{}
+P001539,CLEAN,True,,{}
+P001540,CLEAN,True,,{}
+P001541,CLEAN,True,,{}
+P001542,CLEAN,True,,{}
+P001543,CLEAN,True,,{}
+P001544,CLEAN,True,,{}
+P001545,CLEAN,True,,{}
+P001546,CLEAN,True,,{}
+P001547,CLEAN,True,,{}
+P001548,CLEAN,True,,{}
+P001549,DUP_KEPT,True,,"{""dup_partner"": ""P001551""}"
+P001550,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 527.28, ""tag"": ""NOISE_OFFROAD""}"
+P001551,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P001549"", ""exact_copy"": false, ""mode"": ""orig_first""}"
+P001552,CLEAN,True,,{}
+P001553,CLEAN,True,,{}
+P001554,CLEAN,True,,{}
+P001555,CLEAN,True,,{}
+P001556,CLEAN,True,,{}
+P001557,CLEAN,True,,{}
+P001558,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 226.54, ""tag"": ""NOISE_OFFROAD""}"
+P001559,CLEAN,True,,{}
+P001560,CLEAN,True,,{}
+P001561,CLEAN,True,,{}
+P001562,CLEAN,True,,{}
+P001563,CLEAN,True,,{}
+P001564,CLEAN,True,,{}
+P001565,CLEAN,True,,{}
+P001566,CLEAN,True,,{}
+P001567,CLEAN,True,,{}
+P001568,CLEAN,True,,{}
+P001569,CLEAN,True,,{}
+P001570,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 313.61, ""tag"": ""NOISE_OFFROAD""}"
+P001571,CLEAN,True,,{}
+P001572,DUP_KEPT,True,,"{""dup_partner"": ""P001573""}"
+P001573,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P001572"", ""exact_copy"": true, ""mode"": ""orig_first""}"
+P001574,CLEAN,True,,{}
+P001575,CLEAN,True,,{}
+P001576,CLEAN,True,,{}
+P001577,CLEAN,True,,{}
+P001578,CLEAN,True,,{}
+P001579,LATE,True,,"{""ingest_delay_extra_s"": 261.0, ""tag"": ""LATE""}"
+P001580,CLEAN,True,,{}
+P001581,CLEAN,True,,{}
+P001582,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 389.32, ""tag"": ""NOISE_OFFROAD""}"
+P001583,CLEAN,True,,{}
+P001584,CLEAN,True,,{}
+P001585,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 423.24, ""tag"": ""SPEED_JUMP""}"
+P001586,CLEAN,True,,{}
+P001587,CLEAN,True,,{}
+P001588,CLEAN,True,,{}
+P001589,CLEAN,True,,{}
+P001590,CLEAN,True,,{}
+P001591,CLEAN,True,,{}
+P001592,CLEAN,True,,{}
+P001593,CLEAN,True,,{}
+P001594,CLEAN,True,,{}
+P001595,DUP_KEPT,True,,"{""dup_partner"": ""P001596""}"
+P001596,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P001595"", ""exact_copy"": true, ""mode"": ""orig_first""}"
+P001597,CLEAN,True,,{}
+P001598,EDGE_100_5M_REJECT,False,OFF_ROAD_GT_100M,"{""offroad_m"": 100.5041, ""tag"": ""EDGE_100_5M_REJECT""}"
+P001599,CLEAN,True,,{}
+P001600,CLEAN,True,,{}
+P001601,CLEAN,True,,{}
+P001602,CLEAN,True,,{}
+P001603,CLEAN,True,,{}
+P001604,CLEAN,True,,{}
+P001605,CLEAN,True,,{}
+P001606,CLEAN,True,,{}
+P001607,CLEAN,True,,{}
+P001608,CLEAN,True,,{}
+P001609,DUP_KEPT,True,,"{""dup_partner"": ""P001610""}"
+P001610,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P001609"", ""exact_copy"": true, ""mode"": ""orig_first""}"
+P001611,CLEAN,True,,{}
+P001612,CLEAN,True,,{}
+P001613,CLEAN,True,,{}
+P001614,CLEAN,True,,{}
+P001615,CLEAN,True,,{}
+P001616,LATE,True,,"{""ingest_delay_extra_s"": 545.0, ""tag"": ""LATE""}"
+P001617,DUP_KEPT,True,,"{""dup_partner"": ""P001619""}"
+P001618,CLEAN,True,,{}
+P001619,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P001617"", ""exact_copy"": false, ""mode"": ""orig_first""}"
+P001620,CLEAN,True,,{}
+P001621,CLEAN,True,,{}
+P001622,CLEAN,True,,{}
+P001623,CLEAN,True,,{}
+P001624,CLEAN,True,,{}
+P001625,CLEAN,True,,{}
+P001626,CLEAN,True,,{}
+P001627,CLEAN,True,,{}
+P001628,CLEAN,True,,{}
+P001629,CLEAN,True,,{}
+P001630,CLEAN,True,,{}
+P001631,CLEAN,True,,{}
+P001632,CLEAN,True,,{}
+P001633,DUP_KEPT,True,,"{""dup_partner"": ""P001634""}"
+P001634,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P001633"", ""exact_copy"": false, ""mode"": ""tie""}"
+P001635,CLEAN,True,,{}
+P001636,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 433.15, ""tag"": ""SPEED_JUMP""}"
+P001637,CLEAN,True,,{}
+P001638,CLEAN,True,,{}
+P001639,GAP_300S_END,True,,{}
+P001640,CLEAN,True,,{}
+P001641,CLEAN,True,,{}
+P001642,CLEAN,True,,{}
+P001643,CLEAN,True,,{}
+P001644,CLEAN,True,,{}
+P001645,CLEAN,True,,{}
+P001646,CLEAN,True,,{}
+P001647,CLEAN,True,,{}
+P001648,CLEAN,True,,{}
+P001649,CLEAN,True,,{}
+P001650,CLEAN,True,,{}
+P001651,EDGE_100M_KEEP,True,,"{""offroad_m"": 99.9967, ""tag"": ""EDGE_100M_KEEP""}"
+P001652,CLEAN,True,,{}
+P001653,CLEAN,True,,{}
+P001654,CLEAN,True,,{}
+P001655,CLEAN,True,,{}
+P001656,LATE,True,,"{""ingest_delay_extra_s"": 814.0, ""tag"": ""LATE""}"
+P001657,CLEAN,True,,{}
+P001658,CLEAN,True,,{}
+P001659,CLEAN,True,,{}
+P001660,CLEAN,True,,{}
+P001661,CLEAN,True,,{}
+P001662,CLEAN,True,,{}
+P001663,CLEAN,True,,{}
+P001664,CLEAN,True,,{}
+P001665,INVALID_TIMESTAMP,False,INVALID_TIMESTAMP,{}
+P001666,CLEAN,True,,{}
+P001667,CLEAN,True,,{}
+P001668,CLEAN,True,,{}
+P001669,LATE,True,,"{""ingest_delay_extra_s"": 613.0, ""tag"": ""LATE""}"
+P001670,CLEAN,True,,{}
+P001671,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 433.82, ""tag"": ""SPEED_JUMP""}"
+P001672,LATE,True,,"{""ingest_delay_extra_s"": 439.0, ""tag"": ""LATE""}"
+P001673,CLEAN,True,,{}
+P001674,CLEAN,True,,{}
+P001675,CLEAN,True,,{}
+P001676,CLEAN,True,,{}
+P001677,CLEAN,True,,{}
+P001678,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 390.4, ""tag"": ""SPEED_JUMP""}"
+P001679,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 197.63, ""tag"": ""NOISE_OFFROAD""}"
+P001680,CLEAN,True,,{}
+P001681,CLEAN,True,,{}
+P001682,CLEAN,True,,{}
+P001683,CLEAN,True,,{}
+P001684,CLEAN,True,,{}
+P001685,CLEAN,True,,{}
+P001686,CLEAN,True,,{}
+P001687,CLEAN,True,,{}
+P001688,CLEAN,True,,{}
+P001689,CLEAN,True,,{}
+P001690,CLEAN,True,,{}
+P001691,CLEAN,True,,{}
+P001692,CLEAN,True,,{}
+P001693,CLEAN,True,,{}
+P001694,CLEAN,True,,{}
+P001695,CLEAN,True,,{}
+P001696,CLEAN,True,,{}
+P001697,CLEAN,True,,{}
+P001698,CLEAN,True,,{}
+P001699,EDGE_100_5M_REJECT,False,OFF_ROAD_GT_100M,"{""offroad_m"": 100.4993, ""tag"": ""EDGE_100_5M_REJECT""}"
+P001700,CLEAN,True,,{}
+P001701,CLEAN,True,,{}
+P001702,CLEAN,True,,{}
+P001703,CLEAN,True,,{}
+P001704,CLEAN,True,,{}
+P001705,CLEAN,True,,{}
+P001706,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 541.59, ""tag"": ""NOISE_OFFROAD""}"
+P001707,LATE,True,,"{""ingest_delay_extra_s"": 664.0, ""tag"": ""LATE""}"
+P001708,CLEAN,True,,{}
+P001709,CLEAN,True,,{}
+P001710,CLEAN,True,,{}
+P001711,CLEAN,True,,{}
+P001712,CLEAN,True,,{}
+P001713,CLEAN,True,,{}
+P001714,CLEAN,True,,{}
+P001715,CLEAN,True,,{}
+P001716,CLEAN,True,,{}
+P001717,CLEAN,True,,{}
+P001718,CLEAN,True,,{}
+P001719,CLEAN,True,,{}
+P001720,CLEAN,True,,{}
+P001721,CLEAN,True,,{}
+P001722,CLEAN,True,,{}
+P001723,CLEAN,True,,{}
+P001724,CLEAN,True,,{}
+P001725,CLEAN,True,,{}
+P001726,CLEAN,True,,{}
+P001727,EDGE_150KMH_KEEP,True,,"{""implied_speed_kmh"": 150.0002, ""tag"": ""EDGE_150KMH_KEEP""}"
+P001728,CLEAN,True,,{}
+P001729,GAP_EDGE_30S_END,True,,{}
+P001730,CLEAN,True,,{}
+P001731,CLEAN,True,,{}
+P001732,CLEAN,True,,{}
+P001733,CLEAN,True,,{}
+P001734,CLEAN,True,,{}
+P001735,CLEAN,True,,{}
+P001736,GAP_90S_END,True,,{}
+P001737,CLEAN,True,,{}
+P001738,CLEAN,True,,{}
+P001739,CLEAN,True,,{}
+P001740,CLEAN,True,,{}
+P001741,CLEAN,True,,{}
+P001742,CLEAN,True,,{}
+P001743,CLEAN,True,,{}
+P001744,CLEAN,True,,{}
+P001745,CLEAN,True,,{}
+P001746,CLEAN,True,,{}
+P001747,CLEAN,True,,{}
+P001748,DUP_KEPT,True,,"{""dup_partner"": ""P001749""}"
+P001749,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P001748"", ""exact_copy"": false, ""mode"": ""orig_first""}"
+P001750,CLEAN,True,,{}
+P001751,CLEAN,True,,{}
+P001752,CLEAN,True,,{}
+P001753,CLEAN,True,,{}
+P001754,CLEAN,True,,{}
+P001755,CLEAN,True,,{}
+P001756,CLEAN,True,,{}
+P001757,CLEAN,True,,{}
+P001758,CLEAN,True,,{}
+P001759,CLEAN,True,,{}
+P001760,CLEAN,True,,{}
+P001761,DUP_KEPT,True,,"{""dup_partner"": ""P001762""}"
+P001762,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P001761"", ""exact_copy"": false, ""mode"": ""tie""}"
+P001763,CLEAN,True,,{}
+P001764,CLEAN,True,,{}
+P001765,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 225.74, ""tag"": ""NOISE_OFFROAD""}"
+P001766,CLEAN,True,,{}
+P001767,CLEAN,True,,{}
+P001768,CLEAN,True,,{}
+P001769,CLEAN,True,,{}
+P001770,CLEAN,True,,{}
+P001771,CLEAN,True,,{}
+P001772,CLEAN,True,,{}
+P001773,CLEAN,True,,{}
+P001774,CLEAN,True,,{}
+P001775,CLEAN,True,,{}
+P001776,CLEAN,True,,{}
+P001777,CLEAN,True,,{}
+P001778,CLEAN,True,,{}
+P001779,CLEAN,True,,{}
+P001780,CLEAN,True,,{}
+P001781,CLEAN,True,,{}
+P001782,CLEAN,True,,{}
+P001783,CLEAN,True,,{}
+P001784,CLEAN,True,,{}
+P001785,CLEAN,True,,{}
+P001786,CLEAN,True,,{}
+P001787,CLEAN,True,,{}
+P001788,CLEAN,True,,{}
+P001789,CLEAN,True,,{}
+P001790,CLEAN,True,,{}
+P001791,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 187.11, ""tag"": ""NOISE_OFFROAD""}"
+P001792,CLEAN,True,,{}
+P001793,CLEAN,True,,{}
+P001794,CLEAN,True,,{}
+P001795,CLEAN,True,,{}
+P001796,CLEAN,True,,{}
+P001797,CLEAN,True,,{}
+P001798,CLEAN,True,,{}
+P001799,CLEAN,True,,{}
+P001800,CLEAN,True,,{}
+P001801,CLEAN,True,,{}
+P001802,CLEAN,True,,{}
+P001803,CLEAN,True,,{}
+P001804,DUP_KEPT,True,,"{""dup_partner"": ""P001805""}"
+P001805,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P001804"", ""exact_copy"": false, ""mode"": ""orig_first""}"
+P001806,CLEAN,True,,{}
+P001807,CLEAN,True,,{}
+P001808,CLEAN,True,,{}
+P001809,CLEAN,True,,{}
+P001810,CLEAN,True,,{}
+P001811,DUP_KEPT,True,,"{""dup_partner"": ""P001814""}"
+P001812,CLEAN,True,,{}
+P001813,CLEAN,True,,{}
+P001814,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P001811"", ""exact_copy"": false, ""mode"": ""orig_first""}"
+P001815,CLEAN,True,,{}
+P001816,CLEAN,True,,{}
+P001817,CLEAN,True,,{}
+P001818,CLEAN,True,,{}
+P001819,CLEAN,True,,{}
+P001820,CLEAN,True,,{}
+P001821,CLEAN,True,,{}
+P001822,CLEAN,True,,{}
+P001823,CLEAN,True,,{}
+P001824,CLEAN,True,,{}
+P001825,CLEAN,True,,{}
+P001826,CLEAN,True,,{}
+P001827,CLEAN,True,,{}
+P001828,CLEAN,True,,{}
+P001829,CLEAN,True,,{}
+P001830,CLEAN,True,,{}
+P001831,CLEAN,True,,{}
+P001832,CLEAN,True,,{}
+P001833,CLEAN,True,,{}
+P001834,CLEAN,True,,{}
+P001835,CLEAN,True,,{}
+P001836,CLEAN,True,,{}
+P001837,CLEAN,True,,{}
+P001838,CLEAN,True,,{}
+P001839,CLEAN,True,,{}
+P001840,CLEAN,True,,{}
+P001841,CLEAN,True,,{}
+P001842,CLEAN,True,,{}
+P001843,DUP_KEPT,True,,"{""dup_partner"": ""P001844""}"
+P001844,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P001843"", ""exact_copy"": true, ""mode"": ""orig_first""}"
+P001845,CLEAN,True,,{}
+P001846,CLEAN,True,,{}
+P001847,CLEAN,True,,{}
+P001848,CLEAN,True,,{}
+P001849,CLEAN,True,,{}
+P001850,CLEAN,True,,{}
+P001851,DUP_KEPT,True,,"{""dup_partner"": ""P001852""}"
+P001852,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P001851"", ""exact_copy"": true, ""mode"": ""tie""}"
+P001853,CLEAN,True,,{}
+P001854,CLEAN,True,,{}
+P001855,GAP_90S_END,True,,{}
+P001856,CLEAN,True,,{}
+P001857,CLEAN,True,,{}
+P001858,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 457.07, ""tag"": ""NOISE_OFFROAD""}"
+P001859,CLEAN,True,,{}
+P001860,CLEAN,True,,{}
+P001861,CLEAN,True,,{}
+P001862,CLEAN,True,,{}
+P001863,CLEAN,True,,{}
+P001864,CLEAN,True,,{}
+P001865,CLEAN,True,,{}
+P001866,CLEAN,True,,{}
+P001867,CLEAN,True,,{}
+P001868,CLEAN,True,,{}
+P001869,CLEAN,True,,{}
+P001870,CLEAN,True,,{}
+P001871,CLEAN,True,,{}
+P001872,CLEAN,True,,{}
+P001873,CLEAN,True,,{}
+P001874,CLEAN,True,,{}
+P001875,CLEAN,True,,{}
+P001876,CLEAN,True,,{}
+P001877,CLEAN,True,,{}
+P001878,CLEAN,True,,{}
+P001879,CLEAN,True,,{}
+P001880,CLEAN,True,,{}
+P001881,CLEAN,True,,{}
+P001882,CLEAN,True,,{}
+P001883,LATE,True,,"{""ingest_delay_extra_s"": 275.0, ""tag"": ""LATE""}"
+P001884,CLEAN,True,,{}
+P001885,CLEAN,True,,{}
+P001886,CLEAN,True,,{}
+P001887,CLEAN,True,,{}
+P001888,CLEAN,True,,{}
+P001889,CLEAN,True,,{}
+P001890,LATE,True,,"{""ingest_delay_extra_s"": 464.0, ""tag"": ""LATE""}"
+P001891,CLEAN,True,,{}
+P001892,CLEAN,True,,{}
+P001893,EDGE_150KMH_KEEP,True,,"{""implied_speed_kmh"": 150.0004, ""tag"": ""EDGE_150KMH_KEEP""}"
+P001894,CLEAN,True,,{}
+P001895,LATE,True,,"{""ingest_delay_extra_s"": 854.0, ""tag"": ""LATE""}"
+P001896,CLEAN,True,,{}
+P001897,CLEAN,True,,{}
+P001898,CLEAN,True,,{}
+P001899,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 326.83, ""tag"": ""NOISE_OFFROAD""}"
+P001900,CLEAN,True,,{}
+P001901,CLEAN,True,,{}
+P001902,CLEAN,True,,{}
+P001903,CLEAN,True,,{}
+P001904,CLEAN,True,,{}
+P001905,LATE,True,,"{""ingest_delay_extra_s"": 613.0, ""tag"": ""LATE""}"
+P001906,CLEAN,True,,{}
+P001907,CLEAN,True,,{}
+P001908,LATE,True,,"{""ingest_delay_extra_s"": 876.0, ""tag"": ""LATE""}"
+P001909,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 447.4, ""tag"": ""SPEED_JUMP""}"
+P001910,CLEAN,True,,{}
+P001911,CLEAN,True,,{}
+P001912,LATE,True,,"{""ingest_delay_extra_s"": 537.0, ""tag"": ""LATE""}"
+P001913,CLEAN,True,,{}
+P001914,LATE,True,,"{""ingest_delay_extra_s"": 768.0, ""tag"": ""LATE""}"
+P001915,LATE,True,,"{""ingest_delay_extra_s"": 832.0, ""tag"": ""LATE""}"
+P001916,DUP_KEPT,True,,"{""dup_partner"": ""P001917""}"
+P001917,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P001916"", ""exact_copy"": false, ""mode"": ""tie""}"
+P001918,CLEAN,True,,{}
+P001919,CLEAN,True,,{}
+P001920,CLEAN,True,,{}
+P001921,CLEAN,True,,{}
+P001922,DUP_KEPT,True,,"{""dup_partner"": ""P001923""}"
+P001923,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P001922"", ""exact_copy"": false, ""mode"": ""orig_first""}"
+P001924,CLEAN,True,,{}
+P001925,CLEAN,True,,{}
+P001926,CLEAN,True,,{}
+P001927,LATE,True,,"{""ingest_delay_extra_s"": 827.0, ""tag"": ""LATE""}"
+P001928,LATE,True,,"{""ingest_delay_extra_s"": 542.0, ""tag"": ""LATE""}"
+P001929,LATE,True,,"{""ingest_delay_extra_s"": 879.0, ""tag"": ""LATE""}"
+P001930,CLEAN,True,,{}
+P001931,CLEAN,True,,{}
+P001932,CLEAN,True,,{}
+P001933,CLEAN,True,,{}
+P001934,CLEAN,True,,{}
+P001935,CLEAN,True,,{}
+P001936,CLEAN,True,,{}
+P001937,CLEAN,True,,{}
+P001938,CLEAN,True,,{}
+P001939,CLEAN,True,,{}
+P001940,CLEAN,True,,{}
+P001941,CLEAN,True,,{}
+P001942,CLEAN,True,,{}
+P001943,CLEAN,True,,{}
+P001944,CLEAN,True,,{}
+P001945,DUP_KEPT,True,,"{""dup_partner"": ""P001946""}"
+P001946,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P001945"", ""exact_copy"": true, ""mode"": ""orig_first""}"
+P001947,CLEAN,True,,{}
+P001948,CLEAN,True,,{}
+P001949,CLEAN,True,,{}
+P001950,CLEAN,True,,{}
+P001951,CLEAN,True,,{}
+P001952,CLEAN,True,,{}
+P001953,CLEAN,True,,{}
+P001954,CLEAN,True,,{}
+P001955,CLEAN,True,,{}
+P001956,CLEAN,True,,{}
+P001957,CLEAN,True,,{}
+P001958,CLEAN,True,,{}
+P001959,CLEAN,True,,{}
+P001960,CLEAN,True,,{}
+P001961,CLEAN,True,,{}
+P001962,CLEAN,True,,{}
+P001963,CLEAN,True,,{}
+P001964,CLEAN,True,,{}
+P001965,CLEAN,True,,{}
+P001966,CLEAN,True,,{}
+P001967,EDGE_150KMH_KEEP,True,,"{""implied_speed_kmh"": 150.0013, ""tag"": ""EDGE_150KMH_KEEP""}"
+P001968,DUP_KEPT,True,,"{""dup_partner"": ""P001969""}"
+P001969,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P001968"", ""exact_copy"": true, ""mode"": ""orig_first""}"
+P001970,CLEAN,True,,{}
+P001971,CLEAN,True,,{}
+P001972,CLEAN,True,,{}
+P001973,CLEAN,True,,{}
+P001974,CLEAN,True,,{}
+P001975,CLEAN,True,,{}
+P001976,CLEAN,True,,{}
+P001977,CLEAN,True,,{}
+P001978,CLEAN,True,,{}
+P001979,CLEAN,True,,{}
+P001980,MISSING_FIELD,False,MISSING_FIELD,{}
+P001981,CLEAN,True,,{}
+P001982,CLEAN,True,,{}
+P001983,CLEAN,True,,{}
+P001984,CLEAN,True,,{}
+P001985,CLEAN,True,,{}
+P001986,CLEAN,True,,{}
+P001987,CLEAN,True,,{}
+P001988,CLEAN,True,,{}
+P001989,CLEAN,True,,{}
+P001990,CLEAN,True,,{}
+P001991,CLEAN,True,,{}
+P001992,CLEAN,True,,{}
+P001993,CLEAN,True,,{}
+P001994,CLEAN,True,,{}
+P001995,CLEAN,True,,{}
+P001996,CLEAN,True,,{}
+P001997,CLEAN,True,,{}
+P001998,CLEAN,True,,{}
+P001999,CLEAN,True,,{}
+P002000,CLEAN,True,,{}
+P002001,CLEAN,True,,{}
+P002002,CLEAN,True,,{}
+P002003,CLEAN,True,,{}
+P002004,CLEAN,True,,{}
+P002005,CLEAN,True,,{}
+P002006,CLEAN,True,,{}
+P002007,CLEAN,True,,{}
+P002008,CLEAN,True,,{}
+P002009,CLEAN,True,,{}
+P002010,CLEAN,True,,{}
+P002011,CLEAN,True,,{}
+P002012,CLEAN,True,,{}
+P002013,CLEAN,True,,{}
+P002014,CLEAN,True,,{}
+P002015,CLEAN,True,,{}
+P002016,CLEAN,True,,{}
+P002017,CLEAN,True,,{}
+P002018,CLEAN,True,,{}
+P002019,CLEAN,True,,{}
+P002020,CLEAN,True,,{}
+P002021,CLEAN,True,,{}
+P002022,CLEAN,True,,{}
+P002023,CLEAN,True,,{}
+P002024,CLEAN,True,,{}
+P002025,CLEAN,True,,{}
+P002026,CLEAN,True,,{}
+P002027,CLEAN,True,,{}
+P002028,CLEAN,True,,{}
+P002029,DUP_KEPT,True,,"{""dup_partner"": ""P002030""}"
+P002030,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P002029"", ""exact_copy"": true, ""mode"": ""tie""}"
+P002031,CLEAN,True,,{}
+P002032,CLEAN,True,,{}
+P002033,CLEAN,True,,{}
+P002034,CLEAN,True,,{}
+P002035,CLEAN,True,,{}
+P002036,CLEAN,True,,{}
+P002037,CLEAN,True,,{}
+P002038,CLEAN,True,,{}
+P002039,CLEAN,True,,{}
+P002040,CLEAN,True,,{}
+P002041,CLEAN,True,,{}
+P002042,CLEAN,True,,{}
+P002043,CLEAN,True,,{}
+P002044,CLEAN,True,,{}
+P002045,CLEAN,True,,{}
+P002046,CLEAN,True,,{}
+P002047,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 569.68, ""tag"": ""SPEED_JUMP""}"
+P002048,CLEAN,True,,{}
+P002049,CLEAN,True,,{}
+P002050,CLEAN,True,,{}
+P002051,CLEAN,True,,{}
+P002052,CLEAN,True,,{}
+P002053,CLEAN,True,,{}
+P002054,CLEAN,True,,{}
+P002055,CLEAN,True,,{}
+P002056,CLEAN,True,,{}
+P002057,CLEAN,True,,{}
+P002058,CLEAN,True,,{}
+P002059,CLEAN,True,,{}
+P002060,CLEAN,True,,{}
+P002061,CLEAN,True,,{}
+P002062,CLEAN,True,,{}
+P002063,CLEAN,True,,{}
+P002064,CLEAN,True,,{}
+P002065,CLEAN,True,,{}
+P002066,EDGE_100_5M_REJECT,False,OFF_ROAD_GT_100M,"{""offroad_m"": 100.5005, ""tag"": ""EDGE_100_5M_REJECT""}"
+P002067,CLEAN,True,,{}
+P002068,CLEAN,True,,{}
+P002069,CLEAN,True,,{}
+P002070,CLEAN,True,,{}
+P002071,CLEAN,True,,{}
+P002072,EDGE_150KMH_KEEP,True,,"{""implied_speed_kmh"": 150.0031, ""tag"": ""EDGE_150KMH_KEEP""}"
+P002073,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 578.28, ""tag"": ""NOISE_OFFROAD""}"
+P002074,CLEAN,True,,{}
+P002075,CLEAN,True,,{}
+P002076,CLEAN,True,,{}
+P002077,CLEAN,True,,{}
+P002078,CLEAN,True,,{}
+P002079,CLEAN,True,,{}
+P002080,CLEAN,True,,{}
+P002081,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 509.01, ""tag"": ""NOISE_OFFROAD""}"
+P002082,EDGE_100M_KEEP,True,,"{""offroad_m"": 100.0019, ""tag"": ""EDGE_100M_KEEP""}"
+P002083,CLEAN,True,,{}
+P002084,CLEAN,True,,{}
+P002085,CLEAN,True,,{}
+P002086,CLEAN,True,,{}
+P002087,CLEAN,True,,{}
+P002088,CLEAN,True,,{}
+P002089,CLEAN,True,,{}
+P002090,CLEAN,True,,{}
+P002091,CLEAN,True,,{}
+P002092,CLEAN,True,,{}
+P002093,CLEAN,True,,{}
+P002094,EDGE_150KMH_KEEP,True,,"{""implied_speed_kmh"": 150.0013, ""tag"": ""EDGE_150KMH_KEEP""}"
+P002095,CLEAN,True,,{}
+P002096,CLEAN,True,,{}
+P002097,CLEAN,True,,{}
+P002098,CLEAN,True,,{}
+P002099,MISSING_FIELD,False,MISSING_FIELD,{}
+P002100,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 121.34, ""tag"": ""NOISE_OFFROAD""}"
+P002101,CLEAN,True,,{}
+P002102,CLEAN,True,,{}
+P002103,CLEAN,True,,{}
+P002104,CLEAN,True,,{}
+P002105,CLEAN,True,,{}
+P002106,CLEAN,True,,{}
+P002107,CLEAN,True,,{}
+P002108,CLEAN,True,,{}
+P002109,CLEAN,True,,{}
+P002110,CLEAN,True,,{}
+P002111,DUP_KEPT,True,,"{""dup_partner"": ""P002113"", ""exact_copy"": true, ""mode"": ""dup_first""}"
+P002112,CLEAN,True,,{}
+P002113,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P002111""}"
+P002114,CLEAN,True,,{}
+P002115,CLEAN,True,,{}
+P002116,CLEAN,True,,{}
+P002117,CLEAN,True,,{}
+P002118,CLEAN,True,,{}
+P002119,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 224.66, ""tag"": ""NOISE_OFFROAD""}"
+P002120,CLEAN,True,,{}
+P002121,CLEAN,True,,{}
+P002122,CLEAN,True,,{}
+P002123,CLEAN,True,,{}
+P002124,CLEAN,True,,{}
+P002125,CLEAN,True,,{}
+P002126,CLEAN,True,,{}
+P002127,CLEAN,True,,{}
+P002128,CLEAN,True,,{}
+P002129,CLEAN,True,,{}
+P002130,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 153.8, ""tag"": ""NOISE_OFFROAD""}"
+P002131,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 589.76, ""tag"": ""NOISE_OFFROAD""}"
+P002132,CLEAN,True,,{}
+P002133,CLEAN,True,,{}
+P002134,CLEAN,True,,{}
+P002135,CLEAN,True,,{}
+P002136,CLEAN,True,,{}
+P002137,CLEAN,True,,{}
+P002138,LATE,True,,"{""ingest_delay_extra_s"": 275.0, ""tag"": ""LATE""}"
+P002139,CLEAN,True,,{}
+P002140,CLEAN,True,,{}
+P002141,CLEAN,True,,{}
+P002142,CLEAN,True,,{}
+P002143,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 572.01, ""tag"": ""SPEED_JUMP""}"
+P002144,CLEAN,True,,{}
+P002145,CLEAN,True,,{}
+P002146,CLEAN,True,,{}
+P002147,CLEAN,True,,{}
+P002148,CLEAN,True,,{}
+P002149,CLEAN,True,,{}
+P002150,CLEAN,True,,{}
+P002151,CLEAN,True,,{}
+P002152,CLEAN,True,,{}
+P002153,EDGE_150_5KMH_REJECT,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 150.4991, ""tag"": ""EDGE_150_5KMH_REJECT""}"
+P002154,CLEAN,True,,{}
+P002155,CLEAN,True,,{}
+P002156,CLEAN,True,,{}
+P002157,CLEAN,True,,{}
+P002158,CLEAN,True,,{}
+P002159,CLEAN,True,,{}
+P002160,CLEAN,True,,{}
+P002161,CLEAN,True,,{}
+P002162,CLEAN,True,,{}
+P002163,CLEAN,True,,{}
+P002164,CLEAN,True,,{}
+P002165,CLEAN,True,,{}
+P002166,CLEAN,True,,{}
+P002167,CLEAN,True,,{}
+P002168,CLEAN,True,,{}
+P002169,CLEAN,True,,{}
+P002170,CLEAN,True,,{}
+P002171,CLEAN,True,,{}
+P002172,CLEAN,True,,{}
+P002173,CLEAN,True,,{}
+P002174,CLEAN,True,,{}
+P002175,CLEAN,True,,{}
+P002176,CLEAN,True,,{}
+P002177,DUP_KEPT,True,,"{""dup_partner"": ""P002178""}"
+P002178,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P002177"", ""exact_copy"": true, ""mode"": ""orig_first""}"
+P002179,CLEAN,True,,{}
+P002180,CLEAN,True,,{}
+P002181,EDGE_100_5M_REJECT,False,OFF_ROAD_GT_100M,"{""offroad_m"": 100.4964, ""tag"": ""EDGE_100_5M_REJECT""}"
+P002182,DUP_KEPT,True,,"{""dup_partner"": ""P002183""}"
+P002183,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P002182"", ""exact_copy"": false, ""mode"": ""tie""}"
+P002184,CLEAN,True,,{}
+P002185,CLEAN,True,,{}
+P002186,CLEAN,True,,{}
+P002187,CLEAN,True,,{}
+P002188,CLEAN,True,,{}
+P002189,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 338.76, ""tag"": ""NOISE_OFFROAD""}"
+P002190,CLEAN,True,,{}
+P002191,CLEAN,True,,{}
+P002192,CLEAN,True,,{}
+P002193,CLEAN,True,,{}
+P002194,CLEAN,True,,{}
+P002195,CLEAN,True,,{}
+P002196,CLEAN,True,,{}
+P002197,CLEAN,True,,{}
+P002198,CLEAN,True,,{}
+P002199,CLEAN,True,,{}
+P002200,CLEAN,True,,{}
+P002201,CLEAN,True,,{}
+P002202,EDGE_150_5KMH_REJECT,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 150.4994, ""tag"": ""EDGE_150_5KMH_REJECT""}"
+P002203,CLEAN,True,,{}
+P002204,CLEAN,True,,{}
+P002205,CLEAN,True,,{}
+P002206,CLEAN,True,,{}
+P002207,CLEAN,True,,{}
+P002208,CLEAN,True,,{}
+P002209,CLEAN,True,,{}
+P002210,CLEAN,True,,{}
+P002211,CLEAN,True,,{}
+P002212,CLEAN,True,,{}
+P002213,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 658.66, ""tag"": ""SPEED_JUMP""}"
+P002214,CLEAN,True,,{}
+P002215,CLEAN,True,,{}
+P002216,CLEAN,True,,{}
+P002217,CLEAN,True,,{}
+P002218,CLEAN,True,,{}
+P002219,CLEAN,True,,{}
+P002220,CLEAN,True,,{}
+P002221,CLEAN,True,,{}
+P002222,CLEAN,True,,{}
+P002223,CLEAN,True,,{}
+P002224,CLEAN,True,,{}
+P002225,DUP_KEPT,True,,"{""dup_partner"": ""P002226""}"
+P002226,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P002225"", ""exact_copy"": true, ""mode"": ""orig_first""}"
+P002227,CLEAN,True,,{}
+P002228,CLEAN,True,,{}
+P002229,CLEAN,True,,{}
+P002230,CLEAN,True,,{}
+P002231,LATE_ACROSS_CUTOFF,True,,"{""ingest_delay_extra_s"": 600.0, ""tag"": ""LATE_ACROSS_CUTOFF""}"
+P002232,LATE_ACROSS_CUTOFF,True,,"{""ingest_delay_extra_s"": 600.0, ""tag"": ""LATE_ACROSS_CUTOFF""}"
+P002233,LATE_ACROSS_CUTOFF,True,,"{""ingest_delay_extra_s"": 600.0, ""tag"": ""LATE_ACROSS_CUTOFF""}"
+P002234,CLEAN,True,,{}
+P002235,CLEAN,True,,{}
+P002236,LATE_ACROSS_CUTOFF,True,,"{""ingest_delay_extra_s"": 600.0, ""tag"": ""LATE_ACROSS_CUTOFF""}"
+P002237,CLEAN,True,,{}
+P002238,CLEAN,True,,{}
+P002239,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 417.6, ""tag"": ""SPEED_JUMP""}"
+P002240,CLEAN,True,,{}
+P002241,CLEAN,True,,{}
+P002242,CLEAN,True,,{}
+P002243,CLEAN,True,,{}
+P002244,CLEAN,True,,{}
+P002245,CLEAN,True,,{}
+P002246,CLEAN,True,,{}
+P002247,CLEAN,True,,{}
+P002248,CLEAN,True,,{}
+P002249,CLEAN,True,,{}
+P002250,CLEAN,True,,{}
+P002251,CLEAN,True,,{}
+P002252,CLEAN,True,,{}
+P002253,LATE,True,,"{""ingest_delay_extra_s"": 545.0, ""tag"": ""LATE""}"
+P002254,CLEAN,True,,{}
+P002255,CLEAN,True,,{}
+P002256,CLEAN,True,,{}
+P002257,CLEAN,True,,{}
+P002258,CLEAN,True,,{}
+P002259,CLEAN,True,,{}
+P002260,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 401.25, ""tag"": ""NOISE_OFFROAD""}"
+P002261,CLEAN,True,,{}
+P002262,CLEAN,True,,{}
+P002263,CLEAN,True,,{}
+P002264,CLEAN,True,,{}
+P002265,CLEAN,True,,{}
+P002266,CLEAN,True,,{}
+P002267,CLEAN,True,,{}
+P002268,CLEAN,True,,{}
+P002269,CLEAN,True,,{}
+P002270,CLEAN,True,,{}
+P002271,DUP_KEPT,True,,"{""dup_partner"": ""P002273""}"
+P002272,CLEAN,True,,{}
+P002273,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P002271"", ""exact_copy"": true, ""mode"": ""orig_first""}"
+P002274,CLEAN,True,,{}
+P002275,CLEAN,True,,{}
+P002276,CLEAN,True,,{}
+P002277,EDGE_150KMH_KEEP,True,,"{""implied_speed_kmh"": 150.0008, ""tag"": ""EDGE_150KMH_KEEP""}"
+P002278,CLEAN,True,,{}
+P002279,CLEAN,True,,{}
+P002280,CLEAN,True,,{}
+P002281,CLEAN,True,,{}
+P002282,CLEAN,True,,{}
+P002283,CLEAN,True,,{}
+P002284,CLEAN,True,,{}
+P002285,CLEAN,True,,{}
+P002286,CLEAN,True,,{}
+P002287,CLEAN,True,,{}
+P002288,CLEAN,True,,{}
+P002289,CLEAN,True,,{}
+P002290,LATE,True,,"{""ingest_delay_extra_s"": 567.0, ""tag"": ""LATE""}"
+P002291,CLEAN,True,,{}
+P002292,CLEAN,True,,{}
+P002293,CLEAN,True,,{}
+P002294,CLEAN,True,,{}
+P002295,CLEAN,True,,{}
+P002296,CLEAN,True,,{}
+P002297,CLEAN,True,,{}
+P002298,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 446.68, ""tag"": ""SPEED_JUMP""}"
+P002299,CLEAN,True,,{}
+P002300,CLEAN,True,,{}
+P002301,CLEAN,True,,{}
+P002302,CLEAN,True,,{}
+P002303,CLEAN,True,,{}
+P002304,CLEAN,True,,{}
+P002305,CLEAN,True,,{}
+P002306,CLEAN,True,,{}
+P002307,CLEAN,True,,{}
+P002308,CLEAN,True,,{}
+P002309,CLEAN,True,,{}
+P002310,CLEAN,True,,{}
+P002311,CLEAN,True,,{}
+P002312,LATE,True,,"{""ingest_delay_extra_s"": 277.0, ""tag"": ""LATE""}"
+P002313,CLEAN,True,,{}
+P002314,CLEAN,True,,{}
+P002315,CLEAN,True,,{}
+P002316,CLEAN,True,,{}
+P002317,CLEAN,True,,{}
+P002318,CLEAN,True,,{}
+P002319,CLEAN,True,,{}
+P002320,CLEAN,True,,{}
+P002321,CLEAN,True,,{}
+P002322,CLEAN,True,,{}
+P002323,CLEAN,True,,{}
+P002324,CLEAN,True,,{}
+P002325,CLEAN,True,,{}
+P002326,INVALID_COORDINATES,False,INVALID_COORDINATES,{}
+P002327,CLEAN,True,,{}
+P002328,CLEAN,True,,{}
+P002329,CLEAN,True,,{}
+P002330,CLEAN,True,,{}
+P002331,CLEAN,True,,{}
+P002332,CLEAN,True,,{}
+P002333,CLEAN,True,,{}
+P002334,DUP_KEPT,True,,"{""dup_partner"": ""P002335""}"
+P002335,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P002334"", ""exact_copy"": false, ""mode"": ""orig_first""}"
+P002336,CLEAN,True,,{}
+P002337,CLEAN,True,,{}
+P002338,CLEAN,True,,{}
+P002339,DUP_KEPT,True,,"{""dup_partner"": ""P002340"", ""exact_copy"": true, ""mode"": ""dup_first""}"
+P002340,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P002339""}"
+P002341,CLEAN,True,,{}
+P002342,CLEAN,True,,{}
+P002343,CLEAN,True,,{}
+P002344,CLEAN,True,,{}
+P002345,CLEAN,True,,{}
+P002346,CLEAN,True,,{}
+P002347,CLEAN,True,,{}
+P002348,CLEAN,True,,{}
+P002349,CLEAN,True,,{}
+P002350,CLEAN,True,,{}
+P002351,CLEAN,True,,{}
+P002352,CLEAN,True,,{}
+P002353,CLEAN,True,,{}
+P002354,LATE,True,,"{""ingest_delay_extra_s"": 836.0, ""tag"": ""LATE""}"
+P002355,CLEAN,True,,{}
+P002356,CLEAN,True,,{}
+P002357,CLEAN,True,,{}
+P002358,CLEAN,True,,{}
+P002359,CLEAN,True,,{}
+P002360,CLEAN,True,,{}
+P002361,LATE,True,,"{""ingest_delay_extra_s"": 174.0, ""tag"": ""LATE""}"
+P002362,EDGE_100_5M_REJECT,False,OFF_ROAD_GT_100M,"{""offroad_m"": 100.5052, ""tag"": ""EDGE_100_5M_REJECT""}"
+P002363,CLEAN,True,,{}
+P002364,LATE,True,,"{""ingest_delay_extra_s"": 618.0, ""tag"": ""LATE""}"
+P002365,CLEAN,True,,{}
+P002366,EDGE_100M_KEEP,True,,"{""offroad_m"": 100.0043, ""tag"": ""EDGE_100M_KEEP""}"
+P002367,CLEAN,True,,{}
+P002368,CLEAN,True,,{}
+P002369,CLEAN,True,,{}
+P002370,CLEAN,True,,{}
+P002371,CLEAN,True,,{}
+P002372,CLEAN,True,,{}
+P002373,CLEAN,True,,{}
+P002374,CLEAN,True,,{}
+P002375,CLEAN,True,,{}
+P002376,LATE,True,,"{""ingest_delay_extra_s"": 263.0, ""tag"": ""LATE""}"
+P002377,CLEAN,True,,{}
+P002378,CLEAN,True,,{}
+P002379,CLEAN,True,,{}
+P002380,CLEAN,True,,{}
+P002381,CLEAN,True,,{}
+P002382,CLEAN,True,,{}
+P002383,CLEAN,True,,{}
+P002384,CLEAN,True,,{}
+P002385,CLEAN,True,,{}
+P002386,CLEAN,True,,{}
+P002387,CLEAN,True,,{}
+P002388,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 547.4, ""tag"": ""NOISE_OFFROAD""}"
+P002389,CLEAN,True,,{}
+P002390,LATE,True,,"{""ingest_delay_extra_s"": 504.0, ""tag"": ""LATE""}"
+P002391,CLEAN,True,,{}
+P002392,CLEAN,True,,{}
+P002393,CLEAN,True,,{}
+P002394,CLEAN,True,,{}
+P002395,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 560.76, ""tag"": ""SPEED_JUMP""}"
+P002396,GAP_300S_END,True,,{}
+P002397,CLEAN,True,,{}
+P002398,CLEAN,True,,{}
+P002399,CLEAN,True,,{}
+P002400,CLEAN,True,,{}
+P002401,CLEAN,True,,{}
+P002402,CLEAN,True,,{}
+P002403,CLEAN,True,,{}
+P002404,LATE,True,,"{""ingest_delay_extra_s"": 508.0, ""tag"": ""LATE""}"
+P002405,CLEAN,True,,{}
+P002406,CLEAN,True,,{}
+P002407,CLEAN,True,,{}
+P002408,CLEAN,True,,{}
+P002409,CLEAN,True,,{}
+P002410,GAP_300S_END,True,,{}
+P002411,LATE,True,,"{""ingest_delay_extra_s"": 145.0, ""tag"": ""LATE""}"
+P002412,CLEAN,True,,{}
+P002413,DUP_KEPT,True,,"{""dup_partner"": ""P002414""}"
+P002414,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P002413"", ""exact_copy"": false, ""mode"": ""orig_first""}"
+P002415,CLEAN,True,,{}
+P002416,CLEAN,True,,{}
+P002417,GAP_EDGE_30S_END,True,,{}
+P002418,CLEAN,True,,{}
+P002419,CLEAN,True,,{}
+P002420,CLEAN,True,,{}
+P002421,CLEAN,True,,{}
+P002422,CLEAN,True,,{}
+P002423,CLEAN,True,,{}
+P002424,CLEAN,True,,{}
+P002425,CLEAN,True,,{}
+P002426,CLEAN,True,,{}
+P002427,CLEAN,True,,{}
+P002428,CLEAN,True,,{}
+P002429,LATE,True,,"{""ingest_delay_extra_s"": 782.0, ""tag"": ""LATE""}"
+P002430,CLEAN,True,,{}
+P002431,CLEAN,True,,{}
+P002432,GAP_EDGE_30S_END,True,,{}
+P002433,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 719.76, ""tag"": ""SPEED_JUMP""}"
+P002434,CLEAN,True,,{}
+P002435,LATE,True,,"{""ingest_delay_extra_s"": 675.0, ""tag"": ""LATE""}"
+P002436,CLEAN,True,,{}
+P002437,CLEAN,True,,{}
+P002438,CLEAN,True,,{}
+P002439,CLEAN,True,,{}
+P002440,CLEAN,True,,{}
+P002441,CLEAN,True,,{}
+P002442,CLEAN,True,,{}
+P002443,CLEAN,True,,{}
+P002444,CLEAN,True,,{}
+P002445,DUP_KEPT,True,,"{""dup_partner"": ""P002446""}"
+P002446,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P002445"", ""exact_copy"": false, ""mode"": ""orig_first""}"
+P002447,CLEAN,True,,{}
+P002448,CLEAN,True,,{}
+P002449,CLEAN,True,,{}
+P002450,DUP_KEPT,True,,"{""dup_partner"": ""P002453""}"
+P002451,CLEAN,True,,{}
+P002452,CLEAN,True,,{}
+P002453,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P002450"", ""exact_copy"": false, ""mode"": ""orig_first""}"
+P002454,CLEAN,True,,{}
+P002455,CLEAN,True,,{}
+P002456,CLEAN,True,,{}
+P002457,CLEAN,True,,{}
+P002458,CLEAN,True,,{}
+P002459,CLEAN,True,,{}
+P002460,CLEAN,True,,{}
+P002461,CLEAN,True,,{}
+P002462,CLEAN,True,,{}
+P002463,CLEAN,True,,{}
+P002464,CLEAN,True,,{}
+P002465,CLEAN,True,,{}
+P002466,CLEAN,True,,{}
+P002467,DUP_KEPT,True,,"{""dup_partner"": ""P002469""}"
+P002468,CLEAN,True,,{}
+P002469,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P002467"", ""exact_copy"": false, ""mode"": ""orig_first""}"
+P002470,CLEAN,True,,{}
+P002471,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 218.94, ""tag"": ""NOISE_OFFROAD""}"
+P002472,CLEAN,True,,{}
+P002473,GAP_EDGE_30S_END,True,,{}
+P002474,CLEAN,True,,{}
+P002475,CLEAN,True,,{}
+P002476,CLEAN,True,,{}
+P002477,CLEAN,True,,{}
+P002478,CLEAN,True,,{}
+P002479,CLEAN,True,,{}
+P002480,CLEAN,True,,{}
+P002481,CLEAN,True,,{}
+P002482,LATE,True,,"{""ingest_delay_extra_s"": 594.0, ""tag"": ""LATE""}"
+P002483,DUP_KEPT,True,,"{""dup_partner"": ""P002484""}"
+P002484,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P002483"", ""exact_copy"": true, ""mode"": ""orig_first""}"
+P002485,CLEAN,True,,{}
+P002486,CLEAN,True,,{}
+P002487,CLEAN,True,,{}
+P002488,CLEAN,True,,{}
+P002489,CLEAN,True,,{}
+P002490,CLEAN,True,,{}
+P002491,CLEAN,True,,{}
+P002492,CLEAN,True,,{}
+P002493,CLEAN,True,,{}
+P002494,CLEAN,True,,{}
+P002495,CLEAN,True,,{}
+P002496,CLEAN,True,,{}
+P002497,CLEAN,True,,{}
+P002498,CLEAN,True,,{}
+P002499,CLEAN,True,,{}
+P002500,CLEAN,True,,{}
+P002501,CLEAN,True,,{}
+P002502,CLEAN,True,,{}
+P002503,DUP_KEPT,True,,"{""dup_partner"": ""P002504""}"
+P002504,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P002503"", ""exact_copy"": true, ""mode"": ""orig_first""}"
+P002505,CLEAN,True,,{}
+P002506,CLEAN,True,,{}
+P002507,CLEAN,True,,{}
+P002508,CLEAN,True,,{}
+P002509,CLEAN,True,,{}
+P002510,CLEAN,True,,{}
+P002511,CLEAN,True,,{}
+P002512,CLEAN,True,,{}
+P002513,CLEAN,True,,{}
+P002514,CLEAN,True,,{}
+P002515,CLEAN,True,,{}
+P002516,CLEAN,True,,{}
+P002517,CLEAN,True,,{}
+P002518,CLEAN,True,,{}
+P002519,GAP_90S_END,True,,{}
+P002520,CLEAN,True,,{}
+P002521,CLEAN,True,,{}
+P002522,CLEAN,True,,{}
+P002523,CLEAN,True,,{}
+P002524,CLEAN,True,,{}
+P002525,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 146.86, ""tag"": ""NOISE_OFFROAD""}"
+P002526,CLEAN,True,,{}
+P002527,CLEAN,True,,{}
+P002528,CLEAN,True,,{}
+P002529,CLEAN,True,,{}
+P002530,LATE,True,,"{""ingest_delay_extra_s"": 243.0, ""tag"": ""LATE""}"
+P002531,CLEAN,True,,{}
+P002532,CLEAN,True,,{}
+P002533,CLEAN,True,,{}
+P002534,CLEAN,True,,{}
+P002535,DUP_KEPT,True,,"{""dup_partner"": ""P002536""}"
+P002536,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P002535"", ""exact_copy"": true, ""mode"": ""tie""}"
+P002537,CLEAN,True,,{}
+P002538,CLEAN,True,,{}
+P002539,CLEAN,True,,{}
+P002540,CLEAN,True,,{}
+P002541,CLEAN,True,,{}
+P002542,CLEAN,True,,{}
+P002543,DUP_KEPT,True,,"{""dup_partner"": ""P002544""}"
+P002544,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P002543"", ""exact_copy"": true, ""mode"": ""orig_first""}"
+P002545,CLEAN,True,,{}
+P002546,CLEAN,True,,{}
+P002547,CLEAN,True,,{}
+P002548,CLEAN,True,,{}
+P002549,CLEAN,True,,{}
+P002550,DUP_KEPT,True,,"{""dup_partner"": ""P002551""}"
+P002551,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P002550"", ""exact_copy"": false, ""mode"": ""orig_first""}"
+P002552,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 361.7, ""tag"": ""SPEED_JUMP""}"
+P002553,CLEAN,True,,{}
+P002554,CLEAN,True,,{}
+P002555,CLEAN,True,,{}
+P002556,CLEAN,True,,{}
+P002557,CLEAN,True,,{}
+P002558,CLEAN,True,,{}
+P002559,CLEAN,True,,{}
+P002560,CLEAN,True,,{}
+P002561,CLEAN,True,,{}
+P002562,CLEAN,True,,{}
+P002563,CLEAN,True,,{}
+P002564,CLEAN,True,,{}
+P002565,LATE,True,,"{""ingest_delay_extra_s"": 300.0, ""tag"": ""LATE""}"
+P002566,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 296.96, ""tag"": ""NOISE_OFFROAD""}"
+P002567,LATE,True,,"{""ingest_delay_extra_s"": 689.0, ""tag"": ""LATE""}"
+P002568,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 576.07, ""tag"": ""SPEED_JUMP""}"
+P002569,CLEAN,True,,{}
+P002570,CLEAN,True,,{}
+P002571,CLEAN,True,,{}
+P002572,CLEAN,True,,{}
+P002573,CLEAN,True,,{}
+P002574,CLEAN,True,,{}
+P002575,CLEAN,True,,{}
+P002576,CLEAN,True,,{}
+P002577,CLEAN,True,,{}
+P002578,CLEAN,True,,{}
+P002579,CLEAN,True,,{}
+P002580,CLEAN,True,,{}
+P002581,CLEAN,True,,{}
+P002582,CLEAN,True,,{}
+P002583,CLEAN,True,,{}
+P002584,CLEAN,True,,{}
+P002585,CLEAN,True,,{}
+P002586,CLEAN,True,,{}
+P002587,GAP_EDGE_30S_END,True,,{}
+P002588,CLEAN,True,,{}
+P002589,CLEAN,True,,{}
+P002590,CLEAN,True,,{}
+P002591,CLEAN,True,,{}
+P002592,CLEAN,True,,{}
+P002593,CLEAN,True,,{}
+P002594,CLEAN,True,,{}
+P002595,CLEAN,True,,{}
+P002596,CLEAN,True,,{}
+P002597,LATE,True,,"{""ingest_delay_extra_s"": 824.0, ""tag"": ""LATE""}"
+P002598,CLEAN,True,,{}
+P002599,CLEAN,True,,{}
+P002600,CLEAN,True,,{}
+P002601,CLEAN,True,,{}
+P002602,CLEAN,True,,{}
+P002603,CLEAN,True,,{}
+P002604,CLEAN,True,,{}
+P002605,CLEAN,True,,{}
+P002606,CLEAN,True,,{}
+P002607,CLEAN,True,,{}
+P002608,CLEAN,True,,{}
+P002609,CLEAN,True,,{}
+P002610,CLEAN,True,,{}
+P002611,CLEAN,True,,{}
+P002612,DUP_KEPT,True,,"{""dup_partner"": ""P002614"", ""exact_copy"": true, ""mode"": ""dup_first""}"
+P002613,CLEAN,True,,{}
+P002614,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P002612""}"
+P002615,CLEAN,True,,{}
+P002616,CLEAN,True,,{}
+P002617,CLEAN,True,,{}
+P002618,CLEAN,True,,{}
+P002619,CLEAN,True,,{}
+P002620,CLEAN,True,,{}
+P002621,CLEAN,True,,{}
+P002622,CLEAN,True,,{}
+P002623,CLEAN,True,,{}
+P002624,CLEAN,True,,{}
+P002625,CLEAN,True,,{}
+P002626,CLEAN,True,,{}
+P002627,CLEAN,True,,{}
+P002628,CLEAN,True,,{}
+P002629,CLEAN,True,,{}
+P002630,CLEAN,True,,{}
+P002631,CLEAN,True,,{}
+P002632,CLEAN,True,,{}
+P002633,CLEAN,True,,{}
+P002634,CLEAN,True,,{}
+P002635,CLEAN,True,,{}
+P002636,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 432.08, ""tag"": ""SPEED_JUMP""}"
+P002637,CLEAN,True,,{}
+P002638,CLEAN,True,,{}
+P002639,CLEAN,True,,{}
+P002640,CLEAN,True,,{}
+P002641,CLEAN,True,,{}
+P002642,CLEAN,True,,{}
+P002643,CLEAN,True,,{}
+P002644,CLEAN,True,,{}
+P002645,CLEAN,True,,{}
+P002646,CLEAN,True,,{}
+P002647,CLEAN,True,,{}
+P002648,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 327.67, ""tag"": ""NOISE_OFFROAD""}"
+P002649,CLEAN,True,,{}
+P002650,CLEAN,True,,{}
+P002651,CLEAN,True,,{}
+P002652,CLEAN,True,,{}
+P002653,CLEAN,True,,{}
+P002654,CLEAN,True,,{}
+P002655,CLEAN,True,,{}
+P002656,CLEAN,True,,{}
+P002657,CLEAN,True,,{}
+P002658,CLEAN,True,,{}
+P002659,CLEAN,True,,{}
+P002660,CLEAN,True,,{}
+P002661,CLEAN,True,,{}
+P002662,CLEAN,True,,{}
+P002663,CLEAN,True,,{}
+P002664,CLEAN,True,,{}
+P002665,CLEAN,True,,{}
+P002666,CLEAN,True,,{}
+P002667,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 199.17, ""tag"": ""NOISE_OFFROAD""}"
+P002668,CLEAN,True,,{}
+P002669,CLEAN,True,,{}
+P002670,CLEAN,True,,{}
+P002671,CLEAN,True,,{}
+P002672,CLEAN,True,,{}
+P002673,CLEAN,True,,{}
+P002674,CLEAN,True,,{}
+P002675,CLEAN,True,,{}
+P002676,CLEAN,True,,{}
+P002677,DUP_KEPT,True,,"{""dup_partner"": ""P002678""}"
+P002678,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P002677"", ""exact_copy"": false, ""mode"": ""orig_first""}"
+P002679,CLEAN,True,,{}
+P002680,CLEAN,True,,{}
+P002681,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 199.54, ""tag"": ""NOISE_OFFROAD""}"
+P002682,CLEAN,True,,{}
+P002683,CLEAN,True,,{}
+P002684,CLEAN,True,,{}
+P002685,CLEAN,True,,{}
+P002686,CLEAN,True,,{}
+P002687,CLEAN,True,,{}
+P002688,CLEAN,True,,{}
+P002689,CLEAN,True,,{}
+P002690,CLEAN,True,,{}
+P002691,DUP_KEPT,True,,"{""dup_partner"": ""P002693"", ""exact_copy"": false, ""mode"": ""dup_first""}"
+P002692,CLEAN,True,,{}
+P002693,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P002691""}"
+P002694,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 238.44, ""tag"": ""NOISE_OFFROAD""}"
+P002695,CLEAN,True,,{}
+P002696,LATE,True,,"{""ingest_delay_extra_s"": 806.0, ""tag"": ""LATE""}"
+P002697,CLEAN,True,,{}
+P002698,CLEAN,True,,{}
+P002699,CLEAN,True,,{}
+P002700,CLEAN,True,,{}
+P002701,CLEAN,True,,{}
+P002702,CLEAN,True,,{}
+P002703,CLEAN,True,,{}
+P002704,CLEAN,True,,{}
+P002705,CLEAN,True,,{}
+P002706,CLEAN,True,,{}
+P002707,CLEAN,True,,{}
+P002708,CLEAN,True,,{}
+P002709,CLEAN,True,,{}
+P002710,CLEAN,True,,{}
+P002711,CLEAN,True,,{}
+P002712,CLEAN,True,,{}
+P002713,CLEAN,True,,{}
+P002714,CLEAN,True,,{}
+P002715,CLEAN,True,,{}
+P002716,CLEAN,True,,{}
+P002717,CLEAN,True,,{}
+P002718,CLEAN,True,,{}
+P002719,CLEAN,True,,{}
+P002720,CLEAN,True,,{}
+P002721,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 389.7, ""tag"": ""SPEED_JUMP""}"
+P002722,CLEAN,True,,{}
+P002723,CLEAN,True,,{}
+P002724,CLEAN,True,,{}
+P002725,CLEAN,True,,{}
+P002726,CLEAN,True,,{}
+P002727,CLEAN,True,,{}
+P002728,LATE,True,,"{""ingest_delay_extra_s"": 748.0, ""tag"": ""LATE""}"
+P002729,CLEAN,True,,{}
+P002730,CLEAN,True,,{}
+P002731,CLEAN,True,,{}
+P002732,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 487.26, ""tag"": ""NOISE_OFFROAD""}"
+P002733,CLEAN,True,,{}
+P002734,GAP_90S_END,True,,{}
+P002735,CLEAN,True,,{}
+P002736,CLEAN,True,,{}
+P002737,CLEAN,True,,{}
+P002738,CLEAN,True,,{}
+P002739,CLEAN,True,,{}
+P002740,CLEAN,True,,{}
+P002741,CLEAN,True,,{}
+P002742,CLEAN,True,,{}
+P002743,CLEAN,True,,{}
+P002744,CLEAN,True,,{}
+P002745,CLEAN,True,,{}
+P002746,CLEAN,True,,{}
+P002747,CLEAN,True,,{}
+P002748,CLEAN,True,,{}
+P002749,CLEAN,True,,{}
+P002750,CLEAN,True,,{}
+P002751,CLEAN,True,,{}
+P002752,CLEAN,True,,{}
+P002753,CLEAN,True,,{}
+P002754,CLEAN,True,,{}
+P002755,CLEAN,True,,{}
+P002756,CLEAN,True,,{}
+P002757,CLEAN,True,,{}
+P002758,CLEAN,True,,{}
+P002759,CLEAN,True,,{}
+P002760,CLEAN,True,,{}
+P002761,EDGE_100M_KEEP,True,,"{""offroad_m"": 99.9996, ""tag"": ""EDGE_100M_KEEP""}"
+P002762,CLEAN,True,,{}
+P002763,CLEAN,True,,{}
+P002764,CLEAN,True,,{}
+P002765,CLEAN,True,,{}
+P002766,CLEAN,True,,{}
+P002767,CLEAN,True,,{}
+P002768,CLEAN,True,,{}
+P002769,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 300.15, ""tag"": ""NOISE_OFFROAD""}"
+P002770,CLEAN,True,,{}
+P002771,CLEAN,True,,{}
+P002772,CLEAN,True,,{}
+P002773,CLEAN,True,,{}
+P002774,EDGE_100_5M_REJECT,False,OFF_ROAD_GT_100M,"{""offroad_m"": 100.5024, ""tag"": ""EDGE_100_5M_REJECT""}"
+P002775,CLEAN,True,,{}
+P002776,CLEAN,True,,{}
+P002777,CLEAN,True,,{}
+P002778,SPEED_JUMP,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 639.59, ""tag"": ""SPEED_JUMP""}"
+P002779,CLEAN,True,,{}
+P002780,CLEAN,True,,{}
+P002781,CLEAN,True,,{}
+P002782,CLEAN,True,,{}
+P002783,CLEAN,True,,{}
+P002784,CLEAN,True,,{}
+P002785,GAP_90S_END,True,,{}
+P002786,CLEAN,True,,{}
+P002787,CLEAN,True,,{}
+P002788,CLEAN,True,,{}
+P002789,CLEAN,True,,{}
+P002790,CLEAN,True,,{}
+P002791,CLEAN,True,,{}
+P002792,CLEAN,True,,{}
+P002793,CLEAN,True,,{}
+P002794,CLEAN,True,,{}
+P002795,CLEAN,True,,{}
+P002796,CLEAN,True,,{}
+P002797,CLEAN,True,,{}
+P002798,CLEAN,True,,{}
+P002799,CLEAN,True,,{}
+P002800,LATE,True,,"{""ingest_delay_extra_s"": 518.0, ""tag"": ""LATE""}"
+P002801,CLEAN,True,,{}
+P002802,CLEAN,True,,{}
+P002803,DUP_KEPT,True,,"{""dup_partner"": ""P002804""}"
+P002804,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P002803"", ""exact_copy"": false, ""mode"": ""tie""}"
+P002805,CLEAN,True,,{}
+P002806,CLEAN,True,,{}
+P002807,CLEAN,True,,{}
+P002808,LATE,True,,"{""ingest_delay_extra_s"": 791.0, ""tag"": ""LATE""}"
+P002809,CLEAN,True,,{}
+P002810,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 306.14, ""tag"": ""NOISE_OFFROAD""}"
+P002811,CLEAN,True,,{}
+P002812,CLEAN,True,,{}
+P002813,CLEAN,True,,{}
+P002814,CLEAN,True,,{}
+P002815,CLEAN,True,,{}
+P002816,CLEAN,True,,{}
+P002817,CLEAN,True,,{}
+P002818,CLEAN,True,,{}
+P002819,CLEAN,True,,{}
+P002820,CLEAN,True,,{}
+P002821,CLEAN,True,,{}
+P002822,LATE,True,,"{""ingest_delay_extra_s"": 197.0, ""tag"": ""LATE""}"
+P002823,NOISE_OFFROAD,False,OFF_ROAD_GT_100M,"{""offroad_m"": 148.34, ""tag"": ""NOISE_OFFROAD""}"
+P002824,CLEAN,True,,{}
+P002825,CLEAN,True,,{}
+P002826,CLEAN,True,,{}
+P002827,CLEAN,True,,{}
+P002828,CLEAN,True,,{}
+P002829,CLEAN,True,,{}
+P002830,CLEAN,True,,{}
+P002831,CLEAN,True,,{}
+P002832,CLEAN,True,,{}
+P002833,CLEAN,True,,{}
+P002834,LATE,True,,"{""ingest_delay_extra_s"": 803.0, ""tag"": ""LATE""}"
+P002835,CLEAN,True,,{}
+P002836,CLEAN,True,,{}
+P002837,CLEAN,True,,{}
+P002838,CLEAN,True,,{}
+P002839,CLEAN,True,,{}
+P002840,CLEAN,True,,{}
+P002841,CLEAN,True,,{}
+P002842,CLEAN,True,,{}
+P002843,DUP_KEPT,True,,"{""dup_partner"": ""P002844""}"
+P002844,DUP_DROPPED,False,DUPLICATE,"{""dup_partner"": ""P002843"", ""exact_copy"": false, ""mode"": ""orig_first""}"
+P002845,EDGE_150_5KMH_REJECT,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 150.4986, ""tag"": ""EDGE_150_5KMH_REJECT""}"
+P002846,CLEAN,True,,{}
+P002847,CLEAN,True,,{}
+P002848,CLEAN,True,,{}
+P002849,CLEAN,True,,{}
+P002850,CLEAN,True,,{}
+P002851,CLEAN,True,,{}
+P002852,CLEAN,True,,{}
+P002853,CLEAN,True,,{}
+P002854,CLEAN,True,,{}
+P002855,CLEAN,True,,{}
+P002856,CLEAN,True,,{}
+P002857,CLEAN,True,,{}
+P002858,CLEAN,True,,{}
+P002859,CLEAN,True,,{}
+P002860,CLEAN,True,,{}
+P002861,CLEAN,True,,{}
+P002862,LATE,True,,"{""ingest_delay_extra_s"": 759.0, ""tag"": ""LATE""}"
+P002863,GAP_90S_END,True,,{}
+P002864,CLEAN,True,,{}
+P002865,CLEAN,True,,{}
+P002866,CLEAN,True,,{}
+P002867,CLEAN,True,,{}
+P002868,LATE,True,,"{""ingest_delay_extra_s"": 246.0, ""tag"": ""LATE""}"
+P002869,CLEAN,True,,{}
+P002870,LATE,True,,"{""ingest_delay_extra_s"": 843.0, ""tag"": ""LATE""}"
+P002871,CLEAN,True,,{}
+P002872,EDGE_150_5KMH_REJECT,False,IMPOSSIBLE_SPEED_GT_150KMH,"{""implied_speed_kmh"": 150.5011, ""tag"": ""EDGE_150_5KMH_REJECT""}"
+P002873,CLEAN,True,,{}
+P002874,CLEAN,True,,{}
+P002875,CLEAN,True,,{}
+P002876,CLEAN,True,,{}
+P002877,CLEAN,True,,{}
+P002878,CLEAN,True,,{}
+P002879,EDGE_100M_KEEP,True,,"{""offroad_m"": 100.0008, ""tag"": ""EDGE_100M_KEEP""}"
+P002880,CLEAN,True,,{}
+P002881,CLEAN,True,,{}
+P002882,CLEAN,True,,{}
+P002883,CLEAN,True,,{}
+P002884,CLEAN,True,,{}
+P002885,CLEAN,True,,{}
+P002886,CLEAN,True,,{}
+P002887,CLEAN,True,,{}
+P002888,CLEAN,True,,{}
+P002889,CLEAN,True,,{}
+P002890,LATE,True,,"{""ingest_delay_extra_s"": 382.0, ""tag"": ""LATE""}"
+P002891,LATE,True,,"{""ingest_delay_extra_s"": 599.0, ""tag"": ""LATE""}"
+P002892,LATE,True,,"{""ingest_delay_extra_s"": 421.0, ""tag"": ""LATE""}"
+P002893,LATE,True,,"{""ingest_delay_extra_s"": 567.0, ""tag"": ""LATE""}"
+P002894,LATE,True,,"{""ingest_delay_extra_s"": 600.0, ""tag"": ""LATE""}"
